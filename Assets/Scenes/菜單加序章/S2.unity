@@ -2300,7 +2300,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 186.00128
-    y: 341.9299
+    y: 343.56924
     width: 109.01636
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2359,7 +2359,7 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 346345601}
+  - {fileID: 346345609}
   selectedCommands: []
   variables:
   - {fileID: 346345606}
@@ -2825,7 +2825,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 139.11902
-    y: 238.16846
+    y: 236.52911
     width: 182.45894
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2843,7 +2843,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &346345610
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3214,7 +3214,6 @@ GameObject:
   - component: {fileID: 452342291}
   - component: {fileID: 452342296}
   - component: {fileID: 452342292}
-  - component: {fileID: 452342297}
   - component: {fileID: 452342295}
   - component: {fileID: 452342293}
   - component: {fileID: 452342299}
@@ -3249,11 +3248,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 38.090534, y: -141.23442}
+  scrollPos: {x: 105.47333, y: -45.096}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.49
+  zoom: 0.45999998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3261,9 +3260,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 452342214}
-  selectedCommands:
-  - {fileID: 452342237}
+  - {fileID: 452342241}
+  selectedCommands: []
   variables:
   - {fileID: 452342236}
   - {fileID: 452342223}
@@ -3314,7 +3312,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 39.34863
     y: 132.74586
-    width: 94.081635
+    width: 95.21739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3555,7 +3553,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52.82956
     y: 210.63075
-    width: 98.97959
+    width: 100.434784
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3643,7 +3641,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 48.637726
     y: 284.79382
-    width: 92.448975
+    width: 91.739136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3684,9 +3682,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 188.38075
+    x: 186.33994
     y: 294.44412
-    width: 107.14285
+    width: 107.391304
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3864,7 +3862,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.41127
     y: 229.50188
-    width: 89.18367
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3918,7 +3916,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 46.12991
     y: 45.99739
-    width: 79.38776
+    width: 79.565216
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4438,7 +4436,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 170.51038
     y: 158.53023
-    width: 133.2653
+    width: 135.21739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4782,7 +4780,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 229.60938
     y: 362.08435
-    width: 84.28571
+    width: 88.26087
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4921,7 +4919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 247.85869
     y: 450.01654
-    width: 92.448975
+    width: 93.47826
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4934,7 +4932,6 @@ MonoBehaviour:
   - {fileID: 452342309}
   - {fileID: 452342263}
   - {fileID: 452342262}
-  - {fileID: 452342297}
   - {fileID: 452342298}
   - {fileID: 452342293}
   suppressAllAutoSelections: 0
@@ -5211,7 +5208,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 266.4212
     y: 527.44635
-    width: 90.81633
+    width: 93.47826
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5815,158 +5812,6 @@ MonoBehaviour:
   indentLevel: 0
   anyVar:
     variable: {fileID: 452342305}
-    data:
-      animatorData:
-        animatorRef: {fileID: 0}
-        animatorVal: {fileID: 0}
-      audioSourceData:
-        audioSourceRef: {fileID: 0}
-        audioSourceVal: {fileID: 0}
-      booleanData:
-        booleanRef: {fileID: 0}
-        booleanVal: 1
-      collectionData:
-        collectionRef: {fileID: 0}
-        collectionVal: {fileID: 0}
-      collider2DData:
-        collider2DRef: {fileID: 0}
-        collider2DVal: {fileID: 0}
-      colliderData:
-        colliderRef: {fileID: 0}
-        colliderVal: {fileID: 0}
-      colorData:
-        colorRef: {fileID: 0}
-        colorVal: {r: 0, g: 0, b: 0, a: 0}
-      floatData:
-        floatRef: {fileID: 0}
-        floatVal: 0
-      gameObjectData:
-        gameObjectRef: {fileID: 0}
-        gameObjectVal: {fileID: 0}
-      integerData:
-        integerRef: {fileID: 0}
-        integerVal: 0
-      materialData:
-        materialRef: {fileID: 0}
-        materialVal: {fileID: 0}
-      matrix4x4Data:
-        matrix4x4Ref: {fileID: 0}
-        matrix4x4Val:
-          e00: 0
-          e01: 0
-          e02: 0
-          e03: 0
-          e10: 0
-          e11: 0
-          e12: 0
-          e13: 0
-          e20: 0
-          e21: 0
-          e22: 0
-          e23: 0
-          e30: 0
-          e31: 0
-          e32: 0
-          e33: 0
-      objectData:
-        objectRef: {fileID: 0}
-        objectVal: {fileID: 0}
-      quaternionData:
-        quaternionRef: {fileID: 0}
-        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
-      rigidbody2DData:
-        rigidbody2DRef: {fileID: 0}
-        rigidbody2DVal: {fileID: 0}
-      rigidbodyData:
-        rigidbodyRef: {fileID: 0}
-        rigidbodyVal: {fileID: 0}
-      spriteData:
-        spriteRef: {fileID: 0}
-        spriteVal: {fileID: 0}
-      stringData:
-        stringRef: {fileID: 0}
-        stringVal: 
-      textureData:
-        textureRef: {fileID: 0}
-        textureVal: {fileID: 0}
-      transformData:
-        transformRef: {fileID: 0}
-        transformVal: {fileID: 0}
-      vector2Data:
-        vector2Ref: {fileID: 0}
-        vector2Val: {x: 0, y: 0}
-      vector3Data:
-        vector3Ref: {fileID: 0}
-        vector3Val: {x: 0, y: 0, z: 0}
-      vector4Data:
-        vector4Ref: {fileID: 0}
-        vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  setOperator: 0
-  variable: {fileID: 0}
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &452342297
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452342176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 152
-  indentLevel: 0
-  anyVar:
-    variable: {fileID: 452342292}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -6815,7 +6660,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &452342309
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6842,7 +6687,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &452342310
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16251,7 +16096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 452342177}
+  selectedFlowchart: {fileID: 346345603}
 --- !u!4 &2085974039
 Transform:
   m_ObjectHideFlags: 1
@@ -17247,10 +17092,10 @@ PrefabInstance:
     - target: {fileID: 8196258584827399746, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: m_PlayableAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 03935a46590c7b4419c5308bc38b4fc3, type: 2}
+      objectReference: {fileID: 11400000, guid: f5b0e638ea491b949902811ba51ac004, type: 2}
     - target: {fileID: 8196258584827399746, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 23
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8196258584827399746, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: m_SceneBindings.Array.data[6].key
@@ -17316,6 +17161,18 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[22].key
       value: 
       objectReference: {fileID: -2861898736113835146, guid: 03935a46590c7b4419c5308bc38b4fc3, type: 2}
+    - target: {fileID: 8196258584827399746, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: m_SceneBindings.Array.data[23].key
+      value: 
+      objectReference: {fileID: -4621849145559496168, guid: 4ace4ffb0415eef43a57617f19b2a2d8, type: 2}
+    - target: {fileID: 8196258584827399746, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: m_SceneBindings.Array.data[24].key
+      value: 
+      objectReference: {fileID: -8548692418466117026, guid: 4ace4ffb0415eef43a57617f19b2a2d8, type: 2}
+    - target: {fileID: 8196258584827399746, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: m_SceneBindings.Array.data[25].key
+      value: 
+      objectReference: {fileID: 1838780901122308300, guid: 4ace4ffb0415eef43a57617f19b2a2d8, type: 2}
     - target: {fileID: 8196258584827399746, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
