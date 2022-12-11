@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: girl-idlerightdown
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -22,7 +22,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -39,21 +39,21 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 74334af2d526c6344b0af2138d10d045, type: 3}
+      value: {fileID: 21300000, guid: ce0424a9b009f8c478a01c88ce359005, type: 3}
     - time: 0.15
-      value: {fileID: 21300000, guid: 9368ec3b6b84bf14483ac39d8224755e, type: 3}
+      value: {fileID: 21300000, guid: b434dbeda3d49b3478629a32029f74a6, type: 3}
     - time: 0.28333333
-      value: {fileID: 21300000, guid: 480d847ff2871cb43afeb4f8ced194e0, type: 3}
+      value: {fileID: 21300000, guid: 007af66e3061023418561dfb35963991, type: 3}
     - time: 0.43333334
-      value: {fileID: 21300000, guid: 835418332c7a7dc4f9330cc8212313ef, type: 3}
+      value: {fileID: 21300000, guid: 3f01c83c3ae1a9b4b8000155749e5c5d, type: 3}
     - time: 0.56666666
-      value: {fileID: 21300000, guid: a395485e2328df4409b1f4b66cc497ad, type: 3}
+      value: {fileID: 21300000, guid: 8d6b07167eea75c4e87d351a4632e1b8, type: 3}
     - time: 0.71666664
-      value: {fileID: 21300000, guid: ddf97cb2a1541204087baf8577460410, type: 3}
+      value: {fileID: 21300000, guid: 233cb293f262b2e4f892f946a3d4644f, type: 3}
     - time: 0.85
-      value: {fileID: 21300000, guid: 7ad72a5d008447247b14f54e00c64d74, type: 3}
+      value: {fileID: 21300000, guid: cfa38af58a01c404ab232db3df484e2e, type: 3}
     - time: 1
-      value: {fileID: 21300000, guid: 5971e1e8a5d47d9469d187fdecb8b55c, type: 3}
+      value: {fileID: 21300000, guid: 7788321f206909443a4b4b19d5f91062, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -72,6 +72,7 @@ AnimationClip:
       typeID: 212
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 0
@@ -79,15 +80,16 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 74334af2d526c6344b0af2138d10d045, type: 3}
-    - {fileID: 21300000, guid: 9368ec3b6b84bf14483ac39d8224755e, type: 3}
-    - {fileID: 21300000, guid: 480d847ff2871cb43afeb4f8ced194e0, type: 3}
-    - {fileID: 21300000, guid: 835418332c7a7dc4f9330cc8212313ef, type: 3}
-    - {fileID: 21300000, guid: a395485e2328df4409b1f4b66cc497ad, type: 3}
-    - {fileID: 21300000, guid: ddf97cb2a1541204087baf8577460410, type: 3}
-    - {fileID: 21300000, guid: 7ad72a5d008447247b14f54e00c64d74, type: 3}
-    - {fileID: 21300000, guid: 5971e1e8a5d47d9469d187fdecb8b55c, type: 3}
+    - {fileID: 21300000, guid: ce0424a9b009f8c478a01c88ce359005, type: 3}
+    - {fileID: 21300000, guid: b434dbeda3d49b3478629a32029f74a6, type: 3}
+    - {fileID: 21300000, guid: 007af66e3061023418561dfb35963991, type: 3}
+    - {fileID: 21300000, guid: 3f01c83c3ae1a9b4b8000155749e5c5d, type: 3}
+    - {fileID: 21300000, guid: 8d6b07167eea75c4e87d351a4632e1b8, type: 3}
+    - {fileID: 21300000, guid: 233cb293f262b2e4f892f946a3d4644f, type: 3}
+    - {fileID: 21300000, guid: cfa38af58a01c404ab232db3df484e2e, type: 3}
+    - {fileID: 21300000, guid: 7788321f206909443a4b4b19d5f91062, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -114,7 +116,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
