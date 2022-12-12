@@ -10,7 +10,9 @@ using Fungus;
 public class C1lMgr : MonoBehaviour
 {
    public static string DebugSceneName;
-    public static int startPointNumber;
+    public static int startPointNumber;//換場景的點
+    public static bool 拿到糖,拿到錢=false;
+    
     public GameObject playerObject;
 
     
