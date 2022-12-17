@@ -3492,7 +3492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 452342241}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1470045880}
+  clickableObject: {fileID: 0}
   waitFrames: 0
 --- !u!4 &452342182
 Transform:
@@ -3666,7 +3666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 452342192}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1707673741}
+  clickableObject: {fileID: 0}
   waitFrames: 0
 --- !u!114 &452342196
 MonoBehaviour:
@@ -3844,7 +3844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 452342214}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1051837675}
+  clickableObject: {fileID: 0}
   waitFrames: 0
 --- !u!114 &452342214
 MonoBehaviour:
@@ -9411,9 +9411,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 995110071}
-  selectedCommands:
-  - {fileID: 995110078}
+  - {fileID: 995110077}
+  selectedCommands: []
   variables:
   - {fileID: 995110079}
   description: 
@@ -10254,9 +10253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1051837672}
   - component: {fileID: 1051837673}
-  - component: {fileID: 1051837675}
   - component: {fileID: 1051837676}
-  - component: {fileID: 1051837678}
   - component: {fileID: 1051837674}
   m_Layer: 6
   m_Name: "\u5C0F\u6D1E"
@@ -10527,21 +10524,6 @@ PolygonCollider2D:
       - {x: -1.5799999, y: -3.175}
       - {x: -1.37, y: -3.165}
   m_UseDelaunayMesh: 0
---- !u!114 &1051837675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051837671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
 --- !u!114 &1051837676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10549,49 +10531,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051837671}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56c0ebca5f211084b846104eb530e20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 1627846893}
---- !u!114 &1051837678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051837671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  scrollPos: {x: 188.6, y: 136.7}
-  variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 1
-  scrollViewRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  selectedBlocks: []
-  selectedCommands: []
-  variables: []
-  description: 
-  stepPause: 0
-  colorCommands: 1
-  hideComponents: 1
-  saveSelection: 1
-  localizationId: 
-  showLineNumbers: 0
-  hideCommands: []
-  luaEnvironment: {fileID: 0}
-  luaBindingName: flowchart
 --- !u!1 &1062491782
 GameObject:
   m_ObjectHideFlags: 0
@@ -12292,13 +12237,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1470045877}
   - component: {fileID: 1470045878}
-  - component: {fileID: 1470045880}
   - component: {fileID: 1470045881}
-  - component: {fileID: 1470045883}
-  - component: {fileID: 1470045882}
   - component: {fileID: 1470045879}
-  - component: {fileID: 1470045884}
-  - component: {fileID: 1470045885}
   m_Layer: 6
   m_Name: "\u4E2D\u6D1E"
   m_TagString: Untagged
@@ -12607,21 +12547,6 @@ PolygonCollider2D:
       - {x: -2.3799999, y: -4.04}
       - {x: -2.12, y: -4.02}
   m_UseDelaunayMesh: 0
---- !u!114 &1470045880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470045876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
 --- !u!114 &1470045881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12629,120 +12554,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470045876}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56c0ebca5f211084b846104eb530e20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 2073816629}
---- !u!114 &1470045882
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470045876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 4
-    y: 0
-    width: 111.58491
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: New Block
-  description: 
-  eventHandler: {fileID: 1470045885}
-  commandList:
-  - {fileID: 1470045884}
-  suppressAllAutoSelections: 0
---- !u!114 &1470045883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470045876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  scrollPos: {x: 161, y: 89}
-  variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 1
-  scrollViewRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  selectedBlocks:
-  - {fileID: 1470045882}
-  selectedCommands: []
-  variables: []
-  description: 
-  stepPause: 0
-  colorCommands: 1
-  hideComponents: 1
-  saveSelection: 1
-  localizationId: 
-  showLineNumbers: 0
-  hideCommands: []
-  luaEnvironment: {fileID: 0}
-  luaBindingName: flowchart
---- !u!114 &1470045884
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470045876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: "\uFF08\u6D1E\u597D\u50CF\u6709\u8B8A\u5C0F......\u9084\u662F\u5C0F\u5FC3\u70BA\u5999\u3002\uFF09"
-  description: 
-  character: {fileID: 892447752}
-  portrait: {fileID: 21300000, guid: f933d46c2a6c740449c6888119051d9c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1470045885
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470045876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1470045882}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1470045880}
-  waitFrames: 1
 --- !u!1 &1479480535 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3282843473185516305, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
@@ -13935,14 +13752,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1707673738}
   - component: {fileID: 1707673739}
-  - component: {fileID: 1707673741}
   - component: {fileID: 1707673742}
-  - component: {fileID: 1707673744}
-  - component: {fileID: 1707673743}
   - component: {fileID: 1707673740}
-  - component: {fileID: 1707673745}
-  - component: {fileID: 1707673746}
-  - component: {fileID: 1707673747}
   m_Layer: 6
   m_Name: "\u5927\u6D1E"
   m_TagString: Untagged
@@ -14246,21 +14057,6 @@ PolygonCollider2D:
       - {x: 2.11, y: -4.16}
       - {x: 2.1499999, y: -4.14}
   m_UseDelaunayMesh: 0
---- !u!114 &1707673741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707673737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
 --- !u!114 &1707673742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14268,136 +14064,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707673737}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56c0ebca5f211084b846104eb530e20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 876896372}
---- !u!114 &1707673743
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707673737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 110.790886
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: New Block
-  description: 
-  eventHandler: {fileID: 1707673746}
-  commandList:
-  - {fileID: 1707673745}
-  - {fileID: 1707673747}
-  suppressAllAutoSelections: 0
---- !u!114 &1707673744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707673737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  scrollPos: {x: 35.984653, y: 143.07307}
-  variablesScrollPos: {x: 0, y: 0}
-  variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.73000026
-  scrollViewRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  selectedBlocks:
-  - {fileID: 1707673743}
-  selectedCommands:
-  - {fileID: 1707673747}
-  variables: []
-  description: 
-  stepPause: 0
-  colorCommands: 1
-  hideComponents: 1
-  saveSelection: 1
-  localizationId: 
-  showLineNumbers: 0
-  hideCommands: []
-  luaEnvironment: {fileID: 0}
-  luaBindingName: flowchart
---- !u!114 &1707673745
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707673737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: "(\u9019\u500B\u6D1E\u600E\u9EBC\u9019\u9EBC\u5927......\u5C0F\u5FC3\u9EDE\u597D\u4E86\u3002)"
-  description: 
-  character: {fileID: 892447752}
-  portrait: {fileID: 21300000, guid: f933d46c2a6c740449c6888119051d9c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1707673746
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707673737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1707673743}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1707673741}
-  waitFrames: 1
---- !u!114 &1707673747
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707673737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
 --- !u!1 &1710657125
 GameObject:
   m_ObjectHideFlags: 0
@@ -16813,11 +16485,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3282843472520033043, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 65.07
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3282843472520033043, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.78
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3282843472520033043, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalRotation.x
@@ -17061,6 +16733,10 @@ PrefabInstance:
       propertyPath: flowchart
       value: 
       objectReference: {fileID: 452342177}
+    - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: timelines.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e09e1e40a8cb59428e7e2a374c7995b, type: 2}
     - target: {fileID: 8196258584827399745, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -17108,7 +16784,7 @@ PrefabInstance:
     - target: {fileID: 8196258584827399746, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: m_PlayableAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 7e09e1e40a8cb59428e7e2a374c7995b, type: 2}
+      objectReference: {fileID: 11400000, guid: f5b0e638ea491b949902811ba51ac004, type: 2}
     - target: {fileID: 8196258584827399746, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: m_SceneBindings.Array.size
       value: 30

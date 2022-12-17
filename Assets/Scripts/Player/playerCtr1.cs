@@ -38,7 +38,7 @@ public class playerCtr1 : MonoBehaviour
     {
         characterBase = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody2D>();
-        targetPoint = transform.position;
+        
         anim = GetComponent<Animator>();
     }
 
