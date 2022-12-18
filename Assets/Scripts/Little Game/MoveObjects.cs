@@ -11,11 +11,12 @@ public class MoveObjects : MonoBehaviour
     private Vector3 newposition;
     private GameObject target = null;
 
+    public GameObject GetTool;
     #endregion
 
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -35,7 +36,13 @@ public class MoveObjects : MonoBehaviour
     }
 
     #region MY funtion
-
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.name.ToLower().Contains("watercolor paper")&& isMouseDown)
+        {
+            GetTool.SetActive(true);
+        }
+    }
     private void OnTriggerStay2D(Collider2D other)
     {
         if (isMouseDown && !isCliked && other.gameObject.tag == "paper") //滑鼠沒有放開且是拼圖
