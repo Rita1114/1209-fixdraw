@@ -38,7 +38,6 @@ public class playerCtr1 : MonoBehaviour
     {
         characterBase = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody2D>();
-        
         anim = GetComponent<Animator>();
     }
 
