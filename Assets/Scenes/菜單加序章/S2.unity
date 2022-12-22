@@ -10253,7 +10253,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1051837672}
   - component: {fileID: 1051837673}
-  - component: {fileID: 1051837676}
   - component: {fileID: 1051837674}
   m_Layer: 6
   m_Name: "\u5C0F\u6D1E"
@@ -10524,19 +10523,6 @@ PolygonCollider2D:
       - {x: -1.5799999, y: -3.175}
       - {x: -1.37, y: -3.165}
   m_UseDelaunayMesh: 0
---- !u!114 &1051837676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1051837671}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56c0ebca5f211084b846104eb530e20c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 1627846893}
 --- !u!1 &1062491782
 GameObject:
   m_ObjectHideFlags: 0
@@ -12237,7 +12223,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1470045877}
   - component: {fileID: 1470045878}
-  - component: {fileID: 1470045881}
   - component: {fileID: 1470045879}
   m_Layer: 6
   m_Name: "\u4E2D\u6D1E"
@@ -12547,19 +12532,6 @@ PolygonCollider2D:
       - {x: -2.3799999, y: -4.04}
       - {x: -2.12, y: -4.02}
   m_UseDelaunayMesh: 0
---- !u!114 &1470045881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470045876}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56c0ebca5f211084b846104eb530e20c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 2073816629}
 --- !u!1 &1479480535 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3282843473185516305, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
@@ -13752,7 +13724,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1707673738}
   - component: {fileID: 1707673739}
-  - component: {fileID: 1707673742}
   - component: {fileID: 1707673740}
   m_Layer: 6
   m_Name: "\u5927\u6D1E"
@@ -14057,19 +14028,6 @@ PolygonCollider2D:
       - {x: 2.11, y: -4.16}
       - {x: 2.1499999, y: -4.14}
   m_UseDelaunayMesh: 0
---- !u!114 &1707673742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1707673737}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56c0ebca5f211084b846104eb530e20c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 876896372}
 --- !u!1 &1710657125
 GameObject:
   m_ObjectHideFlags: 0
