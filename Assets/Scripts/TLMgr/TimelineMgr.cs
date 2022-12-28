@@ -13,8 +13,6 @@ public class TimelineMgr : MonoBehaviour
     public TimelineAsset[] timelines;
     public string[] timelinename;
     public Flowchart flowchart;
-
-    public GameObject sleep;
     private float duration=5;
     public GameObject player;
     public GameObject Bubble;
@@ -58,8 +56,7 @@ public class TimelineMgr : MonoBehaviour
     {
       if(Input.GetKeyDown(KeyCode.Mouse0))
       {
-        sleep.SetActive(false);
-        Invoke(nameof(look),duration);
+          Invoke(nameof(look),duration);
       }
       switch(status)
         {

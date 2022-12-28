@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class EnterC : MonoBehaviour
 {
-    public Item Pen;
+    public Item Pen;//背包的圖
     public Item Book;
     public Item Coin;
     public Inventory MyBook;
@@ -30,7 +30,7 @@ public class EnterC : MonoBehaviour
             {
                 MyBook.itemlist.Add(Coin);
                 InventoryMgr.RefreshItem();
-            }
+            }//檢查包包有無此物件 若無就加"";
         GameMgr.IsFirstTimeLinePlayed = true;
         }
     }
