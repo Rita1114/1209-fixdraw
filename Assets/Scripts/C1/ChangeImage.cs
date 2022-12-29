@@ -26,14 +26,16 @@ public class ChangeImage : MonoBehaviour
      
     }
 
-    public void Onclick()
+    public void Onclickadd()
     {
-        
-            //none.GetComponent<SpriteRenderer>().sprite = ;
+        //none.GetComponent<SpriteRenderer>().sprite = ;
             Debug.Log("1");
             none.GetComponent<SpriteRenderer>().sprite = sparray[change++];
-        
-        
-
+    }
+    public void Onclick()
+    {
+        //none.GetComponent<SpriteRenderer>().sprite = ;
+        Debug.Log("2");
+        none.GetComponent<SpriteRenderer>().sprite = sparray[change--];
     }
 }

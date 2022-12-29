@@ -15,26 +15,20 @@ public class C1CMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        EatCandy();
-        Talked();
-
-    }
-
-    public void EatCandy()
-    {
-        if (flowchart.GetBooleanVariable("吃到糖")==true)
+        
+        if (GameMgr.拿到糖=true)
         {
-            C1lMgr.糖給豬公後 = true;
-
+            flowchart.SetBooleanVariable("拿到糖",true);
         }
-        DontDestroyOnLoad(this);
-    }
-    public void Talked()
-    {
-        if (flowchart.GetBooleanVariable("已對話")==true)
+        if (GameMgr.豬公已對話 = true)
         {
-            C1lMgr.豬公已對話 = true;
+            flowchart.SetBooleanVariable("已對話",true);
         }
-        DontDestroyOnLoad(this);
+        if (GameMgr.糖給豬公後 = true)
+        {
+            flowchart.SetBooleanVariable("吃到糖",true);
+            GameMgr.拿到錢 = true;
+        }
+
     }
 }

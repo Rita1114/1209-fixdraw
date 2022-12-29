@@ -24,9 +24,15 @@ public class C1PMgr : MonoBehaviour
         if(flowchart.GetBooleanVariable("冊被搶")==true)
         {
             playableDirector.Play();
-            冊被搶 = true; 
+            GameMgr.冊被搶 = true; 
             book.SetActive(false);
-            C1lMgr.塗鴉手動畫出現1 = true;
+            GameMgr.塗鴉手動畫出現1 = true;
         }
+
+        if (GameMgr.冊被搶=true)
+        {
+            flowchart.SetBooleanVariable("冊被搶",true);
+        }
+        
     }
 }

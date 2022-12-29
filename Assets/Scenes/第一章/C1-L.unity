@@ -391,8 +391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointNumber: 1
   nextSceneName: C1-G
-  ChangeAni: {fileID: 0}
-  image: {fileID: 0}
+  ChangeAni: {fileID: 614012663}
+  image: {fileID: 822213793}
 --- !u!61 &32147925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1061,9 +1061,7 @@ GameObject:
   - component: {fileID: 328113044}
   - component: {fileID: 328113051}
   - component: {fileID: 328113052}
-  - component: {fileID: 328113059}
   - component: {fileID: 328113053}
-  - component: {fileID: 328113058}
   - component: {fileID: 328113057}
   - component: {fileID: 328113056}
   - component: {fileID: 328113055}
@@ -1071,7 +1069,6 @@ GameObject:
   - component: {fileID: 328113062}
   - component: {fileID: 328113067}
   - component: {fileID: 328113066}
-  - component: {fileID: 328113065}
   - component: {fileID: 328113064}
   - component: {fileID: 328113063}
   - component: {fileID: 328113068}
@@ -1128,7 +1125,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5.0426292
     y: -11.652742
-    width: 104.19346
+    width: 104.054054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1174,11 +1171,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -12.468175, y: 156.41667}
+  scrollPos: {x: -53.441322, y: 27.024164}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 384.8
-  zoom: 0.3100005
+  zoom: 0.37
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1186,9 +1183,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 328113102}
-  selectedCommands:
-  - {fileID: 328113101}
+  - {fileID: 328113099}
+  selectedCommands: []
   variables:
   - {fileID: 328113028}
   - {fileID: 328113025}
@@ -1241,7 +1237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.60312
     y: 189.6068
-    width: 114.51602
+    width: 114.86486
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1274,7 +1270,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 241.83237
     y: 113.51509
-    width: 91.29025
+    width: 93.24324
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1304,7 +1300,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.11981
     y: 4.7955027
-    width: 111.93538
+    width: 114.86486
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1335,7 +1331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 53.424335
     y: 206.01016
-    width: 114.51602
+    width: 110.54054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1369,7 +1365,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 23.274662
     y: 134.56032
-    width: 91.29025
+    width: 91.081085
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1403,7 +1399,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 19.63164
     y: 68.407845
-    width: 111.93538
+    width: 110.54054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1975,7 +1971,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 220.49251
     y: 65.56626
-    width: 114.51602
+    width: 117.02702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2434,7 +2430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: "\u6536\u96C6\u5B8C"
   value: 0
 --- !u!114 &328113026
@@ -2601,7 +2597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: Aniplay
   value: 0
 --- !u!114 &328113029
@@ -2768,7 +2764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: "\u586B\u8272\u904A\u6232"
   value: 0
 --- !u!114 &328113032
@@ -2801,7 +2797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: "\u7238\u51FA\u73FE1"
   value: 0
 --- !u!114 &328113036
@@ -3557,7 +3553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: "\u52D5\u756BA23"
   value: 0
 --- !u!114 &328113044
@@ -4307,9 +4303,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 381.28668
-    y: 7.5630684
-    width: 153.22563
+    x: 387.73828
+    y: 14.014671
+    width: 153.78378
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4367,9 +4363,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 409.0888
-    y: 161.40915
-    width: 75.80641
+    x: 434.08878
+    y: 140.25533
+    width: 75.945946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4410,9 +4406,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 412.16574
-    y: 109.36836
-    width: 75.80641
+    x: 435.92502
+    y: 72.82992
+    width: 75.945946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4422,49 +4418,6 @@ MonoBehaviour:
   eventHandler: {fileID: 328113056}
   commandList:
   - {fileID: 328113066}
-  suppressAllAutoSelections: 0
---- !u!114 &328113058
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328112971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 328113059}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 6379802111301833692}
-  waitFrames: 1
---- !u!114 &328113059
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328112971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 397.88004
-    y: 65.69493
-    width: 75.80641
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 69
-  blockName: "\u96FB\u8996"
-  description: 
-  eventHandler: {fileID: 328113058}
-  commandList:
-  - {fileID: 328113065}
   suppressAllAutoSelections: 0
 --- !u!114 &328113062
 MonoBehaviour:
@@ -4526,33 +4479,6 @@ MonoBehaviour:
   itemId: 78
   indentLevel: 0
   storyText: "\u5750\u5728\u9019\u7A2E\u85E4\u7DE8\u7684\u6905\u5B50\u4E0A\u8981\u975E\u5E38\u5C0F\u5FC3\uFF0C\u4E0D\u6CE8\u610F\u7684\u8A71\u5C31\u6703\u593E\u5230\u5C41\u80A1\u8089\uFF01"
-  description: 
-  character: {fileID: 478614623}
-  portrait: {fileID: 21300000, guid: d3fbf8ebee1004d4ead6a07e39259d87, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &328113065
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328112971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 77
-  indentLevel: 0
-  storyText: "\u5C0F\u6642\u5019\u8981\u662F\u60F3\u8F49\u53F0\uFF0C\u90FD\u5F97\u8DD1\u5230\u96FB\u8996\u6A5F\u524D\u9762\u7528\u6309\u9215\u4F86\u63DB\u53F0\u5462\uFF0C\u597D\u96AA\u73FE\u5728\u7684\u96FB\u8996\u90FD\u662F\u7528\u9059\u63A7\u5668\u64CD\u4F5C\uFF0C\u65B9\u4FBF\u591A\u4E86\u3002"
   description: 
   character: {fileID: 478614623}
   portrait: {fileID: 21300000, guid: d3fbf8ebee1004d4ead6a07e39259d87, type: 3}
@@ -5608,7 +5534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: canwalk
   value: 0
 --- !u!114 &328113087
@@ -5790,7 +5716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: "\u586B\u8272\u904A\u6232\u6210\u529F"
   value: 0
 --- !u!114 &328113090
@@ -6077,7 +6003,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 616.7177
     y: 37.226303
-    width: 88.70961
+    width: 88.918915
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6192,7 +6118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 626.1294
     y: -30.420654
-    width: 88.70961
+    width: 88.918915
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6215,12 +6141,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 2
   key: "\u62FF\u5230\u7CD6"
   value: 0
 --- !u!114 &328113101
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6384,9 +6310,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 636.7175
+    x: 640.56366
     y: 121.09713
-    width: 75.80641
+    width: 75.945946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7517,7 +7443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &552548879
 Transform:
   m_ObjectHideFlags: 0
@@ -7595,8 +7521,6 @@ GameObject:
   m_Component:
   - component: {fileID: 562790849}
   - component: {fileID: 562790848}
-  - component: {fileID: 562790847}
-  - component: {fileID: 562790846}
   m_Layer: 0
   m_Name: "\u983B\u90531 (1)"
   m_TagString: Untagged
@@ -7604,37 +7528,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!70 &562790846
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 562790843}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.7, y: 0.51}
-  m_Size: {x: 10.14, y: 0.0001}
-  m_Direction: 0
---- !u!114 &562790847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 562790843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
 --- !u!212 &562790848
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8155,7 +8048,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &721706538
 Transform:
   m_ObjectHideFlags: 0
@@ -9269,8 +9162,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointNumber: 3
   nextSceneName: C1-P
-  ChangeAni: {fileID: 0}
-  image: {fileID: 0}
+  ChangeAni: {fileID: 614012663}
+  image: {fileID: 822213793}
 --- !u!114 &1150430268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9686,8 +9579,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointNumber: 2
   nextSceneName: C1-C
-  ChangeAni: {fileID: 0}
-  image: {fileID: 0}
+  ChangeAni: {fileID: 614012663}
+  image: {fileID: 822213793}
 --- !u!114 &1424137233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9960,7 +9853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1459590316
 Transform:
   m_ObjectHideFlags: 0
@@ -10761,7 +10654,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1848048147
 Transform:
   m_ObjectHideFlags: 0
@@ -10840,6 +10733,7 @@ GameObject:
   - component: {fileID: 1883000445}
   - component: {fileID: 1883000446}
   - component: {fileID: 1883000447}
+  - component: {fileID: 1883000448}
   m_Layer: 0
   m_Name: "\u983B\u90532"
   m_TagString: Untagged
@@ -10929,6 +10823,22 @@ MonoBehaviour:
   clickEnabled: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
+--- !u!58 &1883000448
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883000444}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.48, y: -2.53}
+  serializedVersion: 2
+  m_Radius: 3.5
 --- !u!1 &1890641236
 GameObject:
   m_ObjectHideFlags: 0
@@ -11193,7 +11103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2034283116
 Transform:
   m_ObjectHideFlags: 0
@@ -18819,46 +18729,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6379802111301833690}
   - component: {fileID: 6379802111301833689}
-  - component: {fileID: 6379802111301833692}
-  - component: {fileID: 6379802111301833695}
   m_Layer: 0
   m_Name: "\u983B\u90531"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &6379802111301833692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6379802111301833691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
---- !u!70 &6379802111301833695
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6379802111301833691}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.7, y: 0.51}
-  m_Size: {x: 10.14, y: 0.0001}
-  m_Direction: 0
+  m_IsActive: 1
 --- !u!4 &6379802111385344264
 Transform:
   m_ObjectHideFlags: 0

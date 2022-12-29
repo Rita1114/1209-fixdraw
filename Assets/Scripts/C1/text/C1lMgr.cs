@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Playables;
 using Fungus;
+using UnityEngine.Assertions.Must;
 
 
 public class C1lMgr : MonoBehaviour
@@ -33,6 +34,7 @@ public class C1lMgr : MonoBehaviour
 
         }
 
+    
         if (startPointNumber != 0)
         {
             GameObject a = GameObject.Find(startPointNumber.ToString()) as GameObject;
@@ -44,38 +46,28 @@ public class C1lMgr : MonoBehaviour
             startPointNumber = 0;
         }
 
-
+     
 
     }
 
     void Update()
     {
-        if(塗鴉手動畫出現1=true)
-        {
-            C1PMgr.冊被搶 = true;
-        }
+        //bool aaa = flowchart.GetBooleanVariable("Aniplay");
+        //flowchart.SetBooleanVariable("Aniplay",true);
+
+        //Debug.Log(aaa);
+        
         GetCandy();
+        
     }
 
     public  void GetCandy()
     {
         if (flowchart.GetBooleanVariable("拿到糖")==true)
         {
-            拿到糖 = true;
+            拿到糖=true;
+            //PlayerPrefs.Save();
         }
     }
-    
 
-    public void C1P()
-    {
-       
-    }
-    public void C1C()
-    {
-        
-    }
-    public void C1G()
-    {
-        
-    }
 }
