@@ -7,13 +7,11 @@ using UnityEngine.Playables;
 using Fungus;
 
 
-public class C1lMgr : MonoBehaviour
+public class C1GMgr : MonoBehaviour
 {
     public static string DebugSceneName;
     public static int startPointNumber; //換場景的點
-    public static bool 拿到糖, 拿到錢 ,拿到筆= false; //C1-L變數部分
-    public static bool 豬公已對話, 糖給豬公後 = false; //C1-C變數部分
-    public static bool 塗鴉手動畫出現1 = false; //C1-P變數部分
+   
     public static bool 伯已對話, 給錢買筆後 = false; //C1-G變數部分
 
     public GameObject playerObject;
@@ -47,35 +45,31 @@ public class C1lMgr : MonoBehaviour
 
 
     }
-
     void Update()
     {
-        if(塗鴉手動畫出現1=true)
-        {
-            C1PMgr.冊被搶 = true;
-        }
-        GetCandy();
+      GetPen();
+      Talked();
     }
 
-    public  void GetCandy()
+    public  void GetPen()
     {
-        if (flowchart.GetBooleanVariable("拿到糖")==true)
+        if (flowchart.GetBooleanVariable("收集筆")==true)
         {
-            拿到糖 = true;
-        }
-    }
-    
+            C1lMgr.拿到筆 = true;
+            GameMgr.IsGetpan=true;
 
-    public void C1P()
-    {
-       
+        }
+        DontDestroyOnLoad(this);
     }
-    public void C1C()
+
+    public void Talked()
     {
-        
-    }
-    public void C1G()
-    {
-        
+        if (flowchart.GetBooleanVariable("對話")==true)
+        {
+            C1lMgr.伯已對話 = true;
+            GameMgr.IsGetpan=true;
+            
+        }
+        DontDestroyOnLoad(this);
     }
 }

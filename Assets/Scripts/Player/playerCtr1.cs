@@ -36,7 +36,7 @@ public class playerCtr1 : MonoBehaviour
 
     private void Awake()
     {
-        characterBase = GetComponent<CharacterController>();
+        //characterBase = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -57,10 +57,6 @@ public class playerCtr1 : MonoBehaviour
         Vector2 Walkdirection = new Vector2(transform.position.x-targetPoint.x, transform.position.y-targetPoint.y).Abs();
         FindObjectOfType<MoveAnimation>().WalkDirection(Walkdirection);
         FindObjectOfType<MoveAnimation>().SetDirection(direction);
-        
-        
-        
-        
     }
 
     void Update()
@@ -75,16 +71,6 @@ public class playerCtr1 : MonoBehaviour
             Bag.SetActive(Isopen);
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.name.ToLower().Contains("KEY")) //檢查名字
-        {
-            Destroy(other.gameObject); //刪除物件
-        }
-    }
-
-
     public void function()
     {
         if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)

@@ -26,6 +26,7 @@ public class C1PMgr : MonoBehaviour
             playableDirector.Play();
             冊被搶 = true; 
             book.SetActive(false);
+            C1lMgr.塗鴉手動畫出現1 = true;
         }
     }
 }

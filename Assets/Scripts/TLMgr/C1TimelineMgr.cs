@@ -121,14 +121,6 @@ public class C1TimelineMgr : MonoBehaviour
           {
             DrawgameDone();
           }
-          
-          /*if(flowchart.GetBooleanVariable("")==true)
-          {
-           if(Input.GetKeyDown(KeyCode.Mouse0))
-           {
-            AnimationController.Play(timelines[3]);
-           }
-          }*/
     }
     public void LittledrawAni1()
     {
@@ -147,14 +139,4 @@ public class C1TimelineMgr : MonoBehaviour
             Fungus.Flowchart.BroadcastFungusMessage ("完成填色");
             GameMgr.drawgameDone=true;
      }
-
-   /*public static void isdrawdone()
-   {
-      if(填色遊戲成功==true)
-          {
-            GameMgr.player.GetComponent<MouseMove>().enabled=true;
-            GameMgr.drawgame.SetActive(false);
-            GameMgr.flowchart.FindBlock("開頭30~31").enabled=true;
-          }
-   }*/
 }
