@@ -16,15 +16,15 @@ public class C1CMgr : MonoBehaviour
     void Update()
     {
         
-        if (GameMgr.拿到糖=true)
+        if (GameMgr.拿到糖==true)
         {
             flowchart.SetBooleanVariable("拿到糖",true);
         }
-        if (GameMgr.豬公已對話 = true)
+        if (GameMgr.豬公已對話 == true)
         {
             flowchart.SetBooleanVariable("已對話",true);
         }
-        if (GameMgr.糖給豬公後 = true)
+        if (GameMgr.糖給豬公後 == true)
         {
             flowchart.SetBooleanVariable("吃到糖",true);
             GameMgr.拿到錢 = true;

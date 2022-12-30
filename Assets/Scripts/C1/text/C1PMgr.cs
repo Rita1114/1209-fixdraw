@@ -29,7 +29,7 @@ public class C1PMgr : MonoBehaviour
             GameMgr.塗鴉手動畫出現1 = true;
         }
 
-        if (GameMgr.冊被搶=true)
+        if (GameMgr.冊被搶==true)
         {
             flowchart.SetBooleanVariable("冊被搶",true);
         }

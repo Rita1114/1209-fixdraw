@@ -46,23 +46,6 @@ public class C1GMgr : MonoBehaviour
     }
     void Update()
     {
-        if (GameMgr.拿到錢 = true)
-      {
-          flowchart.SetBooleanVariable("拿到錢",true);
-      }
-        if (GameMgr.伯已對話 = true)
-        {
-            flowchart.SetBooleanVariable("伯已對話",true);
-        }
-        if(GameMgr.給錢買筆後=true)
-        {
-          flowchart.SetBooleanVariable("收集筆",true);
-        }
-        
-    }
-
-    public  void GetPen()
-    {
         if (flowchart.GetBooleanVariable("收集筆")==true)
         {
             GameMgr.拿到筆 = true;
@@ -70,15 +53,36 @@ public class C1GMgr : MonoBehaviour
             GameMgr.給錢買筆後 = true;
 
         }
-    }
-
-    public void Talked()
-    {
         if (flowchart.GetBooleanVariable("對話")==true)
         {
             GameMgr.伯已對話 = true;
             GameMgr.IsGetpan=true;
             
+        }
+        GetPen();
+        
+    }
+
+    public  void GetPen()
+    {
+        
+        if (GameMgr.拿到錢 == true)
+        {
+            flowchart.SetBooleanVariable("拿到錢",true);
+        }
+       
+        if(GameMgr.給錢買筆後 == true)
+        {
+            flowchart.SetBooleanVariable("收集筆",true);
+        }
+        
+    }
+
+    public void Talked()
+    {
+        if (GameMgr.伯已對話 == true)
+        {
+            flowchart.SetBooleanVariable("伯已對話",true);
         }
         
     }
