@@ -11,8 +11,7 @@ public class C1GMgr : MonoBehaviour
 {
     public static string DebugSceneName;
     public static int startPointNumber; //換場景的點
-   
-    public static bool 伯已對話, 給錢買筆後 = false; //C1-G變數部分
+    //C1-G變數部分
 
     public GameObject playerObject;
 
@@ -55,6 +54,10 @@ public class C1GMgr : MonoBehaviour
         {
             flowchart.SetBooleanVariable("伯已對話",true);
         }
+        if(GameMgr.給錢買筆後=true)
+        {
+          flowchart.SetBooleanVariable("收集筆",true);
+        }
         
     }
 
@@ -64,6 +67,7 @@ public class C1GMgr : MonoBehaviour
         {
             GameMgr.拿到筆 = true;
             GameMgr.IsGetpan=true;
+            GameMgr.給錢買筆後 = true;
 
         }
     }

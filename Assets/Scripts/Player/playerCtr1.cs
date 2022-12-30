@@ -25,8 +25,7 @@ public class playerCtr1 : MonoBehaviour
     public Animator anim;
     int canWalk;
     public Vector3 targetPoint;
-    private Vector2 MousePositionLast;
-    private Vector3 MouseWorldMoveDirection;
+    
 
 
     // Start is called before the first frame update
@@ -36,7 +35,7 @@ public class playerCtr1 : MonoBehaviour
 
     private void Awake()
     {
-        //characterBase = GetComponent<CharacterController>();
+        characterBase = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -71,11 +70,5 @@ public class playerCtr1 : MonoBehaviour
             Bag.SetActive(Isopen);
         }
     }
-    public void function()
-    {
-        if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
-            Debug.Log("not play");
-        else
-            Debug.Log("play");
-    }
+   
 }

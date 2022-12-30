@@ -90,7 +90,7 @@ public class TimelineMgr : MonoBehaviour
           {
             player.GetComponent<playerCtr1>().enabled=true;
           }
-          if(flowchart.GetBooleanVariable("靠近洞")==true)
+          if(flowchart.GetBooleanVariable("被推")==true)
           {
            if(Input.GetKeyDown(KeyCode.Mouse0))
            {
