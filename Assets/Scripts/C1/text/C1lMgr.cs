@@ -60,15 +60,24 @@ public class C1lMgr : MonoBehaviour
         {
             GameMgr.拿到糖=true;
         }
+        if (flowchart.GetBooleanVariable("收集完")==true)
+        {
+            GameMgr.拿到錢買筆=true;
+        }
+        
         GetCandy();
         
     }
 
     public  void GetCandy()
     {
-        if (GameMgr.拿到糖==true)
+        if (GameMgr.拿到糖 == true)
         {
             flowchart.SetBooleanVariable("拿到糖",true);
+        }
+        if (GameMgr.收集完 == true)
+        {
+            flowchart.SetBooleanVariable("收集完",true);
         }
     }
 

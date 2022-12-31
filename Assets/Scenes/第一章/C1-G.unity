@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 11086297}
   - component: {fileID: 11086296}
   - component: {fileID: 11086295}
-  - component: {fileID: 11086299}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -205,20 +204,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11086299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 11086294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5af8679feed9cd4f8e3cd972ee5c606, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  c1TimelineMgr: {fileID: 1362934213}
-  flowchart: {fileID: 785767648}
 --- !u!1 &26825819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,7 +1660,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87.34065
     y: 255.70618
-    width: 87.71427
+    width: 86.16437
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1718,7 +1703,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.07662
     y: 188.04716
-    width: 87.71427
+    width: 86.16437
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1761,7 +1746,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72
     y: 132.42857
-    width: 62.571426
+    width: 62.05479
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1816,7 +1801,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 71
-    width: 75.14285
+    width: 74.10958
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1840,19 +1825,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 243.95538, y: -30.037558}
+  scrollPos: {x: 227.61488, y: -8.861717}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.7000002
+  zoom: 0.7300002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 785767643}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 785767661}
@@ -2050,7 +2034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -206.1506
     y: 87.43834
-    width: 188.28566
+    width: 182.6027
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2083,7 +2067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 1
   key: "\u6536\u96C6\u7B46"
   value: 0
 --- !u!114 &785767663
@@ -2106,7 +2090,7 @@ MonoBehaviour:
   staticEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11086299}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Grocerystore, Assembly-CSharp
         m_MethodName: IsGetpan
         m_Mode: 1
@@ -2172,7 +2156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 1
   key: "\u5C0D\u8A71"
   value: 0
 --- !u!114 &785767666
@@ -2187,8 +2171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
-  key: "\u62FF\u5230\u9322"
+  scope: 1
+  key: "\u62FF\u5230\u9322\u8CB7\u7B46"
   value: 0
 --- !u!114 &785767667
 MonoBehaviour:
@@ -2206,7 +2190,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -191.45401
     y: 150.1585
-    width: 175.71423
+    width: 170.54791
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2844,7 +2828,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -166.15062
     y: 266.89035
-    width: 163.14282
+    width: 158.49312
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3572,7 +3556,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -179.41873
     y: 215.01166
-    width: 150.5714
+    width: 146.43832
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4262,7 +4246,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &785767697
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

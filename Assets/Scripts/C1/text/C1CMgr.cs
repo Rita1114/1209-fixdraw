@@ -6,6 +6,8 @@ using Fungus;
 public class C1CMgr : MonoBehaviour
 {
     public Flowchart flowchart;
+
+    public GameObject hand;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,12 @@ public class C1CMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("吃到糖")==true)
         {
             GameMgr.糖給豬公後 = true;
-            GameMgr.拿到錢 = true;
+            GameMgr.拿到錢買筆 = true;
+        }
+        if (flowchart.GetBooleanVariable("拿回冊")==true)
+        {
+            GameMgr.拿回冊 = true;
+            hand.SetActive(false);
         }
         CheckCevent();
 
@@ -35,7 +42,7 @@ public class C1CMgr : MonoBehaviour
 
     public void CheckCevent()
     {
-        if (GameMgr.拿到糖==true)
+        if (GameMgr.拿到糖 == true)
         {
             flowchart.SetBooleanVariable("拿到糖",true);
         }
@@ -46,7 +53,15 @@ public class C1CMgr : MonoBehaviour
         if (GameMgr.糖給豬公後 == true)
         {
             flowchart.SetBooleanVariable("吃到糖",true);
-            GameMgr.拿到錢 = true;
+            
+        }
+        if (GameMgr.拿回冊 == true)
+        {
+            flowchart.SetBooleanVariable("拿回冊",true);
+        }
+        if (GameMgr.拿到錢買筆 == true)
+        {
+            flowchart.SetBooleanVariable("拿到錢",true);
         }
     }
 }

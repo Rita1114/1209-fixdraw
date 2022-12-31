@@ -230,7 +230,6 @@ GameObject:
   - component: {fileID: 146381098}
   - component: {fileID: 146381097}
   - component: {fileID: 146381096}
-  - component: {fileID: 146381095}
   - component: {fileID: 146381094}
   - component: {fileID: 146381093}
   - component: {fileID: 146381092}
@@ -251,6 +250,7 @@ GameObject:
   - component: {fileID: 146381115}
   - component: {fileID: 146381114}
   - component: {fileID: 146381112}
+  - component: {fileID: 146381116}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -389,8 +389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 35.438354
-    y: 135.36395
+    x: 51.15263
+    y: 146.79254
     width: 75.14285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -498,13 +498,15 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 146381077}
-  selectedCommands: []
+  - {fileID: 146381097}
+  selectedCommands:
+  - {fileID: 146381093}
   variables:
   - {fileID: 146381084}
   - {fileID: 146381083}
   - {fileID: 146381106}
   - {fileID: 146381111}
+  - {fileID: 146381116}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1242,33 +1244,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &146381095
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146381070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 19
-  indentLevel: 1
-  storyText: "\u5C0F\u6642\u5019\u6211\u4E5F\u6703\u628A\u8C6C\u516C\u85CF\u5728\u8863\u6AC3\u88E1\u9762\uFF0C\u7121\u804A\u7684\u6642\u5019\u5C31\u62FF\u51FA\u4F86\u7B97\u7B97\u96F6\u9322\u3002\u4F46\u8981\u5C0F\u5FC3\u5225\u5728\u665A\u4E0A\u7B97\u9322\uFF0C\u6295\u9032\u53BB\u8C6C\u516C\u7684\u8072\u97F3\u5F88\u5927\u8072\u5462\uFF01"
-  description: 
-  character: {fileID: 1166975431}
-  portrait: {fileID: 21300000, guid: d3fbf8ebee1004d4ead6a07e39259d87, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &146381096
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1326,7 +1301,6 @@ MonoBehaviour:
   - {fileID: 146381096}
   - {fileID: 146381090}
   - {fileID: 146381089}
-  - {fileID: 146381095}
   - {fileID: 146381093}
   - {fileID: 146381108}
   suppressAllAutoSelections: 0
@@ -2791,7 +2765,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &146381112
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2971,7 +2945,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &146381114
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2998,7 +2972,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &146381115
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3012,6 +2986,21 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 982271148}
   waitFrames: 1
+--- !u!114 &146381116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146381070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: "\u62FF\u5230\u9322"
+  value: 0
 --- !u!1 &385435049
 GameObject:
   m_ObjectHideFlags: 0
@@ -3928,6 +3917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowchart: {fileID: 146381081}
+  hand: {fileID: 982271147}
 --- !u!1 &1146561017
 GameObject:
   m_ObjectHideFlags: 0
