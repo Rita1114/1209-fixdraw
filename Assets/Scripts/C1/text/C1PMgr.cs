@@ -28,11 +28,16 @@ public class C1PMgr : MonoBehaviour
             book.SetActive(false);
             GameMgr.塗鴉手動畫出現1 = true;
         }
+        CheckPevent();
 
+
+    }
+
+    public void CheckPevent()
+    {
         if (GameMgr.冊被搶==true)
         {
             flowchart.SetBooleanVariable("冊被搶",true);
         }
-        
     }
 }

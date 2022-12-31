@@ -56,17 +56,19 @@ public class C1lMgr : MonoBehaviour
         //flowchart.SetBooleanVariable("Aniplay",true);
 
         //Debug.Log(aaa);
-        
+        if (flowchart.GetBooleanVariable("拿到糖")==true)
+        {
+            GameMgr.拿到糖=true;
+        }
         GetCandy();
         
     }
 
     public  void GetCandy()
     {
-        if (flowchart.GetBooleanVariable("拿到糖")==true)
+        if (GameMgr.拿到糖==true)
         {
-            拿到糖=true;
-            //PlayerPrefs.Save();
+            flowchart.SetBooleanVariable("拿到糖",true);
         }
     }
 

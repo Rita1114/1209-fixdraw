@@ -60,6 +60,7 @@ public class C1GMgr : MonoBehaviour
             
         }
         GetPen();
+        Talked();
         
     }
 
