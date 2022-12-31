@@ -27,6 +27,8 @@ public class S3 : MonoBehaviour
 
     public GameObject rightRedMark;//又紅色標籤
     public GameObject leftsRedMark;//左紅色標籤
+    //
+    
     void Start()
     {
         
@@ -56,6 +58,8 @@ public class S3 : MonoBehaviour
         rightRedMark.SetActive(true);
         leftsRedMark.SetActive(false);
         OldHouseThing.SetActive(false);
+
+        
     }
     void CloseWorkBook()
     {

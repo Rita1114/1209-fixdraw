@@ -12,7 +12,8 @@ public class SoundMgr : MonoBehaviour
     public AudioClip OpenBook;
     public AudioClip ClossBook;
     public AudioClip TurnPages;
-    
+    public AudioClip RingRing;
+
     public AudioMixer audioMixer;
     //public AudioMixer SoundEffectMixer;
     
@@ -51,5 +52,9 @@ public class SoundMgr : MonoBehaviour
         audioSource.Play();
     }
      
-
+    public void PlayRingRing()
+    {
+        audioSource.clip = RingRing;
+        audioSource.Play();
+    }
 }
