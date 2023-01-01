@@ -8,6 +8,9 @@ public class C1CMgr : MonoBehaviour
     public Flowchart flowchart;
 
     public GameObject hand;
+
+    public Item Drawbook;
+    public Inventory MyBook;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +36,11 @@ public class C1CMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("拿回冊")==true)
         {
             GameMgr.拿回冊 = true;
+            if (!MyBook.itemlist.Contains(Drawbook))
+            {
+                MyBook.itemlist.Add(Drawbook);
+                InventoryMgr.RefreshItem();
+            }
             hand.SetActive(false);
         }
         CheckCevent();

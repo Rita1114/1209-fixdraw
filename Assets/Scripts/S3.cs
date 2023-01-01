@@ -37,7 +37,8 @@ public class S3 : MonoBehaviour
         Notebutton.onClick.AddListener(NoteContent); ;
         GameSettingbutton.onClick.AddListener(GameSettingContent);
         BackMenu.onClick.AddListener(ClickBackMenu);
-        
+
+        GameMgr.IsBag = false;
         //Marks
         RedMarkbutton.onClick.AddListener(ClickRedMark);
     }

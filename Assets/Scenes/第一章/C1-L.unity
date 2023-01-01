@@ -881,8 +881,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1124056260}
-  - {fileID: 529826288}
   - {fileID: 309215695}
+  - {fileID: 529826288}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1555,6 +1555,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3412355243713580658, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
+      propertyPath: Bag
+      value: 
+      objectReference: {fileID: 795731818}
     - target: {fileID: 3412355243713580658, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: anim
       value: 
@@ -9435,6 +9439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 529826288}
   - component: {fileID: 529826290}
+  - component: {fileID: 529826291}
   m_Layer: 0
   m_Name: BGM
   m_TagString: Untagged
@@ -9554,6 +9559,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &529826291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529826287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01ae014d3cd1ef43a389459f71f9e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &540057675
 GameObject:
   m_ObjectHideFlags: 0
@@ -9601,6 +9618,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerObject: {fileID: 252822438}
   flowchart: {fileID: 328112974}
+  Candy: {fileID: 11400000, guid: 2171ee3e60a3a1243a77951ba3e8fd99, type: 2}
+  MyBook: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
 --- !u!1 &541638514
 GameObject:
   m_ObjectHideFlags: 0
@@ -10197,6 +10216,7 @@ MonoBehaviour:
   mouseClickPaper: {fileID: 6379802111265248610}
   c1TimelineMgr: {fileID: 614012664}
   Pen: {fileID: 11400000, guid: 0002af79eac26a34fb74ca4451ae4e17, type: 2}
+  Coin: {fileID: 11400000, guid: fec489737493b384aa8883c52c1152d1, type: 2}
   MyBook: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
   status: 0
 --- !u!4 &614012665
@@ -12571,6 +12591,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1124056261}
+  BGMaudioSource: {fileID: 0}
+  BGM01: {fileID: 0}
   CircleSound: {fileID: 8300000, guid: cfcbd00f6764612469bd2a2693b9b60d, type: 3}
   PenCircleSound: {fileID: 0}
   OpenBook: {fileID: 8300000, guid: 2741ba61dba939047ac224008082ba57, type: 3}

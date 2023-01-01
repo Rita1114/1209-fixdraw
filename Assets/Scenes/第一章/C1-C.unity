@@ -3918,6 +3918,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flowchart: {fileID: 146381081}
   hand: {fileID: 982271147}
+  Drawbook: {fileID: 11400000, guid: efdb30d2d993ce2448279adf519aca02, type: 2}
+  MyBook: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
 --- !u!1 &1146561017
 GameObject:
   m_ObjectHideFlags: 0

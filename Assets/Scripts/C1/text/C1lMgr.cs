@@ -22,7 +22,8 @@ public class C1lMgr : MonoBehaviour
 
     public Flowchart flowchart;
 
-
+    public Item Candy;
+    public Inventory MyBook;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +60,11 @@ public class C1lMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("拿到糖")==true)
         {
             GameMgr.拿到糖=true;
+            if (!MyBook.itemlist.Contains(Candy))
+            {
+                MyBook.itemlist.Add(Candy);
+                InventoryMgr.RefreshItem();
+            }
         }
         if (flowchart.GetBooleanVariable("收集完")==true)
         {

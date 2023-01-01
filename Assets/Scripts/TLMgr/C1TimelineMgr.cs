@@ -22,6 +22,7 @@ public class C1TimelineMgr : MonoBehaviour
     public C1TimelineMgr c1TimelineMgr;
 
     public Item Pen;
+    public Item Coin;
     public Inventory MyBook;
 
     public enum Status{AnimOn,AnimOff};
@@ -44,7 +45,6 @@ public class C1TimelineMgr : MonoBehaviour
             {
                 MyBook.itemlist.Add(Pen);
                 InventoryMgr.RefreshItem();
-                //InventoryMgr.CreateNewItem(Pen);
             }
 
         }
@@ -90,6 +90,12 @@ public class C1TimelineMgr : MonoBehaviour
           {
            player.GetComponent<playerCtr1>().enabled=true;
            拿到錢=true;
+                    if (!MyBook.itemlist.Contains(Coin))
+                    {
+                        MyBook.itemlist.Add(Coin);
+                        InventoryMgr.RefreshItem();
+                        GameMgr.IsFirstTimeLinePlayed = true;
+                    }
           }
           break;
         }
