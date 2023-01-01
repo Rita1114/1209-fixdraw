@@ -3229,6 +3229,10 @@ GameObject:
   - component: {fileID: 452342310}
   - component: {fileID: 452342309}
   - component: {fileID: 452342311}
+  - component: {fileID: 452342312}
+  - component: {fileID: 452342313}
+  - component: {fileID: 452342315}
+  - component: {fileID: 452342314}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3249,23 +3253,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -59.629906, y: -398.37564}
+  scrollPos: {x: 537.3258, y: 98.058495}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
-  zoom: 0.48999998
+  blockViewHeight: 454.3585
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 452342285}
-  selectedCommands:
-  - {fileID: 452342283}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 452342236}
+  - {fileID: 452342312}
   - {fileID: 452342223}
   - {fileID: 452342178}
   - {fileID: 452342275}
@@ -3315,7 +3318,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 39.34863
     y: 132.74586
-    width: 94.081635
+    width: 94.7854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3556,7 +3559,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52.82956
     y: 210.63075
-    width: 100.61224
+    width: 99.76155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3644,7 +3647,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 48.637726
     y: 284.79382
-    width: 92.44898
+    width: 91.799706
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3687,7 +3690,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.33994
     y: 294.44412
-    width: 107.14286
+    width: 106.72817
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3865,7 +3868,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.41127
     y: 229.50188
-    width: 89.18368
+    width: 89.80925
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3919,7 +3922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 46.12991
     y: 45.99739
-    width: 79.38776
+    width: 79.85693
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3929,9 +3932,12 @@ MonoBehaviour:
   eventHandler: {fileID: 452342281}
   commandList:
   - {fileID: 452342249}
-  - {fileID: 452342221}
+  - {fileID: 452342313}
   - {fileID: 452342302}
   - {fileID: 452342244}
+  - {fileID: 452342221}
+  - {fileID: 452342315}
+  - {fileID: 452342314}
   - {fileID: 452342290}
   - {fileID: 452342243}
   suppressAllAutoSelections: 0
@@ -3980,7 +3986,7 @@ MonoBehaviour:
   itemId: 96
   indentLevel: 1
   anyVar:
-    variable: {fileID: 452342236}
+    variable: {fileID: 452342312}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -4439,7 +4445,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 170.51038
     y: 158.53023
-    width: 133.26532
+    width: 134.59464
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4487,7 +4493,7 @@ MonoBehaviour:
   indentLevel: 1
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 15
+    floatVal: 14
   durationOLD: 0
 --- !u!114 &452342246
 MonoBehaviour:
@@ -4783,7 +4789,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 229.60938
     y: 362.08435
-    width: 85.918365
+    width: 85.82832
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4922,7 +4928,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 252.20651
     y: 454.36438
-    width: 92.44898
+    width: 92.79494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5211,7 +5217,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 266.4212
     y: 527.44635
-    width: 90.81633
+    width: 92.79494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6161,7 +6167,7 @@ MonoBehaviour:
         audioSourceVal: {fileID: 0}
       booleanData:
         booleanRef: {fileID: 0}
-        booleanVal: 0
+        booleanVal: 1
       collectionData:
         collectionRef: {fileID: 0}
         collectionVal: {fileID: 0}
@@ -6730,6 +6736,343 @@ MonoBehaviour:
   scope: 0
   key: "\u88AB\u63A8"
   value: 0
+--- !u!114 &452342312
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452342176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: BGM
+  value: 0
+--- !u!114 &452342313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452342176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 167
+  indentLevel: 1
+  anyVar:
+    variable: {fileID: 452342236}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &452342314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452342176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 169
+  indentLevel: 1
+  anyVar:
+    variable: {fileID: 452342312}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &452342315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452342176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 168
+  indentLevel: 1
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &489658576
 GameObject:
   m_ObjectHideFlags: 0
@@ -9265,6 +9608,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 517961337}
     - target: {fileID: 3412355243713580658, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
+      propertyPath: Getitem
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412355243713580658, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -9601,6 +9948,7 @@ GameObject:
   - component: {fileID: 966950873}
   - component: {fileID: 966950875}
   - component: {fileID: 966950874}
+  - component: {fileID: 966950876}
   m_Layer: 0
   m_Name: SoundMgr
   m_TagString: Untagged
@@ -9732,6 +10080,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 966950874}
+  BGMaudioSource: {fileID: 966950876}
+  BGM01: {fileID: 8300000, guid: 90f28cb67a53e1c439b8786967b69162, type: 3}
   CircleSound: {fileID: 8300000, guid: cfcbd00f6764612469bd2a2693b9b60d, type: 3}
   PenCircleSound: {fileID: 0}
   OpenBook: {fileID: 8300000, guid: 2741ba61dba939047ac224008082ba57, type: 3}
@@ -9739,6 +10089,102 @@ MonoBehaviour:
   TurnPages: {fileID: 8300000, guid: 9ee6033180c1c4b4482dc8cbe3071926, type: 3}
   RingRing: {fileID: 0}
   audioMixer: {fileID: 24100000, guid: 036556e805b6c0844acd4fba32ba899b, type: 2}
+--- !u!82 &966950876
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966950872}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 3577110507076102164, guid: 036556e805b6c0844acd4fba32ba899b, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &977841018
 GameObject:
   m_ObjectHideFlags: 0
@@ -14936,7 +15382,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1647462895}
-  - component: {fileID: 1647462896}
   m_Layer: 0
   m_Name: Bgm
   m_TagString: Untagged
@@ -14959,102 +15404,6 @@ Transform:
   m_Father: {fileID: 2143034566}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1647462896
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1647462894}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 3577110507076102164, guid: 036556e805b6c0844acd4fba32ba899b, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 90f28cb67a53e1c439b8786967b69162, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1657923258
 GameObject:
   m_ObjectHideFlags: 0
@@ -18298,6 +18647,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: BGM
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: sleep
       value: 
       objectReference: {fileID: 0}
@@ -18314,6 +18667,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 452342177}
     - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: timelines.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: timelinename.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: timelines.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 7e09e1e40a8cb59428e7e2a374c7995b, type: 2}
@@ -18322,7 +18683,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 5c7faa06697bcc9488bd6869e07b96e0, type: 2}
     - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: timelines.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5c7faa06697bcc9488bd6869e07b96e0, type: 2}
+    - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: timelinename.Array.data[1]
+      value: BGM
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: timelinename.Array.data[2]
+      value: "\u56DB\u8655\u74B0\u8996"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: timelinename.Array.data[3]
+      value: "\u5353\u76C8\u8D70\u8DEF"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: timelinename.Array.data[4]
       value: "\u88AB\u63A8"
       objectReference: {fileID: 0}
     - target: {fileID: 8196258584827399745, guid: 566c16a35464a9041b958ad1100e9496, type: 3}

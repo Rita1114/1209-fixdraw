@@ -2145,7 +2145,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5.0426292
     y: -11.652742
-    width: 103.84616
+    width: 103.51632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2191,11 +2191,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -353.64847, y: 14.72617}
+  scrollPos: {x: -342.6969, y: 28.543701}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 384.8
-  zoom: 0.52
+  zoom: 0.87999964
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2203,9 +2203,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 328113099}
+  - {fileID: 328113102}
   selectedCommands:
-  - {fileID: 328113097}
+  - {fileID: 328113101}
   variables:
   - {fileID: 328113028}
   - {fileID: 328113025}
@@ -2260,7 +2260,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.60312
     y: 189.6068
-    width: 113.07693
+    width: 113.80792
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2294,7 +2294,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.10823
     y: 125.584045
-    width: 90
+    width: 91.1664
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2324,7 +2324,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.11981
     y: 4.7955027
-    width: 111.53847
+    width: 112.77876
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2355,7 +2355,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 53.424335
     y: 206.01016
-    width: 113.07693
+    width: 111.7496
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2389,7 +2389,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 23.274662
     y: 134.56032
-    width: 90
+    width: 90.13724
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2423,7 +2423,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 19.63164
     y: 68.407845
-    width: 111.53847
+    width: 110.72044
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2995,7 +2995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 218.76837
     y: 63.842125
-    width: 113.07693
+    width: 114.83708
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5329,7 +5329,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 387.73828
     y: 14.014671
-    width: 148.46155
+    width: 148.79936
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5389,7 +5389,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 434.08878
     y: 140.25533
-    width: 74.61539
+    width: 74.699844
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5432,7 +5432,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 435.92502
     y: 72.82992
-    width: 74.61539
+    width: 74.699844
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7027,7 +7027,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 622.7751
     y: 72.60729
-    width: 86.92308
+    width: 87.04976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7142,7 +7142,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 623.9675
     y: 15.72662
-    width: 86.92308
+    width: 87.04976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7336,7 +7336,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 631.8183
     y: 125.574745
-    width: 74.61539
+    width: 74.699844
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7502,7 +7502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 610.0272
     y: 174.8285
-    width: 86.92308
+    width: 87.04976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7741,7 +7741,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &328113114
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10196,6 +10196,8 @@ MonoBehaviour:
   drawgameMgr: {fileID: 6379802109853911122}
   mouseClickPaper: {fileID: 6379802111265248610}
   c1TimelineMgr: {fileID: 614012664}
+  Pen: {fileID: 11400000, guid: 0002af79eac26a34fb74ca4451ae4e17, type: 2}
+  MyBook: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
   status: 0
 --- !u!4 &614012665
 Transform:

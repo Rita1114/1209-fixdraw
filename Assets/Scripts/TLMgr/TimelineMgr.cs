@@ -18,15 +18,16 @@ public class TimelineMgr : MonoBehaviour
     public GameObject Bubble;
     
     public bool gamestart;
-
+    
     public enum Status{AnimOn,AnimOff};
     public Status status;
 
     // Start is called before the first frame update
       public void Awake()
     {
+        
         // load savefile
-        if(GameMgr.IsFirstTimeLinePlayed)
+        if (GameMgr.IsFirstTimeLinePlayed)
         {
            flowchart.SetBooleanVariable("Aniplay",true);
            flowchart.SetBooleanVariable("canwalk",true);
@@ -36,17 +37,18 @@ public class TimelineMgr : MonoBehaviour
 
     public void Start()
     {
-      
-        for(int i=0; i<timelines.Length; i++)
+        
+
+
+        for (int i=0; i<timelines.Length; i++)
       {
-        if(flowchart.GetBooleanVariable(timelinename[i]))
-        {
-            
+            if (flowchart.GetBooleanVariable(timelinename[i]))
+        {  
             AnimationController.Play(timelines[i]);
             flowchart.SetBooleanVariable(timelinename[i],false);
             gamestart=true;
-            
-        }
+                
+            }
       }
     } 
     // Update is called once per frame
@@ -54,7 +56,7 @@ public class TimelineMgr : MonoBehaviour
     
      void Update()
     {
-      if(Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
       {
           Invoke(nameof(look),duration);
       }
@@ -69,15 +71,18 @@ public class TimelineMgr : MonoBehaviour
           if(flowchart.GetBooleanVariable("start")==true)
           {
            player.GetComponent<playerCtr1>().enabled=true;
+                    
           }
           break;
         }
+       
       
       if(flowchart.GetBooleanVariable("卓盈走路")==true)
           {
            if(Input.GetKeyDown(KeyCode.Mouse0))
            {
             AnimationController.Play(timelines[2]);
+
            }
           }
            
@@ -105,11 +110,17 @@ public class TimelineMgr : MonoBehaviour
             }
         }
 
-
-
+        if (flowchart.GetBooleanVariable("BGM") == true)
+        {
+            Debug.Log("BGM撥放");
+            SoundMgr.instance.Bgm01();
+        }
 
     }
-
+    private void FixedUpdate()
+    {
+       
+    }
     private void look()
     {
       if(flowchart.GetBooleanVariable("四處環視")==true)
@@ -119,5 +130,7 @@ public class TimelineMgr : MonoBehaviour
         
         
     }
+
     
+
 }

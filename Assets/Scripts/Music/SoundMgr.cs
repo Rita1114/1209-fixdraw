@@ -7,6 +7,8 @@ public class SoundMgr : MonoBehaviour
 {
     public static SoundMgr instance;
     public AudioSource audioSource;
+    public AudioSource BGMaudioSource;
+    public AudioClip BGM01;
     public AudioClip CircleSound;
     public AudioClip PenCircleSound;
     public AudioClip OpenBook;
@@ -56,5 +58,11 @@ public class SoundMgr : MonoBehaviour
     {
         audioSource.clip = RingRing;
         audioSource.Play();
+    }
+
+    public void Bgm01()
+    {
+        BGMaudioSource.clip = BGM01;
+        BGMaudioSource.Play();
     }
 }

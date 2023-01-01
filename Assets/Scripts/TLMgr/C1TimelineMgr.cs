@@ -20,8 +20,9 @@ public class C1TimelineMgr : MonoBehaviour
 
     public MouseClickPaper mouseClickPaper;
     public C1TimelineMgr c1TimelineMgr;
-    
-    
+
+    public Item Pen;
+    public Inventory MyBook;
 
     public enum Status{AnimOn,AnimOff};
     public Status status;
@@ -39,9 +40,16 @@ public class C1TimelineMgr : MonoBehaviour
         if(GameMgr.IsGetpan)
         {
           拿到筆=true;
+            if (!MyBook.itemlist.Contains(Pen))
+            {
+                MyBook.itemlist.Add(Pen);
+                InventoryMgr.RefreshItem();
+                //InventoryMgr.CreateNewItem(Pen);
+            }
+
         }
 
-        if(flowchart.GetBooleanVariable("Aniplay"))
+        if (flowchart.GetBooleanVariable("Aniplay"))
            {
              GetComponent<PlayableDirector>().enabled = false;
            }
