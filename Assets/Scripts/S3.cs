@@ -38,7 +38,7 @@ public class S3 : MonoBehaviour
         GameSettingbutton.onClick.AddListener(GameSettingContent);
         BackMenu.onClick.AddListener(ClickBackMenu);
 
-        GameMgr.IsBag = false;
+        //GameMgr.IsBag = false;
         //Marks
         RedMarkbutton.onClick.AddListener(ClickRedMark);
     }
@@ -102,7 +102,7 @@ public class S3 : MonoBehaviour
         OldHouseThing.SetActive(true);
     }
     #endregion
-
+    /*
     private void Awake()
     {
         if (GameMgr.IsBag)
@@ -115,6 +115,6 @@ public class S3 : MonoBehaviour
             GameMgr.IsBag = true;
         }
 
-    }
+    }*/
 
 }

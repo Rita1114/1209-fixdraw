@@ -71,6 +71,7 @@ public class C1lMgr : MonoBehaviour
             GameMgr.拿到錢買筆=true;
         }
         
+        
         GetCandy();
         
     }

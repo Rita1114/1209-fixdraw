@@ -10,6 +10,7 @@ public class C1CMgr : MonoBehaviour
     public GameObject hand;
 
     public Item Drawbook;
+    public Item Coin;
     public Inventory MyBook;
     // Start is called before the first frame update
     void Start()
@@ -70,6 +71,12 @@ public class C1CMgr : MonoBehaviour
         if (GameMgr.拿到錢買筆 == true)
         {
             flowchart.SetBooleanVariable("拿到錢",true);
+            if (!MyBook.itemlist.Contains(Coin))
+            {
+                MyBook.itemlist.Add(Coin);
+                InventoryMgr.RefreshItem();
+                GameMgr.IsFirstTimeLinePlayed = true;
+            }
         }
     }
 }

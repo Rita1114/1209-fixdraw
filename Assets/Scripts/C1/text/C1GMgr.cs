@@ -18,7 +18,8 @@ public class C1GMgr : MonoBehaviour
 
     public Flowchart flowchart;
 
-
+    public Item Pen;
+    public Inventory MyBook;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +52,11 @@ public class C1GMgr : MonoBehaviour
         {
             GameMgr.IsGetpan=true;
             GameMgr.給錢買筆後 = true;
+            if (!MyBook.itemlist.Contains(Pen))
+            {
+                MyBook.itemlist.Add(Pen);
+                InventoryMgr.RefreshItem();
+            }
 
         }
         if (flowchart.GetBooleanVariable("對話")==true)

@@ -21,9 +21,6 @@ public class C1TimelineMgr : MonoBehaviour
     public MouseClickPaper mouseClickPaper;
     public C1TimelineMgr c1TimelineMgr;
 
-    public Item Pen;
-    public Item Coin;
-    public Inventory MyBook;
 
     public enum Status{AnimOn,AnimOff};
     public Status status;
@@ -41,11 +38,7 @@ public class C1TimelineMgr : MonoBehaviour
         if(GameMgr.IsGetpan)
         {
           拿到筆=true;
-            if (!MyBook.itemlist.Contains(Pen))
-            {
-                MyBook.itemlist.Add(Pen);
-                InventoryMgr.RefreshItem();
-            }
+            
 
         }
 
@@ -90,15 +83,17 @@ public class C1TimelineMgr : MonoBehaviour
           {
            player.GetComponent<playerCtr1>().enabled=true;
            拿到錢=true;
-                    if (!MyBook.itemlist.Contains(Coin))
-                    {
-                        MyBook.itemlist.Add(Coin);
-                        InventoryMgr.RefreshItem();
-                        GameMgr.IsFirstTimeLinePlayed = true;
-                    }
+                    
           }
           break;
         }
+
+        /*if (flowchart.GetBooleanVariable("拿到錢") == true)
+        {
+            GameMgr.拿到錢 = true;
+        }*/
+
+
          if(拿到筆==true)
         {
           flowchart.SetBooleanVariable("收集完",true);
