@@ -319,7 +319,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260972270}
   m_LocalRotation: {x: -0, y: -0, z: -0.47518003, w: 0.87988865}
-  m_LocalPosition: {x: -6.56, y: -2.62, z: 0}
+  m_LocalPosition: {x: -6.461, y: -2.836, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -340,7 +340,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00013875961, y: 0.031130463}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -351,7 +351,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.99972224, y: 1.1474111}
   m_EdgeRadius: 0
 --- !u!114 &260972273
 MonoBehaviour:
@@ -365,8 +365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af24592bc216ab247924f5b94b1c74c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointNumber: 1
-  nextSceneName: C3-E01
+  pointNumber: 2
+  nextSceneName: C3-ET
 --- !u!1 &263994338
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,7 +2039,7 @@ GameObject:
   - component: {fileID: 503744165}
   - component: {fileID: 503744166}
   m_Layer: 0
-  m_Name: 4
+  m_Name: 1
   m_TagString: Portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
