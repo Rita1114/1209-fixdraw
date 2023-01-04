@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Playables;
+using Fungus;
+
 
 public class changescene : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class changescene : MonoBehaviour
     public static string abc;
     public PlayableDirector ChangeAni;
     public GameObject image;
+    public Flowchart flowchart;
 
     public static bool IsFirstTimeLinePlayed;
     // Start is called before the first frame update
@@ -26,6 +29,7 @@ public class changescene : MonoBehaviour
     {
         
     }
+   
     public void Load()
     {
           SceneManager.LoadScene(nextSceneName);
@@ -33,17 +37,18 @@ public class changescene : MonoBehaviour
           image.SetActive(true);
           ChangeAni.Play();
           
-
     }
     
     void OnTriggerEnter2D(Collider2D other)
-    {
+     {
      if(other.gameObject.CompareTag("Player")
      &&other.GetType().ToString()=="UnityEngine.CapsuleCollider2D")
      {
         Load();
         GameMgr.IsFirstTimeLinePlayed = true;
      }
+
+    
         
     }
 

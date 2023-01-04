@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Fungus;
 
-public class EnterC2 : MonoBehaviour
+public class C2ACMgr : MonoBehaviour
 {
+    public Flowchart flowchart;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,13 +16,9 @@ public class EnterC2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (flowchart.GetBooleanVariable("進第三章") == true)
+        {
+            SceneManager.LoadScene("C3-HS");
+        }
     }
-
-    public  void LoadC2()
-    {
-        SceneManager.LoadScene("C2-NC");
-    }
-    
-    
 }

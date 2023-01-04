@@ -66,12 +66,6 @@ public class C1lMgr : MonoBehaviour
                 InventoryMgr.RefreshItem();
             }
         }
-        if (flowchart.GetBooleanVariable("收集完")==true)
-        {
-            GameMgr.拿到錢買筆=true;
-        }
-        
-        
         GetCandy();
         
     }

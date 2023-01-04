@@ -620,6 +620,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4839791111362474459, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839791111362474459, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 4839791111362474461, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
       propertyPath: m_Type
       value: 0
@@ -3617,7 +3625,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 63.20253
-    y: 68.73418
+    y: 67.46835
     width: 80.379745
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3664,7 +3672,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1302942666}
   selectedCommands: []
   variables:
   - {fileID: 1302942653}

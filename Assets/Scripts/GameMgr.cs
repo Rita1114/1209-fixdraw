@@ -27,6 +27,8 @@ public static class GameMgr
     public static bool 塗鴉手動畫出現1,冊被搶 = false; //C1-P變數部分
     public static bool 伯已對話, 給錢買筆後,拿到錢買筆 = false; //C1-G變數部分
 
+    
+    //C2變數
     public static bool 中卓走美教動畫已經播過;//
 
 

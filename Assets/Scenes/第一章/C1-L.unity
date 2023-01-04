@@ -567,6 +567,7 @@ MonoBehaviour:
   nextSceneName: C1-P
   ChangeAni: {fileID: 0}
   image: {fileID: 0}
+  flowchart: {fileID: 0}
 --- !u!1 &32147922
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,6 +618,7 @@ MonoBehaviour:
   nextSceneName: C1-G
   ChangeAni: {fileID: 614012663}
   image: {fileID: 822213793}
+  flowchart: {fileID: 0}
 --- !u!61 &32147925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2017,9 +2019,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 5.0426292
-    y: -11.652742
-    width: 103.43396
+    x: 10.924975
+    y: -14.593916
+    width: 103.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2065,7 +2067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 162.41937, y: -42.44518}
+  scrollPos: {x: -65.78766, y: -41.73694}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 441.3585
@@ -2077,7 +2079,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 328112976}
+  - {fileID: 328113008}
   selectedCommands: []
   variables:
   - {fileID: 328113028}
@@ -2132,8 +2134,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 230.3836
-    y: 189.6068
-    width: 113.396225
+    y: 188.23694
+    width: 113.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2167,7 +2169,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.10823
     y: 125.584045
-    width: 89.84906
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2195,9 +2197,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 187.11981
+    x: 190.06099
     y: 4.7955027
-    width: 112.49057
+    width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2228,7 +2230,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 53.424335
     y: 206.01016
-    width: 110.679245
+    width: 110.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2262,7 +2264,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 23.274662
     y: 134.56032
-    width: 88.9434
+    width: 89.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2296,7 +2298,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 19.63164
     y: 68.407845
-    width: 109.77359
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2868,7 +2870,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 218.76837
     y: 63.842125
-    width: 113.396225
+    width: 113.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5202,7 +5204,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 387.73828
     y: 14.014671
-    width: 144.18869
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5262,7 +5264,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 434.08878
     y: 140.25533
-    width: 73.54717
+    width: 74
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5305,7 +5307,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 435.92502
     y: 72.82992
-    width: 73.54717
+    width: 74
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6900,7 +6902,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 622.7751
     y: 72.60729
-    width: 85.320755
+    width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7015,7 +7017,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 623.9675
     y: 15.72662
-    width: 85.320755
+    width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7209,7 +7211,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 631.8183
     y: 125.574745
-    width: 73.54717
+    width: 74
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7375,7 +7377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 610.0272
     y: 174.8285
-    width: 85.320755
+    width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10130,6 +10132,7 @@ Transform:
   - {fileID: 32147923}
   - {fileID: 1424137231}
   - {fileID: 1150430266}
+  - {fileID: 1032044738}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11184,6 +11187,7 @@ MonoBehaviour:
   nextSceneName: C1-G
   ChangeAni: {fileID: 0}
   image: {fileID: 0}
+  flowchart: {fileID: 0}
 --- !u!1 &833800720
 GameObject:
   m_ObjectHideFlags: 0
@@ -11584,6 +11588,110 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889522436}
   m_CullTransparentMesh: 1
+--- !u!1 &893925395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 893925396}
+  m_Layer: 0
+  m_Name: 1
+  m_TagString: Portal
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &893925396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893925395}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.176, y: -1.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1032044738}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 29.151}
+--- !u!1 &1032044737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032044738}
+  - component: {fileID: 1032044740}
+  - component: {fileID: 1032044741}
+  m_Layer: 0
+  m_Name: "\u9032\u7B2C\u4E8C\u7AE0"
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1032044738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032044737}
+  m_LocalRotation: {x: -0, y: -0, z: 0.2516579, w: 0.96781623}
+  m_LocalPosition: {x: 15.22, y: 4.26, z: 0}
+  m_LocalScale: {x: 4.05, y: 2.3217, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 893925396}
+  m_Father: {fileID: 614883273}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 29.151}
+--- !u!61 &1032044740
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032044737}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1032044741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032044737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b101ac2f7ed47a84a9bdeacb7c26b818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowchart: {fileID: 328112974}
 --- !u!1 &1037418198
 GameObject:
   m_ObjectHideFlags: 0
@@ -12238,6 +12346,7 @@ MonoBehaviour:
   nextSceneName: C1-P
   ChangeAni: {fileID: 614012663}
   image: {fileID: 822213793}
+  flowchart: {fileID: 0}
 --- !u!114 &1150430268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12889,6 +12998,7 @@ MonoBehaviour:
   nextSceneName: C1-C
   ChangeAni: {fileID: 0}
   image: {fileID: 0}
+  flowchart: {fileID: 0}
 --- !u!1 &1300924961
 GameObject:
   m_ObjectHideFlags: 0
@@ -13639,6 +13749,7 @@ MonoBehaviour:
   nextSceneName: C1-C
   ChangeAni: {fileID: 614012663}
   image: {fileID: 822213793}
+  flowchart: {fileID: 0}
 --- !u!114 &1424137233
 MonoBehaviour:
   m_ObjectHideFlags: 0

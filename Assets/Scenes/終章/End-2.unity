@@ -551,7 +551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &740449347
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1020,10 +1020,10 @@ GameObject:
   - component: {fileID: 1459791608}
   - component: {fileID: 1459791607}
   - component: {fileID: 1459791606}
-  - component: {fileID: 1459791605}
   - component: {fileID: 1459791604}
   - component: {fileID: 1459791603}
   - component: {fileID: 1459791602}
+  - component: {fileID: 1459791611}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1310,7 +1310,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 69.2
+    width: 69.428566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1323,6 +1323,7 @@ MonoBehaviour:
   - {fileID: 1459791595}
   - {fileID: 1459791596}
   - {fileID: 1459791594}
+  - {fileID: 1459791611}
   suppressAllAutoSelections: 0
 --- !u!114 &1459791600
 MonoBehaviour:
@@ -1337,11 +1338,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -0.0694046, y: -109.676476}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.7000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1349,8 +1350,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1459791599}
-  selectedCommands: []
+  - {fileID: 1459791610}
+  selectedCommands:
+  - {fileID: 1459791606}
   variables:
   - {fileID: 1459791593}
   - {fileID: 1459791602}
@@ -1448,21 +1450,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1459791605
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459791592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1459791610}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &1459791606
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1478,7 +1465,7 @@ MonoBehaviour:
   itemId: 10
   indentLevel: 0
   anyVar:
-    variable: {fileID: 1459791593}
+    variable: {fileID: 1459791602}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -1710,16 +1697,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 82
-    y: 144
-    width: 82
+    x: 90
+    y: 164
+    width: 80.85713
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 13
   blockName: "\u7D422-1"
   description: 
-  eventHandler: {fileID: 1459791605}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1459791609}
   - {fileID: 1459791608}
@@ -1728,6 +1715,27 @@ MonoBehaviour:
   - {fileID: 1459791603}
   - {fileID: 1459791606}
   suppressAllAutoSelections: 0
+--- !u!114 &1459791611
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459791592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1459791610}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &1497563560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,7 +1888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1859490455
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2017,3 +2025,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2073009099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2073009101}
+  - component: {fileID: 2073009100}
+  m_Layer: 0
+  m_Name: END2Mgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2073009100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073009099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373390309830d8b4080a195f9d42ba60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowchart: {fileID: 1459791600}
+  "\u5353image": {fileID: 860206739}
+  "\u7B46\u8A18\u672Cimage": {fileID: 740449346}
+  "\u81F4\u8B1Dimage": {fileID: 1859490454}
+--- !u!4 &2073009101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073009099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 299.73386, y: 401.9916, z: -6.138332}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
