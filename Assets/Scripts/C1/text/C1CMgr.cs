@@ -11,6 +11,7 @@ public class C1CMgr : MonoBehaviour
 
     public Item Drawbook;
     public Item Coin;
+    public Item Candy;
     public Inventory MyBook;
     // Start is called before the first frame update
     void Start()
@@ -62,7 +63,9 @@ public class C1CMgr : MonoBehaviour
         if (GameMgr.糖給豬公後 == true)
         {
             flowchart.SetBooleanVariable("吃到糖",true);
+            //Destroy(MyBook.itemlist.Contains(Candy));
             
+
         }
         if (GameMgr.拿回冊 == true)
         {
