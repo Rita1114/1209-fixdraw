@@ -35,7 +35,7 @@ public class MouseClickPaper2 : MonoBehaviour
 
     void Start()
     {
-        isclick = false;
+        
     }
 
     // Update is called once per frame
