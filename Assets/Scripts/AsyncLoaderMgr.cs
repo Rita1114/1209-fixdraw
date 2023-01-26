@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -9,9 +11,10 @@ public class AsyncLoaderMgr : MonoBehaviour
     //ready https://blog.csdn.net/qq_35037137/article/details/88826732?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-88826732-blog-83096135.pc_relevant_aa2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-88826732-blog-83096135.pc_relevant_aa2&utm_relevant_index=6
 
 
-    public Slider loadingSlider,loadingSliderMask; //显示进度的滑动条
-
+    public Slider loadingSlider; //显示进度的滑动条
+    public Mask loadingSliderMask;
     public Text loadingText; //显示进度的文本
+    private float initWidth;
 
 
     private float _loadingSpeed = 1;
@@ -22,6 +25,8 @@ public class AsyncLoaderMgr : MonoBehaviour
     {
         loadingSlider.value = 0.0f;
         StartCoroutine(AsyncLoading());
+        initWidth = loadingSliderMask.transform.GetComponent<RectTransform>().sizeDelta.x;
+
     }
 
     IEnumerator AsyncLoading()
@@ -51,6 +56,8 @@ public class AsyncLoaderMgr : MonoBehaviour
             //值最大为0.9
 
             _targetValue = 1.0f;
+            loadingSliderMask.transform.GetComponent<RectTransform>().sizeDelta = new Vector2(1920, 0);
+            
         }
 
         //为滑动条赋值
@@ -58,12 +65,14 @@ public class AsyncLoaderMgr : MonoBehaviour
         if (_targetValue != loadingSlider.value)
         {
             loadingSlider.value = Mathf.Lerp(loadingSlider.value, _targetValue, Time.deltaTime * _loadingSpeed);
-
+            
+            Debug.Log(loadingSliderMask.rectTransform);
             if (Mathf.Abs(loadingSlider.value - _targetValue) < 0.01f)
 
             {
                 loadingSlider.value = _targetValue;
-                
+               
+
             }
         }
 
