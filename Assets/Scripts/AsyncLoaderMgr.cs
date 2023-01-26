@@ -9,7 +9,7 @@ public class AsyncLoaderMgr : MonoBehaviour
     //ready https://blog.csdn.net/qq_35037137/article/details/88826732?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-88826732-blog-83096135.pc_relevant_aa2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-88826732-blog-83096135.pc_relevant_aa2&utm_relevant_index=6
 
 
-    public Slider loadingSlider; //显示进度的滑动条
+    public Slider loadingSlider,loadingSliderMask; //显示进度的滑动条
 
     public Text loadingText; //显示进度的文本
 
@@ -63,6 +63,7 @@ public class AsyncLoaderMgr : MonoBehaviour
 
             {
                 loadingSlider.value = _targetValue;
+                
             }
         }
 
