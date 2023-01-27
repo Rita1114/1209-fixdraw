@@ -51,7 +51,7 @@ public class S1 : MonoBehaviour
     {
         SoundMgr.instance.CirclesoundEffect();
         Engine.NextLevelName = "S2";
-        SceneManager.LoadScene("AsyncLoader");
+        
     }
     public void ChooseChapter()
     {

@@ -32,7 +32,9 @@ public class EnterC2 : MonoBehaviour
     {
         if (flowchart.GetBooleanVariable("進第二章") == true)
         {
-            SceneManager.LoadScene("C2-NC");
+            SceneManager.LoadScene("AsyncLoader");
+            Engine.NextLevelName = "C2-NC";
+            //SceneManager.LoadScene("C2-NC");
         }
     }
 }

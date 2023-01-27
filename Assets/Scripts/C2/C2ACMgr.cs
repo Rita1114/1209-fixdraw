@@ -18,7 +18,10 @@ public class C2ACMgr : MonoBehaviour
     {
         if (flowchart.GetBooleanVariable("進第三章") == true)
         {
-            SceneManager.LoadScene("C3-HS");
+            SceneManager.LoadScene("C2AsyncLoader");
+            Engine.NextLevelName = "C3-HS";
+            //SceneManager.LoadScene("C3-HS");
+            
         }
     }
 }

@@ -95,4 +95,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AsyncLoader.unity
     guid: f814cc41c523197468d08f6560ad9579
+  - enabled: 1
+    path: Assets/Scenes/C2AsyncLoader.unity
+    guid: 27a70b82c0311254697842bef47edafc
+  - enabled: 1
+    path: Assets/Scenes/C3AsyncLoader.unity
+    guid: 5d82fb4dac1a9f641bd50486a6f5b023
   m_configObjects: {}

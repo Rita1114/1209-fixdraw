@@ -14,7 +14,6 @@ public class playerCtr1 : MonoBehaviour
 
     private Transform Door;
     private bool isDoor;
-    private Transform playertransform;
     private Rigidbody2D rb;
     private Vector3 moveDir;
     private float moveX, moveY,direction;
@@ -36,7 +35,7 @@ public class playerCtr1 : MonoBehaviour
     private void Awake()
     {
         characterBase = GetComponent<CharacterController>();
-        rb = GetComponent<Rigidbody2D>();
+        //rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 

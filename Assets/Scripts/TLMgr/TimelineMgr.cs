@@ -106,6 +106,7 @@ public class TimelineMgr : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
+               
                 SceneManager.LoadScene("C1-L");
             }
         }
