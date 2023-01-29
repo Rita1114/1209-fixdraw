@@ -7,7 +7,7 @@ public class C1CMgr : MonoBehaviour
 {
     public Flowchart flowchart;
 
-    public GameObject hand;
+    public GameObject hand,Coinimage,bookimage;
 
     public Item Drawbook;
     public Item Coin;
@@ -34,6 +34,7 @@ public class C1CMgr : MonoBehaviour
         {
             GameMgr.糖給豬公後 = true;
             GameMgr.拿到錢買筆 = true;
+            Coinimage.SetActive(true);
         }
         if (flowchart.GetBooleanVariable("拿回冊")==true)
         {
@@ -42,6 +43,7 @@ public class C1CMgr : MonoBehaviour
             {
                 MyBook.itemlist.Add(Drawbook);
                 InventoryMgr.RefreshItem();
+                bookimage.SetActive(true);
             }
             hand.SetActive(false);
         }
