@@ -17,6 +17,7 @@ public class C1GMgr : MonoBehaviour
 
 
     public Flowchart flowchart;
+    public GameObject Penimage;
 
     public Item Pen;
     public Inventory MyBook;
@@ -56,6 +57,8 @@ public class C1GMgr : MonoBehaviour
             {
                 MyBook.itemlist.Add(Pen);
                 InventoryMgr.RefreshItem();
+                Penimage.SetActive(true);
+                Debug.Log("123");
             }
 
         }

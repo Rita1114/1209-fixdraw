@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class EnterC2 : MonoBehaviour
 {
     public Flowchart flowchart;
+    public GameObject door;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,10 @@ public class EnterC2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (flowchart.GetBooleanVariable("進第二章") == true)
+        {
+            door.SetActive(true);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -27,6 +31,7 @@ public class EnterC2 : MonoBehaviour
             LoadC2();
             GameMgr.IsFirstTimeLinePlayed = true;
         }
+      
     }
     void LoadC2()
     {

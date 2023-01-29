@@ -18,6 +18,7 @@ public class C1lMgr : MonoBehaviour
     public static bool 伯已對話, 給錢買筆後 = false; //C1-G變數部分
 
     public GameObject playerObject;
+    public GameObject candyimage;
 
 
     public Flowchart flowchart;
@@ -64,6 +65,7 @@ public class C1lMgr : MonoBehaviour
             {
                 MyBook.itemlist.Add(Candy);
                 InventoryMgr.RefreshItem();
+                candyimage.SetActive(true);
             }
         }
         GetCandy();
