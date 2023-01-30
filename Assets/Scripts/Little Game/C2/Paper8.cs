@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PaperChangeImage : MonoBehaviour
+public class Paper8 : MonoBehaviour
 {
     public Button paper;
     public GameObject PP;
     public Sprite newpaper;
     public Sprite sprite0;
     bool isChange = false;
-    
+    public GameObject Watercolor;
     void Start()
     {
         paper.onClick.AddListener(Changepaper);
     }
 
-    
+
     void Update()
     {
         if (isChange)
@@ -25,7 +25,7 @@ public class PaperChangeImage : MonoBehaviour
         }
         else
         {
-            
+            Watercolor.SetActive(false);
             PP.GetComponent<Image>().sprite = sprite0;
         }
 
