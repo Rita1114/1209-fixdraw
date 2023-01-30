@@ -19,9 +19,7 @@ public class Portal : MonoBehaviour
     }
     public void Load()
     {
-        SceneManager.LoadScene("C3AsyncLoader");
-        Engine.NextLevelName = "End-1";
-        //SceneManager.LoadScene(nextSceneName);
+        SceneManager.LoadScene(nextSceneName);
         Point.startPointNumber = pointNumber;
     }
 
@@ -34,5 +32,11 @@ public class Portal : MonoBehaviour
             GameMgr.IsFirstTimeLinePlayed = true;
         }
 
+    }
+
+    public void LoadEnd()
+    {
+        SceneManager.LoadScene("C3AsyncLoader");
+        Engine.NextLevelName = "End-1";
     }
 }
