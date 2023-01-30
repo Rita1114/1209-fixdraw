@@ -669,8 +669,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1524348786}
-  - component: {fileID: 1524348785}
   - component: {fileID: 1524348784}
+  - component: {fileID: 1524348787}
   m_Layer: 0
   m_Name: "\u7D42\u7AE0"
   m_TagString: Portal
@@ -704,20 +704,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3616333, y: 9.530169}
   m_EdgeRadius: 0
---- !u!114 &1524348785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524348783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af24592bc216ab247924f5b94b1c74c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointNumber: 0
-  nextSceneName: End-1
 --- !u!4 &1524348786
 Transform:
   m_ObjectHideFlags: 0
@@ -733,6 +719,20 @@ Transform:
   m_Father: {fileID: 1253811313}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -241.87}
+--- !u!114 &1524348787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524348783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f992e09a6b879459c4f01d96614de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointNumber: 0
+  nextSceneName: End-1
 --- !u!1 &1637830373
 GameObject:
   m_ObjectHideFlags: 0
