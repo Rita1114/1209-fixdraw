@@ -449,7 +449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1832921866844835324, guid: 535c7d50ab0da7c4bbbf0ac91d4c3774, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -597,6 +597,7 @@ GameObject:
   - component: {fileID: 142580124}
   - component: {fileID: 142580123}
   - component: {fileID: 142580122}
+  - component: {fileID: 142580130}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -871,11 +872,14 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 142580127}
+  selectedCommands:
+  - {fileID: 142580123}
   variables:
   - {fileID: 142580124}
   - {fileID: 142580122}
+  - {fileID: 142580130}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -901,6 +905,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &142580130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142580121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: "\u64AD\u904E\u4E86"
+  value: 0
 --- !u!1 &158555658
 GameObject:
   m_ObjectHideFlags: 0
@@ -4923,6 +4942,7 @@ MonoBehaviour:
   flowchart: {fileID: 142580128}
   animationController: {fileID: 1602433128}
   player: {fileID: 4460248}
+  c2CMgr: {fileID: 0}
 --- !u!4 &1602433127
 Transform:
   m_ObjectHideFlags: 0

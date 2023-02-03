@@ -10,6 +10,7 @@ public class C2cMgr : MonoBehaviour
     public Flowchart flowchart;
     public PlayableDirector animationController;
     public GameObject player;
+    public C2cMgr c2CMgr;
     void Start()
     {
          
@@ -28,8 +29,19 @@ public class C2cMgr : MonoBehaviour
             {
                 SceneManager.LoadScene("C2-AC");
             }
-
             GameMgr.走過走廊 = true;
+        }
+
+        if (GameMgr.走過走廊)
+        {
+            flowchart.SetBooleanVariable("播過了",true);
+            flowchart.SetBooleanVariable("可以走",true);
+            
+        }
+
+        if (flowchart.GetBooleanVariable("播過了")==true)
+        {
+            animationController.enabled = false;
         }
     }
 }

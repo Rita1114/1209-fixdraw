@@ -7,6 +7,8 @@ using Fungus;
 public class C2ACMgr : MonoBehaviour
 {
     public Flowchart flowchart;
+
+    public GameObject player,布畫板,破畫板,畫板;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,32 @@ public class C2ACMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(flowchart.GetBooleanVariable("start")==false)
+        {
+            player.GetComponent<playerCtr1>().enabled=false;
+        }
+        else
+        if(flowchart.GetBooleanVariable("start")==true)
+        {
+            player.GetComponent<playerCtr1>().enabled=true;
+        }
+        
+        if (flowchart.GetBooleanVariable("掀開") == true)
+        {
+            布畫板.SetActive(false);
+            破畫板.SetActive(true);
+            畫板.SetActive(false);
+        }
+        if (flowchart.GetBooleanVariable("填色遊戲好") == true)
+        {
+            Destroy(破畫板);
+            //破畫板.SetActive(false);
+        }
+        else
+        {
+            畫板.SetActive(true);
+        }
+    
         if (flowchart.GetBooleanVariable("進第三章") == true)
         {
             SceneManager.LoadScene("C2AsyncLoader");

@@ -37,6 +37,7 @@ public class C2ncMgr : MonoBehaviour
         if (GameMgr.中卓走美教動畫已經播過=true)
         {
             animationController.enabled = false;
+            flowchart.SetBooleanVariable("可以走",true);
         }
         
         if (flowchart.GetBooleanVariable("start")==true)
