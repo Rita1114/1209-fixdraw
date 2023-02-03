@@ -30,6 +30,7 @@ public static class GameMgr
     
     //C2變數
     public static bool 中卓走美教動畫已經播過 = false; //
+    public static bool 走過走廊=false;
 
 
 }

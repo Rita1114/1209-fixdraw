@@ -5,7 +5,7 @@ using UnityEngine.Playables;
 using UnityEngine.Timeline;
 using Fungus;
 
-public class C2TimelineMgr : MonoBehaviour
+public class C2TimelineMgr1 : MonoBehaviour
 {
 
     public PlayableDirector AnimationController;

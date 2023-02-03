@@ -8,8 +8,9 @@ using UnityEngine.Playables;
 public class C2ncMgr : MonoBehaviour
 {
     public Flowchart flowchart;
-    public GameObject image;
+    public GameObject image,player;
     public PlayableDirector animationController;
+    
     
     void Start()
     {
@@ -19,6 +20,10 @@ public class C2ncMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(flowchart.GetBooleanVariable("可以走")==false)
+        {
+            player.GetComponent<playerCtr1>().enabled=false;
+        }
         if (flowchart.GetBooleanVariable("轉場")==true)
                 {
                     image.SetActive(true);
@@ -32,6 +37,14 @@ public class C2ncMgr : MonoBehaviour
         if (GameMgr.中卓走美教動畫已經播過=true)
         {
             animationController.enabled = false;
+        }
+        
+        if (flowchart.GetBooleanVariable("start")==true)
+        {
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+               LoadC2();
+            }
         }
     }
 
