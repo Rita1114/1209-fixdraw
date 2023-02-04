@@ -33,6 +33,7 @@ public class MouseClickPaper2 : MonoBehaviour
     public GameObject greencolorblack;
     public GameObject purplecolorblack;
 
+    public GameObject WordpaperGame;
     void Start()
     {
         
@@ -123,6 +124,11 @@ public class MouseClickPaper2 : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
+        //打開作文牆遊戲
+        if (other.name.ToLower().Contains("wordpaper") && isclick)
+        {
+            WordpaperGame.SetActive(true);
+        }
         //顏料顏色布林真假
         #region
         if (other.name.ToLower().Contains("blue"))
@@ -176,6 +182,7 @@ public class MouseClickPaper2 : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D other)
     {
+        
         #region
         if (other.name.ToLower().Contains("blue"))
         {

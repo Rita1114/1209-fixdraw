@@ -8747,7 +8747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 467495741}
   m_Layer: 0
-  m_Name: "\u6E2C\u8A66\u7528"
+  m_Name: "\u6E2C\u8A66\u7528(\u5148\u5225\u522A"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10810,7 +10810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &757651909
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10944,7 +10944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &795731819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11190,7 +11190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &833800721
 RectTransform:
   m_ObjectHideFlags: 0

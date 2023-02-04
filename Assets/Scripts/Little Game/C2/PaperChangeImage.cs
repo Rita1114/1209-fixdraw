@@ -9,7 +9,7 @@ public class PaperChangeImage : MonoBehaviour
     public GameObject PP;
     public Sprite newpaper;
     public Sprite sprite0;
-    bool isChange = false;
+    public bool isChange = false;
     
     void Start()
     {
@@ -21,11 +21,12 @@ public class PaperChangeImage : MonoBehaviour
     {
         if (isChange)
         {
+           
             PP.GetComponent<Image>().sprite = newpaper;
+            
         }
         else
         {
-            
             PP.GetComponent<Image>().sprite = sprite0;
         }
 
@@ -33,5 +34,6 @@ public class PaperChangeImage : MonoBehaviour
     private void Changepaper()
     {
         isChange = !isChange;
+        SoundMgr.instance.PlayTurnPages();
     }
 }

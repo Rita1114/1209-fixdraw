@@ -22,16 +22,19 @@ public class Paper8 : MonoBehaviour
         if (isChange)
         {
             PP.GetComponent<Image>().sprite = newpaper;
+            
         }
         else
         {
             Watercolor.SetActive(false);
             PP.GetComponent<Image>().sprite = sprite0;
+            
         }
 
     }
     private void Changepaper()
     {
         isChange = !isChange;
+        SoundMgr.instance.PlayTurnPages();
     }
 }
