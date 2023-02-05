@@ -34,6 +34,15 @@ public class C2ACMgr : MonoBehaviour
             破畫板.SetActive(true);
             畫板.SetActive(false);
         }
+        if (GameMgr.拿到水彩筆)
+        {
+           flowchart.SetBooleanVariable("拿到水彩筆",true);
+        }
+        if (flowchart.GetBooleanVariable("開始填色遊戲") == true)
+        {
+          
+        }
+        
         if (flowchart.GetBooleanVariable("填色遊戲好") == true)
         {
             Destroy(破畫板);

@@ -23,13 +23,17 @@ public class C2cMgr : MonoBehaviour
         {
             player.GetComponent<playerCtr1>().enabled=false;
         }
+        else
+        {
+            player.GetComponent<playerCtr1>().enabled=true;
+        }
         if (flowchart.GetBooleanVariable("進畫室")==true)
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 SceneManager.LoadScene("C2-AC");
             }
-            GameMgr.走過走廊 = true;
+            GameMgr.走過走廊 = true;//告訴管理員走過不播動畫
         }
 
         if (GameMgr.走過走廊)
@@ -37,7 +41,7 @@ public class C2cMgr : MonoBehaviour
             flowchart.SetBooleanVariable("播過了",true);
             flowchart.SetBooleanVariable("可以走",true);
             
-        }
+        }//透過管理員紀錄設定，避免變數消失重複事件
 
         if (flowchart.GetBooleanVariable("播過了")==true)
         {
