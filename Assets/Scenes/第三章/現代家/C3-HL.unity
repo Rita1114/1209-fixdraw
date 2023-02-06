@@ -5075,7 +5075,7 @@ MonoBehaviour:
   oldcursor: {fileID: 0}
   cursorMode: 0
   hotSpot: {x: 0, y: 0}
-  Game: {fileID: 0}
+  CloseB: {fileID: 760384292}
   isclick: 0
 --- !u!1 &2004623425
 GameObject:

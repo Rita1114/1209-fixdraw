@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangeMouse : MonoBehaviour
 {
@@ -10,12 +11,12 @@ public class ChangeMouse : MonoBehaviour
     public CursorMode cursorMode = CursorMode.Auto;
     public Vector2 hotSpot = Vector2.zero;
 
-    public GameObject Game;
+    public Button CloseB;
 
     public bool isclick=false;
     void Start()
     {
-        
+        CloseB.onClick.AddListener(CloseButten);
     }
 
     
@@ -31,6 +32,10 @@ public class ChangeMouse : MonoBehaviour
         {
             Cursor.SetCursor(oldcursor, hotSpot, cursorMode);
         }
+    }
+    public void CloseButten()
+    {
+        Cursor.SetCursor(oldcursor, hotSpot, cursorMode);
     }
     
 }
