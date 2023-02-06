@@ -2050,6 +2050,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6415957585699929569, guid: ca5421a71229f2d4faa863484d7e5dde, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f50baae75cd70b41a4258bf118de201, type: 3}
     - target: {fileID: 6415957586002135716, guid: ca5421a71229f2d4faa863484d7e5dde, type: 3}
       propertyPath: m_Name
       value: girl
