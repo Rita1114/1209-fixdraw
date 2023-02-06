@@ -8,7 +8,7 @@ public class C2ACMgr : MonoBehaviour
 {
     public Flowchart flowchart;
 
-    public GameObject player,布畫板,破畫板,畫板;
+    public GameObject player,布畫板,破畫板,畫板,瑱色遊戲,櫃子;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,23 +36,25 @@ public class C2ACMgr : MonoBehaviour
         }
         if (GameMgr.拿到水彩筆)
         {
-           flowchart.SetBooleanVariable("拿到水彩筆",true);
+           flowchart.SetBooleanVariable("有水彩筆",true);
         }
-        if (flowchart.GetBooleanVariable("開始填色遊戲") == true)
+        if (flowchart.GetBooleanVariable("開始填色遊戲") == true&& flowchart.GetBooleanVariable("有水彩筆")==true )
         {
-          
+          瑱色遊戲.SetActive(true);
         }
-        
+
+        if (GameMgr.填色遊戲完成)
+        {
+            flowchart.SetBooleanVariable("填色遊戲好",true);
+        }
+
         if (flowchart.GetBooleanVariable("填色遊戲好") == true)
         {
             Destroy(破畫板);
             //破畫板.SetActive(false);
-        }
-        else
-        {
             畫板.SetActive(true);
         }
-    
+
         if (flowchart.GetBooleanVariable("進第三章") == true)
         {
             SceneManager.LoadScene("C2AsyncLoader");

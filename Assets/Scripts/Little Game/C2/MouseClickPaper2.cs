@@ -4,29 +4,29 @@ using UnityEngine;
 
 public class MouseClickPaper2 : MonoBehaviour
 {
-    //ÅÜ¼Æ
+    //ï¿½Ü¼ï¿½
     public static MouseClickPaper2 instanceMCP2 ;
     public bool isclick=false;
-    //µ§¨êÃC¦â
+    //ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½
     public bool bluecolor=false;
     public bool redcolor = false;
     public bool yellowcolor = false;
     public bool greencolor = false;
     public bool purplecolor = false;
 
-    //ÃC®Æ¸I¼²
+    //ï¿½Cï¿½Æ¸Iï¿½ï¿½
     private bool isblue=false;
     private bool isred=false;
     private bool isyellow=false;
     private bool isgreen=false;
     private bool ispurple=false;
-    //¦ì¸m
+    //ï¿½ï¿½m
     public bool isb = false;
     public bool isr = false;
     public bool isy = false;
     public bool isg = false;
     public bool isp = false;
-    //ÃC¦â¶ô
+    //ï¿½Cï¿½ï¿½ï¿½
     public GameObject bluecolorblack;
     public GameObject redcolorblack;
     public GameObject yellowcolorblack;
@@ -50,7 +50,7 @@ public class MouseClickPaper2 : MonoBehaviour
             paper.GetComponent<SpriteRenderer>().sprite = FillGreen;
         }
         */
-        //²{¦bµ§¨êÃC¦â
+        //ï¿½{ï¿½bï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½
         #region
         if (isclick && isblue)
         {
@@ -95,7 +95,7 @@ public class MouseClickPaper2 : MonoBehaviour
         }
         #endregion
 
-        //¤W¦â
+        //ï¿½Wï¿½ï¿½
         if (bluecolor && isclick && isb)
         {
             Debug.Log("reaction");
@@ -116,6 +116,7 @@ public class MouseClickPaper2 : MonoBehaviour
         if (purplecolor && isclick && isp)
         {
             purplecolorblack.SetActive(true);
+            GameMgr.å¡«è‰²éŠæˆ²å®Œæˆ = true;
         }
 
 
@@ -124,12 +125,12 @@ public class MouseClickPaper2 : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        //¥´¶}§@¤åÀğ¹CÀ¸
+        //ï¿½ï¿½ï¿½}ï¿½@ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½
         if (other.name.ToLower().Contains("wordpaper") && isclick)
         {
             WordpaperGame.SetActive(true);
         }
-        //ÃC®ÆÃC¦â¥¬ªL¯u°²
+        //ï¿½Cï¿½ï¿½ï¿½Cï¿½â¥¬ï¿½Lï¿½uï¿½ï¿½
         #region
         if (other.name.ToLower().Contains("blue"))
         {
@@ -154,7 +155,7 @@ public class MouseClickPaper2 : MonoBehaviour
         }
         #endregion
 
-        //¬O§_¦ì¸m¥¿½T
+        //ï¿½Oï¿½_ï¿½ï¿½mï¿½ï¿½ï¿½T
         
         if (other.name.ToLower().Contains("fillb"))
         {
@@ -206,7 +207,7 @@ public class MouseClickPaper2 : MonoBehaviour
             ispurple = false;
         }
 
-        //¦ì¸m
+        //ï¿½ï¿½m
         
         if (other.name.ToLower().Contains("fillb"))
         {
