@@ -6,7 +6,7 @@ using Fungus;
 
 public class C2ACMgr : MonoBehaviour
 {
-    public Flowchart flowchart, 碰撞flowchart;
+    public Flowchart flowchart;
 
     public GameObject player,布畫板,破畫板,畫板,瑱色遊戲,櫃子;
     // Start is called before the first frame update
