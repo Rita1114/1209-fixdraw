@@ -11,12 +11,12 @@ public class ChangeMouse : MonoBehaviour
     public CursorMode cursorMode = CursorMode.Auto;
     public Vector2 hotSpot = Vector2.zero;
 
-    public Button CloseB;
+    public Button CloseBt;
 
     public bool isclick=false;
     void Start()
     {
-        CloseB.onClick.AddListener(CloseButten);
+        CloseBt.onClick.AddListener(CloseButten);
     }
 
     
