@@ -34,7 +34,8 @@ public class C1CMgr : MonoBehaviour
         {
             GameMgr.糖給豬公後 = true;
             GameMgr.拿到錢買筆 = true;
-            Coinimage.SetActive(true);
+            GameMgr.拿到糖 = false;//+
+
         }
         if (flowchart.GetBooleanVariable("拿回冊")==true)
         {
@@ -57,7 +58,10 @@ public class C1CMgr : MonoBehaviour
         if (GameMgr.拿到糖 == true)
         {
             flowchart.SetBooleanVariable("拿到糖",true);
-        }
+        }else//+
+        {
+            flowchart.SetBooleanVariable("拿到糖", false);
+        }//
         if (GameMgr.豬公已對話 == true)
         {
             flowchart.SetBooleanVariable("已對話",true);
@@ -65,9 +69,8 @@ public class C1CMgr : MonoBehaviour
         if (GameMgr.糖給豬公後 == true)
         {
             flowchart.SetBooleanVariable("吃到糖",true);
-            //Destroy(MyBook.itemlist.Contains(Candy));
-            
-
+            MyBook.itemlist.Remove(Candy);//移除Candy道具
+            InventoryMgr.RefreshItem();
         }
         if (GameMgr.拿回冊 == true)
         {
@@ -81,6 +84,7 @@ public class C1CMgr : MonoBehaviour
                 MyBook.itemlist.Add(Coin);
                 InventoryMgr.RefreshItem();
                 GameMgr.IsFirstTimeLinePlayed = true;
+                Coinimage.SetActive(true);
             }
         }
     }

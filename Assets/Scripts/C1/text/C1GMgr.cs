@@ -82,6 +82,7 @@ public class C1GMgr : MonoBehaviour
         if(GameMgr.給錢買筆後 == true)
         {
             flowchart.SetBooleanVariable("收集筆",true);
+            
         }
     }
 

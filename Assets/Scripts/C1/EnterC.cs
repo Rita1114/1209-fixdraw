@@ -26,11 +26,11 @@ public class EnterC : MonoBehaviour
         Debug.Log("in");
         SceneManager.LoadScene("C1-C");
       
-            if (!MyBook.itemlist.Contains(Coin))
+            /*if (!MyBook.itemlist.Contains(Coin))
             {
                 MyBook.itemlist.Add(Coin);
                 InventoryMgr.RefreshItem();
-            }//檢查包包有無此物件 若無就加"";
+            }//檢查包包有無此物件 若無就加"";*/
         GameMgr.IsFirstTimeLinePlayed = true;
         }
     }

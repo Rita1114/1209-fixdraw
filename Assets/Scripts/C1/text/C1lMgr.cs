@@ -78,6 +78,10 @@ public class C1lMgr : MonoBehaviour
         {
             flowchart.SetBooleanVariable("拿到糖",true);
         }
+        else//+
+        {
+            flowchart.SetBooleanVariable("拿到糖", false);
+        }//
         if (GameMgr.收集完 == true)
         {
             flowchart.SetBooleanVariable("收集完",true);
