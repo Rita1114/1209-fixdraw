@@ -62,5 +62,9 @@ public class C2ACMgr : MonoBehaviour
             //SceneManager.LoadScene("C3-HS");
             
         }
+        if (flowchart.GetBooleanVariable("找置物櫃") == true)
+        {
+            GameMgr.找過置物櫃 = true;
+        }
     }
 }
