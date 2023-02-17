@@ -69,7 +69,7 @@ public class MoveAnimation : MonoBehaviour
         {
             anim.SetBool("canwalk", false);
         }
-        Debug.Log(walk_direction.magnitude);
+        //Debug.Log(walk_direction.magnitude);
     }
 
     void Start()

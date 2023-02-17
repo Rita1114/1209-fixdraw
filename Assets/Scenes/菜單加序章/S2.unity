@@ -12894,7 +12894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 452342177}
+  selectedFlowchart: {fileID: 8178128323116767927}
 --- !u!4 &2085974039
 Transform:
   m_ObjectHideFlags: 1
@@ -13783,9 +13783,24 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1295674262}
+    - target: {fileID: 8178128323231069697, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
+      propertyPath: nodeRect.y
+      value: 215.51334
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
+--- !u!114 &8178128323116767927 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8178128323231069710, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
+  m_PrefabInstance: {fileID: 8178128323116767926}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8196258584147388076
 PrefabInstance:
   m_ObjectHideFlags: 0
