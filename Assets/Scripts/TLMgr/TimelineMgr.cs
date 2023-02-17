@@ -40,7 +40,7 @@ public class TimelineMgr : MonoBehaviour
         
 
 
-        for (int i=0; i<timelines.Length; i++)
+       for (int i=0; i<timelines.Length; i++)
       {
             if (flowchart.GetBooleanVariable(timelinename[i]))
         {  
@@ -115,6 +115,21 @@ public class TimelineMgr : MonoBehaviour
         {
             Debug.Log("BGM撥放");
             SoundMgr.instance.Bgm01();
+        }
+
+        if (flowchart.GetBooleanVariable("美術老師進") == true)
+        {
+            if(Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                AnimationController.Play(timelines[0]);
+            }
+        }
+        if (flowchart.GetBooleanVariable("美術老師出去") == true)
+        {
+            if(Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                AnimationController.Play(timelines[1]);
+            }
         }
 
     }
