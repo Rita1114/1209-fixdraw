@@ -19,6 +19,7 @@ public class C1lMgr : MonoBehaviour
 
     public GameObject playerObject;
     public GameObject candyimage;
+    public GameObject NoteC1;
 
 
     public Flowchart flowchart;
@@ -85,6 +86,7 @@ public class C1lMgr : MonoBehaviour
         if (GameMgr.收集完 == true)
         {
             flowchart.SetBooleanVariable("收集完",true);
+            NoteC1.SetActive(false);
         }
     }
 
