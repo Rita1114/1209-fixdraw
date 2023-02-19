@@ -13,12 +13,18 @@ public class S3 : MonoBehaviour
     public GameObject Workbook;//打開的作業本
     public Button Closebookbutton;
 
+
     public Button Notebutton;//備忘錄按鈕
     public Button GameSettingbutton;//遊戲設置按鈕
     public Button BackMenu;//回到主菜單
     public GameObject Notecontent;//備忘錄內容
     public GameObject GameSeetingcontent;//遊戲設置內容
     public GameObject OldHouseThing;//老家裡的內容物品
+    //更改備忘錄內容
+    public GameObject NoteC1;
+
+
+
     //Marks
     public Button RedMarkbutton;//紅色標籤
     public Button GreenMarkbutton;//綠
@@ -47,6 +53,10 @@ public class S3 : MonoBehaviour
     void Update()
     {
         //BgmValue.value =S1.BGMSlider2.value;
+        if (GameMgr.收集完==true)//收集完道具的條件
+        {
+            Destroy(NoteC1);
+        }
     }
     #region 我的function
     void OpenWorkBook()

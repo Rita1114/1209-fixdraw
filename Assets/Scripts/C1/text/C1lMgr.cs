@@ -62,12 +62,6 @@ public class C1lMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("拿到糖")==true)
         {
             GameMgr.拿到糖=true;
-            if (!MyBook.itemlist.Contains(Candy))
-            {
-                MyBook.itemlist.Add(Candy);
-                InventoryMgr.RefreshItem();
-                candyimage.SetActive(true);
-            }
         }
         GetCandy();
         
@@ -78,15 +72,18 @@ public class C1lMgr : MonoBehaviour
         if (GameMgr.拿到糖 == true)
         {
             flowchart.SetBooleanVariable("拿到糖",true);
+            if (!MyBook.itemlist.Contains(Candy))
+            {
+                MyBook.itemlist.Add(Candy);
+                InventoryMgr.RefreshItem();
+                candyimage.SetActive(true);
+            }
         }
-        else//+
-        {
-            flowchart.SetBooleanVariable("拿到糖", false);
-        }//
         if (GameMgr.收集完 == true)
         {
             flowchart.SetBooleanVariable("收集完",true);
-            NoteC1.SetActive(false);
+            //NoteC1.SetActive(false);
+            
         }
     }
 

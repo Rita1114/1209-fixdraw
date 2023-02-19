@@ -1988,6 +1988,7 @@ MonoBehaviour:
   flowchart: {fileID: 785767648}
   Penimage: {fileID: 1998273894}
   Pen: {fileID: 11400000, guid: 0002af79eac26a34fb74ca4451ae4e17, type: 2}
+  Coin: {fileID: 11400000, guid: fec489737493b384aa8883c52c1152d1, type: 2}
   MyBook: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
 --- !u!1 &548711469
 GameObject:
@@ -3201,7 +3202,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87.34065
     y: 255.70618
-    width: 86
+    width: 85.320755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3244,7 +3245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.07662
     y: 188.04716
-    width: 86
+    width: 85.320755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3287,7 +3288,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72
     y: 132.42857
-    width: 62
+    width: 61.773586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3342,7 +3343,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 71
-    width: 74
+    width: 73.54717
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3575,7 +3576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -206.1506
     y: 87.43834
-    width: 182
+    width: 179.50945
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3731,7 +3732,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -191.45401
     y: 150.1585
-    width: 170
+    width: 167.73586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4369,7 +4370,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -166.15062
     y: 266.89035
-    width: 158
+    width: 155.96227
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5097,7 +5098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -179.41873
     y: 215.01166
-    width: 146
+    width: 144.18869
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

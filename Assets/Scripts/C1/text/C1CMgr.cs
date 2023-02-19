@@ -58,10 +58,7 @@ public class C1CMgr : MonoBehaviour
         if (GameMgr.拿到糖 == true)
         {
             flowchart.SetBooleanVariable("拿到糖",true);
-        }else//+
-        {
-            flowchart.SetBooleanVariable("拿到糖", false);
-        }//
+        }
         if (GameMgr.豬公已對話 == true)
         {
             flowchart.SetBooleanVariable("已對話",true);
