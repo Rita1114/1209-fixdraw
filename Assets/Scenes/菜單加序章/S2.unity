@@ -1052,10 +1052,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 452342317}
-  selectedCommands:
-  - {fileID: 452342316}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 452342236}
   - {fileID: 452342312}
@@ -9179,6 +9177,10 @@ PrefabInstance:
       propertyPath: flowchart
       value: 
       objectReference: {fileID: 452342177}
+    - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8196258584827399744, guid: 566c16a35464a9041b958ad1100e9496, type: 3}
       propertyPath: timelines.Array.size
       value: 5
