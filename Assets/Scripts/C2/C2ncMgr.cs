@@ -10,8 +10,13 @@ public class C2ncMgr : MonoBehaviour
     public Flowchart flowchart;
     public GameObject image,player;
     public PlayableDirector animationController;
-    
-    
+
+    public Inventory MyBook;
+    public Item workbook;
+    public Item watercolorbox;
+    public Item watercolorpaper;
+    public Item watercolorpen;
+    public Item artroomkey;
     void Start()
     {
        
@@ -51,6 +56,12 @@ public class C2ncMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("拿到水彩筆")==true)
         {
             GameMgr.拿到水彩筆 = true;
+            //道具添加
+            if (!MyBook.itemlist.Contains(watercolorpen))
+            {
+                MyBook.itemlist.Add(watercolorpen);
+                InventoryMgr.RefreshItem();
+            }
         }//對話完畢給管理員知道
         
         

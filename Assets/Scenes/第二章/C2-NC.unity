@@ -166,6 +166,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3820832982607836055, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3820832982998347802, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -253,6 +257,10 @@ PrefabInstance:
     - target: {fileID: 3820832982998347805, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_Name
       value: Book2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820832983226301028, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -3279,6 +3287,12 @@ MonoBehaviour:
   image: {fileID: 206223817}
   player: {fileID: 604113096}
   animationController: {fileID: 209629765}
+  MyBook: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
+  workbook: {fileID: 11400000, guid: 6f1c4cfb9ed208f40975a45b0cb0a0a4, type: 2}
+  watercolorbox: {fileID: 11400000, guid: ace97f3b7f02bee449e1d47c20934a13, type: 2}
+  watercolorpaper: {fileID: 11400000, guid: 56fa6b4c5d0d7f64689c246f866d586d, type: 2}
+  watercolorpen: {fileID: 11400000, guid: e3a30c8acf1769e46b2c345177d0ecff, type: 2}
+  artroomkey: {fileID: 11400000, guid: e57138fec071f6c44adbeca9d7ed9249, type: 2}
 --- !u!4 &209629764
 Transform:
   m_ObjectHideFlags: 0
