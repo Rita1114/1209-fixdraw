@@ -16,6 +16,7 @@ public class TimelineMgr : MonoBehaviour
     private float duration=5;
     public GameObject player;
     public GameObject Bubble;
+    public GameObject C3填色遊戲;
     
     public bool gamestart;
     
@@ -131,6 +132,28 @@ public class TimelineMgr : MonoBehaviour
                 AnimationController.Play(timelines[1]);
             }
         }
+        //C3變數
+        if (flowchart.GetBooleanVariable("婆婆出去") == true)
+        {
+            if(Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                AnimationController.Play(timelines[0]);
+            }
+        }
+        if (flowchart.GetBooleanVariable("填色遊戲開始") == true)
+        {
+            C3填色遊戲.SetActive(true);
+            player.GetComponent<playerCtr1>().enabled=false;
+        }
+        if (GameMgr.C3填色遊戲中=true)
+        { 
+           flowchart.SetBooleanVariable("填色遊戲中",true);
+        } 
+        if (flowchart.GetBooleanVariable("填色遊戲完成") == true)
+        {
+            player.GetComponent<playerCtr1>().enabled=true;
+        }
+        
 
     }
     private void FixedUpdate()

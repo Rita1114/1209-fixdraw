@@ -33,5 +33,11 @@ public static class GameMgr
     public static bool 走過走廊=false;//C2-C
     public static bool 第一次對話, 第二次對話, 第三次對話, 拿到作業簿;//C2-TO
     public static bool 填色遊戲開始, 填色遊戲完成, 電話響,找過置物櫃;//C2-AC
+    
+    
+    //C3變數
+
+    public static bool 婆婆出去後,C3填色遊戲中,C3填色遊戲完成,電話=false;
+
 
 }
