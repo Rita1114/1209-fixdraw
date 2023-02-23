@@ -8754,7 +8754,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &748438131
 Transform:
   m_ObjectHideFlags: 0
@@ -9147,6 +9147,10 @@ PrefabInstance:
     - target: {fileID: 3820832982998347805, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_Name
       value: Book2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820832982998347805, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
