@@ -34,7 +34,7 @@ public class C1CMgr : MonoBehaviour
         {
             GameMgr.糖給豬公後 = true;
             GameMgr.拿到錢買筆 = true;
-            GameMgr.拿到糖 = false;//+
+            
 
         }
         if (flowchart.GetBooleanVariable("拿回冊")==true)

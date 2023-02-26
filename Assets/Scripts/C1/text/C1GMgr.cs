@@ -54,13 +54,7 @@ public class C1GMgr : MonoBehaviour
         {
             GameMgr.IsGetpan=true;
             GameMgr.給錢買筆後 = true;
-            if (!MyBook.itemlist.Contains(Pen))
-            {
-                MyBook.itemlist.Add(Pen);
-                InventoryMgr.RefreshItem();
-                Penimage.SetActive(true);
-                Debug.Log("123");
-            }
+            
 
         }
         if (flowchart.GetBooleanVariable("對話")==true)
@@ -83,8 +77,14 @@ public class C1GMgr : MonoBehaviour
         if(GameMgr.給錢買筆後 == true)
         {
             flowchart.SetBooleanVariable("收集筆",true);
-            MyBook.itemlist.Remove(Coin);
-            InventoryMgr.RefreshItem();
+            
+            if (!MyBook.itemlist.Contains(Pen))
+            {
+                MyBook.itemlist.Remove(Coin);
+                MyBook.itemlist.Add(Pen);
+                InventoryMgr.RefreshItem();
+                Penimage.SetActive(true);
+            }
         }
     }
 

@@ -7,7 +7,12 @@ using Fungus;
 public class C2toMgr : MonoBehaviour
 {
     public Flowchart flowchart;
-    // Start is called before the first frame update
+
+
+
+
+    public Inventory MyBook;
+    public Item workbook;
     void Start()
     {
         
@@ -53,6 +58,12 @@ public class C2toMgr : MonoBehaviour
         if (GameMgr.拿到作業簿==true)
         {
             flowchart.SetBooleanVariable("拿到作業",true);
+            //道具添加
+            if (!MyBook.itemlist.Contains(workbook))
+            {
+                MyBook.itemlist.Add(workbook);
+                InventoryMgr.RefreshItem();
+            }
         }//透過管理員紀錄設定，避免變數消失
     }
     }

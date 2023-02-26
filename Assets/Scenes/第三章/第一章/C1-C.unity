@@ -231,7 +231,6 @@ GameObject:
   - component: {fileID: 146381097}
   - component: {fileID: 146381096}
   - component: {fileID: 146381094}
-  - component: {fileID: 146381093}
   - component: {fileID: 146381092}
   - component: {fileID: 146381091}
   - component: {fileID: 146381090}
@@ -391,7 +390,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 51.15263
     y: 146.79254
-    width: 73.54718
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -462,7 +461,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.73972
     y: 71
-    width: 73.54718
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -486,11 +485,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -133.93408, y: -114.17736}
+  scrollPos: {x: 506.85712, y: 32.562172}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404.8
-  zoom: 0.9999995
+  zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -498,7 +497,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 146381097}
+  - {fileID: 146381113}
   selectedCommands: []
   variables:
   - {fileID: 146381084}
@@ -1189,33 +1188,6 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 5119919048297429816}
   waitFrames: 1
---- !u!114 &146381093
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146381070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 21
-  indentLevel: 1
-  storyText: "\u300C\u6211\u8981\u5F9E\u54EA\u88E1\u624D\u80FD\u62FF\u5230\u7CD6\u679C......\u300D"
-  description: 
-  character: {fileID: 1166975431}
-  portrait: {fileID: 21300000, guid: f933d46c2a6c740449c6888119051d9c, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &146381094
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1286,7 +1258,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.15456
     y: 201.41092
-    width: 191.28308
+    width: 190.6437
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1300,7 +1272,6 @@ MonoBehaviour:
   - {fileID: 146381096}
   - {fileID: 146381090}
   - {fileID: 146381089}
-  - {fileID: 146381093}
   - {fileID: 146381108}
   suppressAllAutoSelections: 0
 --- !u!114 &146381098
@@ -1848,7 +1819,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.4901958
     y: 260.54126
-    width: 167.7359
+    width: 167.2031
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2930,7 +2901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.99146
     y: 138.46083
-    width: 61.77359
+    width: 61.72031
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

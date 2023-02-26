@@ -57,6 +57,7 @@ public class S3 : MonoBehaviour
         {
             Destroy(NoteC1);
         }
+        
     }
     #region 我的function
     void OpenWorkBook()
@@ -112,19 +113,6 @@ public class S3 : MonoBehaviour
         OldHouseThing.SetActive(true);
     }
     #endregion
-    /*
-    private void Awake()
-    {
-        if (GameMgr.IsBag)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            DontDestroyOnLoad(this.gameObject);//不要刪除此物件
-            GameMgr.IsBag = true;
-        }
-
-    }*/
+    
 
 }

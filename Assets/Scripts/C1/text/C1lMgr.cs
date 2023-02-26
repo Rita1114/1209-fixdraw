@@ -25,6 +25,9 @@ public class C1lMgr : MonoBehaviour
     public Flowchart flowchart;
 
     public Item Candy;
+    public Item Coin;
+    public Item Drawbook;
+    public Item Pen;
     public Inventory MyBook;
     // Start is called before the first frame update
     void Start()
@@ -63,7 +66,19 @@ public class C1lMgr : MonoBehaviour
         {
             GameMgr.拿到糖=true;
         }
-        GetCandy();
+        //移除所有道具
+        if (flowchart.GetBooleanVariable("填色遊戲") == true)
+        {
+            MyBook.itemlist.Remove(Drawbook);
+            MyBook.itemlist.Remove(Pen);
+            InventoryMgr.RefreshItem();
+        }
+        if (flowchart.GetBooleanVariable("收集完") == true)
+        {
+            GameMgr.收集完 = true;
+
+        }
+            GetCandy();
         
     }
 
@@ -72,7 +87,7 @@ public class C1lMgr : MonoBehaviour
         if (GameMgr.拿到糖 == true)
         {
             flowchart.SetBooleanVariable("拿到糖",true);
-            if (!MyBook.itemlist.Contains(Candy))
+            if (!MyBook.itemlist.Contains(Candy) && !MyBook.itemlist.Contains(Coin))
             {
                 MyBook.itemlist.Add(Candy);
                 InventoryMgr.RefreshItem();
@@ -82,7 +97,7 @@ public class C1lMgr : MonoBehaviour
         if (GameMgr.收集完 == true)
         {
             flowchart.SetBooleanVariable("收集完",true);
-            //NoteC1.SetActive(false);
+            
             
         }
     }

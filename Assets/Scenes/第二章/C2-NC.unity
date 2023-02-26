@@ -307,6 +307,7 @@ GameObject:
   - component: {fileID: 50679261}
   - component: {fileID: 50679263}
   - component: {fileID: 50679264}
+  - component: {fileID: 50679265}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -522,10 +523,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 50679255}
-  selectedCommands:
-  - {fileID: 50679253}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 50679243}
   - {fileID: 50679242}
@@ -533,6 +532,7 @@ MonoBehaviour:
   - {fileID: 50679260}
   - {fileID: 50679261}
   - {fileID: 50679264}
+  - {fileID: 50679265}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2155,6 +2155,21 @@ MonoBehaviour:
   scope: 0
   key: load
   value: 0
+--- !u!114 &50679265
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: "\u62FF\u5230\u6C34\u5F69\u984F\u6599"
+  value: 0
 --- !u!1 &56970507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2844,7 +2859,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3287,6 +3302,7 @@ MonoBehaviour:
   image: {fileID: 206223817}
   player: {fileID: 604113096}
   animationController: {fileID: 209629765}
+  WaterBoxBt: {fileID: 1623818453}
   MyBook: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
   workbook: {fileID: 11400000, guid: 6f1c4cfb9ed208f40975a45b0cb0a0a4, type: 2}
   watercolorbox: {fileID: 11400000, guid: ace97f3b7f02bee449e1d47c20934a13, type: 2}
