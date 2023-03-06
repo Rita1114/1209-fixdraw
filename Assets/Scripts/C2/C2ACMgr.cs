@@ -8,7 +8,8 @@ public class C2ACMgr : MonoBehaviour
 {
     public Flowchart flowchart,觸發點;
 
-    public GameObject player,布畫板,破畫板,畫板,瑱色遊戲,櫃子;
+    public GameObject player,布畫板,破畫板,畫板,瑱色遊戲,櫃子,中卓;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +39,7 @@ public class C2ACMgr : MonoBehaviour
         {
            flowchart.SetBooleanVariable("有水彩筆",true);
         }
-        if (flowchart.GetBooleanVariable("開始填色遊戲") == true&& flowchart.GetBooleanVariable("有水彩筆")==true )
+        if (flowchart.GetBooleanVariable("開始填色遊戲") == true&& flowchart.GetBooleanVariable("有水彩筆")==true&&flowchart.GetBooleanVariable("有顏料") )
         {
           瑱色遊戲.SetActive(true);
         }
