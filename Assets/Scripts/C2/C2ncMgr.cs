@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class C2ncMgr : MonoBehaviour
 {
     public Flowchart flowchart;
-    public GameObject image,player;
+    public GameObject image,player,中卓;
     public PlayableDirector animationController;
 
     public Button WaterBoxBt;
@@ -42,7 +42,8 @@ public class C2ncMgr : MonoBehaviour
                     if (Input.GetKeyDown(KeyCode.Mouse0))
                     {
                         animationController.Play();
-                        GameMgr.中卓走美教動畫已經播過 = true;//告訴管理員走過不播動畫
+                        GameMgr.中卓走美教動畫已經播過 = true;
+                        中卓.SetActive(false);//告訴管理員走過不播動畫
                     }
                 }
 

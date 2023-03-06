@@ -29,7 +29,7 @@ public static class GameMgr
     
     //C2變數
     public static bool 中卓走美教動畫已經播過,和小老師對話,拿到水彩筆,拿到水彩顏料 = false; //C2-NC
-    public static bool 走過走廊=false;//C2-C
+    public static bool 走過走廊,進過美術教室=false;//C2-C
     public static bool 第一次對話,第一次對話完,第二次對話,第二次對話完, 第三次對話, 拿到作業簿;//C2-TO
     public static bool 填色遊戲開始, 填色遊戲完成, 電話響,找過置物櫃;//C2-AC
     

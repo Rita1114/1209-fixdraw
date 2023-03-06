@@ -57,14 +57,25 @@ public class C2ACMgr : MonoBehaviour
 
         if (flowchart.GetBooleanVariable("進第三章") == true)
         {
-            SceneManager.LoadScene("C2AsyncLoader");
-            Engine.NextLevelName = "C3-HS";
-            //SceneManager.LoadScene("C3-HS");
-            
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                SceneManager.LoadScene("C2AsyncLoader");
+                Engine.NextLevelName = "C3-HS";
+                //SceneManager.LoadScene("C3-HS");
+            }
         }
         if (flowchart.GetBooleanVariable("找置物櫃") == true)
         {
             GameMgr.找過置物櫃 = true;
+        }
+        if (flowchart.GetBooleanVariable("進美術教室過") == true)
+        {
+            GameMgr.進過美術教室 = true;
+        }
+
+        if (GameMgr.進過美術教室 == true)
+        {
+            flowchart.SetBooleanVariable("進美術教室過",true);
         }
     }
 }
