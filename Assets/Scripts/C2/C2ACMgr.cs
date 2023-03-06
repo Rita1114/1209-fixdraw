@@ -76,6 +76,32 @@ public class C2ACMgr : MonoBehaviour
         if (GameMgr.進過美術教室 == true)
         {
             flowchart.SetBooleanVariable("進美術教室過",true);
+            flowchart.SetBooleanVariable("start",true);
         }
+        if (flowchart.GetBooleanVariable("掀開") == true)
+        {
+            GameMgr.掀開畫布 = true;
+        }
+
+        if (GameMgr.掀開畫布 == true)
+        {
+            flowchart.SetBooleanVariable("掀開",true);
+        }
+        
+        if (flowchart.GetBooleanVariable("填色遊戲好") == true)
+        {
+            GameMgr.補完畫 = true;
+        }
+        if (GameMgr.補完畫 == true)
+        {
+            flowchart.SetBooleanVariable("掀開",true);
+            flowchart.SetBooleanVariable("填色遊戲好",true);
+        }
+
+        if (GameMgr.拿到水彩顏料 == true)
+        {
+            flowchart.SetBooleanVariable("有顏料",true);
+        }
+
     }
 }
