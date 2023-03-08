@@ -7143,23 +7143,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3282843473185516319, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2170376
+      value: 0.969626
       objectReference: {fileID: 0}
     - target: {fileID: 3282843473185516319, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2170376
+      value: 0.969626
       objectReference: {fileID: 0}
     - target: {fileID: 3282843473185516319, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2170376
+      value: 0.969626
       objectReference: {fileID: 0}
     - target: {fileID: 3282843473185516319, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.51
+      value: 2.4754
       objectReference: {fileID: 0}
     - target: {fileID: 3282843473185516319, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.02
+      value: -2.0769
       objectReference: {fileID: 0}
     - target: {fileID: 3282843473185516319, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7405,8 +7405,8 @@ PolygonCollider2D:
       - {x: 19.487665, y: -9.354912}
       - {x: 20.083643, y: -9.215058}
       - {x: 24.682446, y: -6.513696}
-      - {x: 29.961662, y: -9.512871}
-      - {x: -2.4606361, y: -28.262815}
+      - {x: 29.843122, y: -9.469766}
+      - {x: -2.5016332, y: -28.167154}
       - {x: -2.6367457, y: -28.147316}
       - {x: -2.6863515, y: -27.208843}
       - {x: -3.2104528, y: -27.132652}
