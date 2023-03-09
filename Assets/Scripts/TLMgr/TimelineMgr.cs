@@ -152,6 +152,7 @@ public class TimelineMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("填色遊戲完成") == true)
         {
             player.GetComponent<playerCtr1>().enabled=true;
+            GameMgr.電話 = true;
         }
         
 

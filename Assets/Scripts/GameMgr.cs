@@ -36,7 +36,7 @@ public static class GameMgr
     
     //C3變數
 
-    public static bool 婆婆出去後,C3填色遊戲中,C3填色遊戲完成,電話=false;
+    public static bool 婆婆出去後,C3填色遊戲中,C3填色遊戲完成,電話,電話響過=false;
 
 
 }
