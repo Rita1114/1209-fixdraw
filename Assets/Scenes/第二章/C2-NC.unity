@@ -311,6 +311,12 @@ GameObject:
   - component: {fileID: 50679266}
   - component: {fileID: 50679268}
   - component: {fileID: 50679267}
+  - component: {fileID: 50679270}
+  - component: {fileID: 50679269}
+  - component: {fileID: 50679271}
+  - component: {fileID: 50679273}
+  - component: {fileID: 50679272}
+  - component: {fileID: 50679274}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -515,10 +521,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 83.065315, y: -181.4141}
+  scrollPos: {x: 62.81214, y: -319.38855}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 338.8
+  blockViewHeight: 381.8
   zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
@@ -527,8 +533,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 50679255}
-  selectedCommands: []
+  - {fileID: 50679273}
+  selectedCommands:
+  - {fileID: 50679272}
   variables:
   - {fileID: 50679243}
   - {fileID: 50679242}
@@ -2244,6 +2251,146 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 573022248}
   waitFrames: 1
+--- !u!114 &50679269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 29
+  indentLevel: 0
+  storyText: "\u6728\u982D\u7684\u684C\u5B50\u90FD\u6703\u88AB\u5927\u5BB6\u505A\u8A18\u865F\u6216\u8005\u4E82\u5BEB\u5B57\uFF0C\u6709\u4E9B\u4EBA\u9084\u6703\u5728\u4E0A\u9762\u5077\u544A\u767D\u5462\uFF01\r\u300D"
+  description: 
+  character: {fileID: 943265432}
+  portrait: {fileID: 21300000, guid: d3fbf8ebee1004d4ead6a07e39259d87, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &50679270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -7.3973846
+    y: 377.04285
+    width: 74.30379
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 30
+  blockName: "\u684C\u5B50"
+  description: 
+  eventHandler: {fileID: 50679271}
+  commandList:
+  - {fileID: 50679269}
+  suppressAllAutoSelections: 0
+--- !u!114 &50679271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 50679270}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 573022248}
+  waitFrames: 1
+--- !u!114 &50679272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  indentLevel: 0
+  storyText: "\u539A\u539A\u4E00\u758A\u7684\u8003\u5377\u662F\u5927\u5BB6\u5C0F\u6642\u5019\u7684\u60E1\u5922\u5427\uFF01\u6709\u4E9B\u4EBA\u751A\u81F3\u53EA\u5BEB\u4E0A\u540D\u5B57\u5C31\u8DB4\u5728\u684C\u4E0A\u7761\u89BA\u4E86......\r\u300D"
+  description: 
+  character: {fileID: 943265432}
+  portrait: {fileID: 21300000, guid: d3fbf8ebee1004d4ead6a07e39259d87, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &50679273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 155.64056
+    y: 418.81494
+    width: 74.30379
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 33
+  blockName: "\u8003\u5377"
+  description: 
+  eventHandler: {fileID: 50679274}
+  commandList:
+  - {fileID: 50679272}
+  suppressAllAutoSelections: 0
+--- !u!114 &50679274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 50679273}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 0}
+  waitFrames: 1
 --- !u!1 &56970507
 GameObject:
   m_ObjectHideFlags: 0
@@ -3430,6 +3577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 272772338}
   - component: {fileID: 272772339}
+  - component: {fileID: 272772340}
   m_Layer: 0
   m_Name: desk
   m_TagString: Untagged
@@ -3504,6 +3652,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &272772340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272772337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
 --- !u!1 &277576620
 GameObject:
   m_ObjectHideFlags: 0
