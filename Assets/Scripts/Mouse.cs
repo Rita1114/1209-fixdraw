@@ -37,8 +37,11 @@ public class Mouse : MonoBehaviour
        icon.SetActive(true);
 
     }
-    
-    
+
+    /*private void OnMouseDrag()
+    {
+        icon.SetActive(true);
+    }*/
     void OnMouseExit()
     {
         //Cursor.SetCursor(null, hotSpot, cursorMode);
