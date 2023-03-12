@@ -857,7 +857,6 @@ GameObject:
   m_Component:
   - component: {fileID: 519599394}
   - component: {fileID: 519599396}
-  - component: {fileID: 519599395}
   m_Layer: 0
   m_Name: Bgm
   m_TagString: Untagged
@@ -880,18 +879,6 @@ Transform:
   m_Father: {fileID: 1890946359}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519599395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519599393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a01ae014d3cd1ef43a389459f71f9e42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &519599396
 AudioSource:
   m_ObjectHideFlags: 0
@@ -902,7 +889,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3577110507076102164, guid: 036556e805b6c0844acd4fba32ba899b, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 1473057f0ec79184ea03204d42ae1041, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a04e3f24a51c48641b1cfe45be02bcd2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -8166,6 +8153,7 @@ GameObject:
   - component: {fileID: 5699781049309378564}
   - component: {fileID: 5699781049309378567}
   - component: {fileID: 5699781049309378566}
+  - component: {fileID: 5699781049309378568}
   m_Layer: 0
   m_Name: "\u51FA\u53E3"
   m_TagString: Portal
@@ -8273,6 +8261,18 @@ MonoBehaviour:
   ChangeAni: {fileID: 0}
   image: {fileID: 0}
   flowchart: {fileID: 0}
+--- !u!114 &5699781049309378568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5699781049309378562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f6c9136479ff249bd82ac358a584b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5699781049386611072
 GameObject:
   m_ObjectHideFlags: 0

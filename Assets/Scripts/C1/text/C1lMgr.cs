@@ -79,7 +79,7 @@ public class C1lMgr : MonoBehaviour
 
         }
             GetCandy();
-        
+       
     }
 
     public  void GetCandy()

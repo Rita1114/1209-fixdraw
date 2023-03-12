@@ -59,15 +59,12 @@ public class playerCtr1 : MonoBehaviour
 
     void Update()
     {
-    }
-
-    void OPBG()
-    {
         if (Input.GetKeyDown(KeyCode.P))
         {
             Isopen = !Isopen;
             Bag.SetActive(Isopen);
         }
     }
-   
+
+
 }
