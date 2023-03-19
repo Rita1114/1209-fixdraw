@@ -34,6 +34,10 @@ public class BgmHandle : MonoBehaviour
         {
             Destroy(This);
         }
+        if (flowchart.GetBooleanVariable("¹q¸Ü") == true)
+        {
+            Destroy(This);
+        }
 
     }
     private void Awake()
