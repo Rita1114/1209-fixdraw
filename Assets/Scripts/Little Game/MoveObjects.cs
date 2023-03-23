@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MoveObjects : MonoBehaviour
 {
-    #region ÅÜ¼Æ
+    #region ï¿½Ü¼ï¿½
 
     private bool isMouseDown = false;
-    public bool isCliked = false;//³Q©ñ¶}
+    public bool isCliked = false;//ï¿½Qï¿½ï¿½}
     private Vector3 newposition;
     private GameObject target = null;
 
@@ -23,15 +23,15 @@ public class MoveObjects : MonoBehaviour
     void Update()
     {
         transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1));
-        isMouseDown = Input.GetMouseButton(0); //«ö¤U·Æ¹«¥ªÁä¡AisMouse¬°true
-        if (!isMouseDown && isCliked)  //item³Q©ì°Ê¤¤©ñ¶}
+        isMouseDown = Input.GetMouseButton(0); //ï¿½ï¿½ï¿½Uï¿½Æ¹ï¿½ï¿½ï¿½ï¿½ï¿½AisMouseï¿½ï¿½true
+        if (!isMouseDown && isCliked)  //itemï¿½Qï¿½ï¿½Ê¤ï¿½ï¿½ï¿½}
         {
             isCliked = false;
         }
-        //item¸òµÛmouse¨«,
+        //itemï¿½ï¿½ï¿½mouseï¿½ï¿½,
         if (isCliked)
         {
-            target.transform.position = transform.position; //«÷¹Ï¦ì¸m¸òµÛ·Æ¹«¨«
+            target.transform.position = transform.position; //ï¿½ï¿½ï¿½Ï¦ï¿½mï¿½ï¿½Û·Æ¹ï¿½ï¿½ï¿½
         }
     }
 
@@ -41,16 +41,17 @@ public class MoveObjects : MonoBehaviour
         if (other.name.ToLower().Contains("watercolor paper")&& isMouseDown)
         {
             GetTool.SetActive(true);
+            GameMgr.æ‰¾åˆ°æ°´å½©ç´™ = true;
         }
     }
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (isMouseDown && !isCliked && other.gameObject.tag == "paper") //·Æ¹«¨S¦³©ñ¶}¥B¬O«÷¹Ï
+        if (isMouseDown && !isCliked && other.gameObject.tag == "paper") //ï¿½Æ¹ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½}ï¿½Bï¿½Oï¿½ï¿½ï¿½ï¿½
         {
             isCliked = true;
-            target = GameObject.Find(other.gameObject.name); //target=«÷¹Ï¦W¦r
+            target = GameObject.Find(other.gameObject.name); //target=ï¿½ï¿½ï¿½Ï¦Wï¿½r
             Debug.Log("AAA");
-            newposition = other.transform.position; //ÂÂªº¦ì¸m=§ì¨ú«÷¹Ï­ì¨Óªº¦ì¸m
+            newposition = other.transform.position; //ï¿½Âªï¿½ï¿½ï¿½m=ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï­ï¿½Óªï¿½ï¿½ï¿½m
         }
     }
 

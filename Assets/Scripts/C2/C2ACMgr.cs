@@ -39,7 +39,12 @@ public class C2ACMgr : MonoBehaviour
         {
            flowchart.SetBooleanVariable("有水彩筆",true);
         }
-        if (flowchart.GetBooleanVariable("開始填色遊戲") == true&& flowchart.GetBooleanVariable("有水彩筆")==true&&flowchart.GetBooleanVariable("有顏料") )
+
+        if (GameMgr.找到水彩紙 == true)
+        {
+            flowchart.SetBooleanVariable("有水彩紙",true);
+        }
+        if (flowchart.GetBooleanVariable("開始填色遊戲") == true&& flowchart.GetBooleanVariable("有水彩筆")==true&&flowchart.GetBooleanVariable("有顏料")&&flowchart.GetBooleanVariable("有水彩紙") )
         {
           瑱色遊戲.SetActive(true);
         }

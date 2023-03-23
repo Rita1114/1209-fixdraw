@@ -9,7 +9,7 @@ public class C2cMgr : MonoBehaviour
 {
     public Flowchart flowchart;
     public PlayableDirector animationController;
-    public GameObject player;
+    public  GameObject player,Bulletinboard;
     public C2cMgr c2CMgr;
     void Start()
     {
@@ -47,5 +47,18 @@ public class C2cMgr : MonoBehaviour
         {
             animationController.enabled = false;
         }
+        if (flowchart.GetBooleanVariable("布告欄") == true&&flowchart.GetBooleanVariable("找布告欄過")==false)
+        {
+            Bulletinboard.SetActive(true);
+        }
+
+        if (GameMgr.找過布告欄==true)
+        {
+            flowchart.SetBooleanVariable("找布告欄過",true);
+        }
+    }
+    public  void bulletinboard()
+    {
+       
     }
 }
