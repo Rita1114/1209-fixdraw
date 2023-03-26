@@ -52,7 +52,7 @@ public class C2cMgr : MonoBehaviour
             Bulletinboard.SetActive(true);
         }
 
-        if (GameMgr.找過布告欄==true)
+        if (GameMgr.找到水彩紙==true)
         {
             flowchart.SetBooleanVariable("找布告欄過",true);
         }

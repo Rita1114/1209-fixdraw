@@ -44,7 +44,7 @@ public class C2ACMgr : MonoBehaviour
         {
             flowchart.SetBooleanVariable("有水彩紙",true);
         }
-        if (flowchart.GetBooleanVariable("開始填色遊戲") == true&& flowchart.GetBooleanVariable("有水彩筆")==true&&flowchart.GetBooleanVariable("有顏料")&&flowchart.GetBooleanVariable("有水彩紙") )
+        if (flowchart.GetBooleanVariable("開始填色遊戲") == true&& flowchart.GetBooleanVariable("有水彩筆")==true&&flowchart.GetBooleanVariable("有顏料")==true&&flowchart.GetBooleanVariable("有水彩紙")==true )
         {
           瑱色遊戲.SetActive(true);
         }
@@ -56,9 +56,10 @@ public class C2ACMgr : MonoBehaviour
 
         if (flowchart.GetBooleanVariable("填色遊戲好") == true)
         {
-            Destroy(破畫板);
-            //破畫板.SetActive(false);
+            //Destroy(破畫板);
+            破畫板.SetActive(false);
             畫板.SetActive(true);
+            
         }
 
         if (flowchart.GetBooleanVariable("進第三章") == true)
@@ -103,11 +104,16 @@ public class C2ACMgr : MonoBehaviour
         {
             flowchart.SetBooleanVariable("掀開",true);
             flowchart.SetBooleanVariable("填色遊戲好",true);
+
         }
 
         if (GameMgr.拿到水彩顏料 == true)
         {
             flowchart.SetBooleanVariable("有顏料",true);
+        } 
+        if (GameMgr.找到水彩紙 == true)
+        {
+            flowchart.SetBooleanVariable("有水彩紙",true);
         }
 
     }
