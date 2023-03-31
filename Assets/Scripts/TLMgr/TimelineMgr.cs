@@ -117,7 +117,7 @@ public class TimelineMgr : MonoBehaviour
             Debug.Log("BGM撥放");
             SoundMgr.instance.Bgm01();
         }
-
+        //C2變數
         if (flowchart.GetBooleanVariable("美術老師進") == true)
         {
             if(Input.GetKeyDown(KeyCode.Mouse0))
@@ -132,6 +132,13 @@ public class TimelineMgr : MonoBehaviour
                 AnimationController.Play(timelines[1]);
             }
         }
+        if (flowchart.GetBooleanVariable("我沒關係出") == true)
+                {
+                    if(Input.GetKeyDown(KeyCode.Mouse0))
+                    {
+                        AnimationController.Play(timelines[2]);
+                    }
+                }
         //C3變數
         if (flowchart.GetBooleanVariable("婆婆出去") == true)
         {
