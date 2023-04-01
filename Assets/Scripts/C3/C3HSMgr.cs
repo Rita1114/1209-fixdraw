@@ -21,7 +21,7 @@ public class C3HSMgr : MonoBehaviour
             flowchart.SetBooleanVariable("電話",true);
         }
 
-        if (flowchart.GetBooleanVariable("電話")==true)
+        if (flowchart.GetBooleanVariable("電話響過")==true)
         {
             GameMgr.電話響過 = true;
         }
