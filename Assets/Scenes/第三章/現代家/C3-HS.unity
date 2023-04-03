@@ -742,7 +742,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 312541436}
   selectedCommands:
-  - {fileID: 312541413}
+  - {fileID: 312541429}
   variables:
   - {fileID: 312541414}
   - {fileID: 312541438}
@@ -1510,7 +1510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 2
-  storyText: "\u963F\u6BCD\uFF1A\u300C\u597D\u5566\uFF01\u6CE8\u610F\u8EAB\u9AD4\uFF0C\u6709\u7A7A\u56DE\u5BB6\u563F\uFF01\u518D\u898B\u5594\uFF01\u300D"
+  storyText: "\n\u300C\u597D\u5566\uFF01\u6CE8\u610F\u8EAB\u9AD4\uFF0C\u6709\u7A7A\u56DE\u5BB6\u563F\uFF01\u518D\u898B\u5594\uFF01\u300D"
   description: 
   character: {fileID: 584614512}
   portrait: {fileID: 0}
