@@ -9,7 +9,11 @@ public class C2ACMgr : MonoBehaviour
     public Flowchart flowchart,觸發點;
 
     public GameObject player,布畫板,破畫板,畫板,瑱色遊戲,櫃子,中卓;
-    
+
+    public Inventory MyBook;
+    public Item watercolorbox;
+    public Item watercolorpen;
+    public Item watercolorpaper;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +56,10 @@ public class C2ACMgr : MonoBehaviour
         if (GameMgr.填色遊戲完成)
         {
             flowchart.SetBooleanVariable("填色遊戲好",true);
+            MyBook.itemlist.Remove(watercolorbox);
+            MyBook.itemlist.Remove(watercolorpen);
+            MyBook.itemlist.Remove(watercolorpaper);
+            InventoryMgr.RefreshItem();
         }
 
         if (flowchart.GetBooleanVariable("填色遊戲好") == true)
@@ -61,8 +69,13 @@ public class C2ACMgr : MonoBehaviour
             畫板.SetActive(true);
             
         }
+        //BGM
+        if (flowchart.GetBooleanVariable("電話") == true)
+        {
+            GameMgr.第二章BGM結束 = true;
+        }
 
-        if (flowchart.GetBooleanVariable("進第三章") == true)
+            if (flowchart.GetBooleanVariable("進第三章") == true)
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {

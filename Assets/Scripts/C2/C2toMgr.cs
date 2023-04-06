@@ -10,7 +10,7 @@ public class C2toMgr : MonoBehaviour
 
 
 
-
+    public GameObject GetTool;
     public Inventory MyBook;
     public Item workbook;
     void Start()
@@ -57,6 +57,7 @@ public class C2toMgr : MonoBehaviour
         if (GameMgr.拿到作業簿==true)
         {
             flowchart.SetBooleanVariable("拿到作業",true);
+            GetTool.SetActive(true);
             //道具添加
             if (!MyBook.itemlist.Contains(workbook))
             {

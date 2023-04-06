@@ -11,6 +11,8 @@ public class C2cMgr : MonoBehaviour
     public PlayableDirector animationController;
     public  GameObject player,Bulletinboard;
     public C2cMgr c2CMgr;
+
+    
     void Start()
     {
          

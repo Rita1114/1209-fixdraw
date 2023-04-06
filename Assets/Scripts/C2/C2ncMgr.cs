@@ -17,9 +17,10 @@ public class C2ncMgr : MonoBehaviour
     public Inventory MyBook;
     public Item workbook;
     public Item watercolorbox;
-    public Item watercolorpaper;
     public Item watercolorpen;
     public Item artroomkey;
+
+    public GameObject GetTool;
     void Start()
     {
         WaterBoxBt.onClick.AddListener(GetBox);
@@ -81,6 +82,7 @@ public class C2ncMgr : MonoBehaviour
                 MyBook.itemlist.Add(watercolorpen);
                 InventoryMgr.RefreshItem();
             }
+            GetTool.SetActive(true);
         }//透過管理員紀錄設定，避免變數消失重複事件
 
         //不知道寫的對不????????????????????????????

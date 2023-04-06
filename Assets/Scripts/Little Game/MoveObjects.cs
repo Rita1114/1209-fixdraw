@@ -13,6 +13,8 @@ public class MoveObjects : MonoBehaviour
 
     public GameObject GetTool;
     #endregion
+    public Inventory MyBook;
+    public Item watercolorpaper;
 
     void Start()
     {
@@ -42,6 +44,11 @@ public class MoveObjects : MonoBehaviour
         {
             GetTool.SetActive(true);
             GameMgr.找到水彩紙 = true;
+            if (!MyBook.itemlist.Contains(watercolorpaper))
+            {
+                MyBook.itemlist.Add(watercolorpaper);
+                InventoryMgr.RefreshItem();
+            }
         }
     }
     private void OnTriggerStay2D(Collider2D other)

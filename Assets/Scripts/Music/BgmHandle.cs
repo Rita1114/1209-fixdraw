@@ -34,7 +34,7 @@ public class BgmHandle : MonoBehaviour
         {
             Destroy(This);
         }
-        if (flowchart.GetBooleanVariable("電話") == true)
+        if (GameMgr.第二章BGM結束)
         {
             Destroy(This);
         }
