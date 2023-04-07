@@ -4,11 +4,12 @@ using UnityEngine;
 using Fungus;
 
 
+
 public class BgmHandle : MonoBehaviour
 {
-    public Flowchart flowchart;
-    //public BgmHandle bgmHandle;
-    public static BgmHandle BGMHinstance;
+    
+    //public Flowchart flowchart;
+    
     public GameObject BGM;
     public GameObject This;
 
@@ -30,15 +31,15 @@ public class BgmHandle : MonoBehaviour
             BGM.SetActive(true);
         }
         //從DontDestroyOnLoad移除
-        if (flowchart.GetBooleanVariable("進第二章") == true)
+        if (GameMgr.第一章BGM結束)
         {
             Destroy(This);
         }
         if (GameMgr.第二章BGM結束)
         {
             Destroy(This);
+            Debug.Log("反映");
         }
-
     }
     private void Awake()
     {

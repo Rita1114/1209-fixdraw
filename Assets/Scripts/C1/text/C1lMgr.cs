@@ -78,7 +78,11 @@ public class C1lMgr : MonoBehaviour
             GameMgr.收集完 = true;
 
         }
-            GetCandy();
+        if (flowchart.GetBooleanVariable("進第二章") == true)
+        {
+            GameMgr.第一章BGM結束 = true;
+        }
+        GetCandy();
        
     }
 

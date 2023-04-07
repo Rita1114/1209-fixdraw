@@ -3720,8 +3720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a01ae014d3cd1ef43a389459f71f9e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flowchart: {fileID: 312541410}
-  BGM: {fileID: 0}
+  BGM: {fileID: 1029261510}
   This: {fileID: 851802391}
 --- !u!114 &851802393
 MonoBehaviour:

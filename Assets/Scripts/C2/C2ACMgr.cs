@@ -14,6 +14,9 @@ public class C2ACMgr : MonoBehaviour
     public Item watercolorbox;
     public Item watercolorpen;
     public Item watercolorpaper;
+
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -88,6 +91,7 @@ public class C2ACMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("找置物櫃") == true)
         {
             GameMgr.找過置物櫃 = true;
+            
         }
         if (flowchart.GetBooleanVariable("進美術教室過") == true)
         {
