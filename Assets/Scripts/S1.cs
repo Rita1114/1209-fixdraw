@@ -15,10 +15,13 @@ public class S1 : MonoBehaviour
     public Button Chapterbutton;
     public Button Setupbutton;
     public Button Leavebutton;
+    
     //
     public Button BackMenu;
+
     public GameObject GameSetting;
     public GameObject GetProps;
+    public GameObject Allbutton;
     private bool isopen = false;
     //
     public Slider BGMSlider2;
@@ -46,6 +49,7 @@ public class S1 : MonoBehaviour
     {
         GameSetting.SetActive(false);
         GetProps.SetActive(false);
+        Allbutton.SetActive(true);
     }
     public void StartGame()
     {
@@ -57,15 +61,18 @@ public class S1 : MonoBehaviour
     {
         SoundMgr.instance.CirclesoundEffect();
         GetProps.SetActive(true);
+        Allbutton.SetActive(false);
     }
     public void GameSetup()
     {
         SoundMgr.instance.CirclesoundEffect();
-        isopen = true;
-        if (isopen)
+        //isopen = true;
+        GameSetting.SetActive(true);
+        Allbutton.SetActive(false);
+        /*if (isopen)
         {
             GameSetting.SetActive(true);
-        }
+        }*/
     }
     public void LeaveGame()
     {
