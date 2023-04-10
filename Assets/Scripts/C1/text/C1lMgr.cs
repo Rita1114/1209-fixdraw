@@ -98,7 +98,7 @@ public class C1lMgr : MonoBehaviour
                 candyimage.SetActive(true);
             }
         }
-        if (GameMgr.收集完 == true)
+        if (GameMgr.拿到糖== true)
         {
             flowchart.SetBooleanVariable("收集完",true);
             
