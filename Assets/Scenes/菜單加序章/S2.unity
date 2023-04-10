@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -403.8172, y: -6.793414}
+  scrollPos: {x: 124.031006, y: -8.059237}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 454.3585
@@ -1052,8 +1052,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 452342219}
+  selectedCommands:
+  - {fileID: 452342290}
   variables:
   - {fileID: 452342236}
   - {fileID: 452342312}
@@ -9600,6 +9602,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1351274324}
     m_Modifications:
+    - target: {fileID: 7725354346877488686, guid: 1879299e776c0f04a965299014d34145, type: 3}
+      propertyPath: m_Text
+      value: ' '
+      objectReference: {fileID: 0}
     - target: {fileID: 8598240605703984771, guid: 1879299e776c0f04a965299014d34145, type: 3}
       propertyPath: m_Name
       value: none
