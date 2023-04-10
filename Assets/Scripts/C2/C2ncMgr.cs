@@ -53,6 +53,7 @@ public class C2ncMgr : MonoBehaviour
         if (GameMgr.中卓離開 == true)
         {
             中卓.SetActive(false);
+            flowchart.SetBooleanVariable("轉過", true);
         }
 
         if (GameMgr.中卓走美教動畫已經播過==true)
