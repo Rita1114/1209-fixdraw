@@ -2403,7 +2403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: "\u8F49\u904E"
-  value: 1
+  value: 0
 --- !u!114 &50679278
 MonoBehaviour:
   m_ObjectHideFlags: 2
