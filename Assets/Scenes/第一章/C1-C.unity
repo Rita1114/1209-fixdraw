@@ -390,7 +390,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 51.15263
     y: 146.79254
-    width: 73.44062
+    width: 74.47058
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -461,7 +461,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.73972
     y: 71
-    width: 73.44062
+    width: 74.47058
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1258,7 +1258,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.15456
     y: 201.41092
-    width: 190.6437
+    width: 196.8235
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1819,7 +1819,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.4901958
     y: 260.54126
-    width: 167.2031
+    width: 172.3529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2901,7 +2901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.99146
     y: 138.46083
-    width: 61.72031
+    width: 62.23529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3856,7 +3856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &982271148
 MonoBehaviour:
   m_ObjectHideFlags: 0
