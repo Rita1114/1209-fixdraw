@@ -752,6 +752,7 @@ GameObject:
   - component: {fileID: 393029515}
   - component: {fileID: 393029517}
   - component: {fileID: 393029516}
+  - component: {fileID: 393029518}
   m_Layer: 0
   m_Name: object04
   m_TagString: Untagged
@@ -1307,6 +1308,21 @@ PolygonCollider2D:
       - {x: -4.6929927, y: 4.7441893}
       - {x: -4.4028807, y: 4.8465815}
   m_UseDelaunayMesh: 0
+--- !u!114 &393029518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393029513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
 --- !u!1 &437205805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,7 +1698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 679117567}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
+  clickableObject: {fileID: 722659081}
   waitFrames: 1
 --- !u!114 &679117566
 MonoBehaviour:
@@ -1731,7 +1747,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 10
   blockName: "\u767D\u7D19"
   description: 
   eventHandler: {fileID: 679117565}
@@ -1752,7 +1768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 679117570}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
+  clickableObject: {fileID: 1498942406}
   waitFrames: 1
 --- !u!114 &679117569
 MonoBehaviour:
@@ -1801,7 +1817,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 9
   blockName: "\u5E36\u523A\u7684\u8304\u82B7\u888B"
   description: 
   eventHandler: {fileID: 679117568}
@@ -1822,7 +1838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 679117573}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
+  clickableObject: {fileID: 393029518}
   waitFrames: 1
 --- !u!114 &679117572
 MonoBehaviour:
@@ -1871,7 +1887,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 8
   blockName: "\u6C34\u7AAA"
   description: 
   eventHandler: {fileID: 679117571}
@@ -1919,7 +1935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 679117576}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
+  clickableObject: {fileID: 1025019862}
   waitFrames: 1
 --- !u!114 &679117576
 MonoBehaviour:
@@ -1935,8 +1951,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 46.343277
-    y: 28.134335
+    x: 49.32835
+    y: 29.626871
     width: 73.880585
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1961,7 +1977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 106.19284, y: 51.240322}
+  scrollPos: {x: 116.64061, y: -9.953687}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1973,9 +1989,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 679117576}
-  selectedCommands:
-  - {fileID: 679117574}
+  - {fileID: 679117573}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2014,6 +2029,7 @@ GameObject:
   - component: {fileID: 722659078}
   - component: {fileID: 722659080}
   - component: {fileID: 722659079}
+  - component: {fileID: 722659081}
   m_Layer: 0
   m_Name: object03
   m_TagString: Untagged
@@ -2560,6 +2576,21 @@ PolygonCollider2D:
       - {x: -6.1349998, y: -0.06}
       - {x: -6.1549997, y: -0.08}
   m_UseDelaunayMesh: 0
+--- !u!114 &722659081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722659076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
 --- !u!1 &794536981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,6 +2872,7 @@ GameObject:
   - component: {fileID: 1025019859}
   - component: {fileID: 1025019861}
   - component: {fileID: 1025019860}
+  - component: {fileID: 1025019862}
   m_Layer: 0
   m_Name: object01
   m_TagString: Untagged
@@ -3362,6 +3394,21 @@ PolygonCollider2D:
       - {x: 2.85, y: 6.8199997}
       - {x: 2.82, y: 6.81}
   m_UseDelaunayMesh: 0
+--- !u!114 &1025019862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025019857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
 --- !u!1 &1030905160
 GameObject:
   m_ObjectHideFlags: 0
@@ -3901,6 +3948,7 @@ GameObject:
   - component: {fileID: 1498942403}
   - component: {fileID: 1498942405}
   - component: {fileID: 1498942404}
+  - component: {fileID: 1498942406}
   m_Layer: 0
   m_Name: object02
   m_TagString: Untagged
@@ -5048,6 +5096,21 @@ PolygonCollider2D:
       - {x: 10.643818, y: 5.605642}
       - {x: 10.475112, y: 6.0350757}
   m_UseDelaunayMesh: 0
+--- !u!114 &1498942406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498942401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
 --- !u!1001 &1614722420
 PrefabInstance:
   m_ObjectHideFlags: 0

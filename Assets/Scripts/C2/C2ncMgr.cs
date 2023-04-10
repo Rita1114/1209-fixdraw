@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class C2ncMgr : MonoBehaviour
 {
     public Flowchart flowchart;
-    public GameObject image,player,中卓;
+    public GameObject image,player,中卓,紙牆;
     public PlayableDirector animationController;
 
     public Button WaterBoxBt;
@@ -88,9 +88,14 @@ public class C2ncMgr : MonoBehaviour
         }//透過管理員紀錄設定，避免變數消失重複事件
 
         //不知道寫的對不????????????????????????????
+        if (flowchart.GetBooleanVariable("紙牆") == true)
+        {
+            紙牆.SetActive(true);
+        }
         if (flowchart.GetBooleanVariable("拿到水彩顏料") == true)
         {
             GameMgr.拿到水彩顏料 = true;
+            紙牆.SetActive(false);
         }
         
         if (GameMgr.拿到水彩顏料 == true)
