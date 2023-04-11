@@ -15,8 +15,8 @@ public class C2ACMgr : MonoBehaviour
     public Item watercolorpen;
     public Item watercolorpaper;
 
-    
-    
+
+    public GameObject NoteC2;
     // Start is called before the first frame update
     void Start()
     {
@@ -75,11 +75,17 @@ public class C2ACMgr : MonoBehaviour
         //BGM
         if (flowchart.GetBooleanVariable("電話") == true)
         {
-            GameMgr.第二章BGM結束 = true;
+            GameMgr.BGMstop = true;
+        }
+        if (flowchart.GetBooleanVariable("鈴聲") == true)
+        {
+            SoundMgr.instance.PlayRingRing();
         }
 
-            if (flowchart.GetBooleanVariable("進第三章") == true)
+
+        if (flowchart.GetBooleanVariable("進第三章") == true)
         {
+            SoundMgr2.instance2.PlayBgm03();
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 SceneManager.LoadScene("C2AsyncLoader");
@@ -133,5 +139,14 @@ public class C2ACMgr : MonoBehaviour
             flowchart.SetBooleanVariable("有水彩紙",true);
         }
 
+        //備忘錄
+        if (GameMgr.找到水彩紙 && GameMgr.拿到水彩筆 && GameMgr.拿到水彩顏料)
+        {
+            GameMgr.C2Note = true;
+        }
+        if (GameMgr.C2Note)
+        {
+            Destroy(NoteC2);
+        }
     }
 }

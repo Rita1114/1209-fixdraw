@@ -17,10 +17,7 @@ public class BgmHandle : MonoBehaviour
     
     void Start()
     {
-        /*if (GameMgr.第一章==false)
-        {
-            SoundMgr2.instance2.PlayBgm01();
-        }*/
+        
     }
 
     void Update()
@@ -36,19 +33,11 @@ public class BgmHandle : MonoBehaviour
         }
         //從DontDestroyOnLoad移除
         /*
-        if (GameMgr.第一章BGM結束)
-        {
-            BGM.SetActive(false);
-            //Destroy(This);
-        }
-
         if (GameMgr.第二章BGM結束)
         {
             Destroy(This);
-            Debug.Log("反映");
-        }*/
-        
-
+        }
+        */
 
 
     }

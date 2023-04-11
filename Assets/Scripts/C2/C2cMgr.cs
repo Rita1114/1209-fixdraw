@@ -11,8 +11,8 @@ public class C2cMgr : MonoBehaviour
     public PlayableDirector animationController;
     public  GameObject player,Bulletinboard;
     public C2cMgr c2CMgr;
+    public GameObject NoteC2;
 
-    
     void Start()
     {
          
@@ -57,6 +57,16 @@ public class C2cMgr : MonoBehaviour
         if (GameMgr.找到水彩紙==true)
         {
             flowchart.SetBooleanVariable("找布告欄過",true);
+        }
+
+
+        if (GameMgr.找到水彩紙 && GameMgr.拿到水彩筆 && GameMgr.拿到水彩顏料)
+        {
+            GameMgr.C2Note = true;
+        }
+        if (GameMgr.C2Note)
+        {
+            Destroy(NoteC2);
         }
     }
     public  void bulletinboard()

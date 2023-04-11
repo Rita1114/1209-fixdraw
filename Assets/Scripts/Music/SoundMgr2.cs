@@ -40,5 +40,9 @@ public class SoundMgr2 : MonoBehaviour
         audioSource.clip = Bgm02;
         audioSource.Play();
     }
-
+    public void PlayBgm03()
+    {
+        audioSource.clip = Bgm03;
+        audioSource.Play();
+    }
 }

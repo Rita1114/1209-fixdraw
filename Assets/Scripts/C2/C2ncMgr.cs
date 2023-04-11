@@ -20,6 +20,7 @@ public class C2ncMgr : MonoBehaviour
     public Item watercolorpen;
     public Item artroomkey;
 
+    public GameObject NoteC2;
     public GameObject GetTool;
     void Start()
     {
@@ -83,8 +84,9 @@ public class C2ncMgr : MonoBehaviour
                 MyBook.itemlist.Remove(workbook);
                 MyBook.itemlist.Add(watercolorpen);
                 InventoryMgr.RefreshItem();
+                GetTool.SetActive(true);
             }
-            GetTool.SetActive(true);
+            
             
         }//透過管理員紀錄設定，避免變數消失重複事件
 
@@ -112,8 +114,15 @@ public class C2ncMgr : MonoBehaviour
                LoadC2();
             }
         }
-     
-        
+        //備忘錄
+        if (GameMgr.找到水彩紙 && GameMgr.拿到水彩筆 && GameMgr.拿到水彩顏料)
+        {
+            GameMgr.C2Note = true;
+        }
+        if (GameMgr.C2Note)
+        {
+            Destroy(NoteC2);
+        }
     }
 
     void GetBox()
