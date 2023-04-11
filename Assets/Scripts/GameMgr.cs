@@ -32,7 +32,7 @@ public static class GameMgr
     public static bool IsBgmReady = false;
     public static bool BGMstop=false;
     public static bool 第一章BGM結束,第二章BGM結束,第三章BGM結束=false;
-
+    public static bool 第一章, 第二章, 第三章 = false;
     //C2變數
     public static bool 中卓走美教動畫已經播過,和小老師對話,拿到水彩筆,拿到水彩顏料,中卓離開,掀開畫布,補完畫 = false; //C2-NC
     public static bool 走過走廊,進過美術教室,找到水彩紙,找過布告欄 =false;//C2-C

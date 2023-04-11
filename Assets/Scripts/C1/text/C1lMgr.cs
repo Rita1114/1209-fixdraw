@@ -32,6 +32,7 @@ public class C1lMgr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SoundMgr2.instance2.PlayBgm01();
         playerObject = GameObject.Find("Player");
         if (!playerObject)
         {
@@ -52,7 +53,6 @@ public class C1lMgr : MonoBehaviour
             startPointNumber = 0;
         }
 
-     
 
     }
 
@@ -85,12 +85,7 @@ public class C1lMgr : MonoBehaviour
         
         if (flowchart.GetBooleanVariable("BGM") == true)
         {
-            GameMgr.第一章BGM結束 = true;
-        }
-        else
-        {
-            GameMgr.第一章BGM結束 = false;
-            Debug.Log("SSSSSSS");
+            GameMgr.BGMstop = true;
         }
         GetCandy();
        

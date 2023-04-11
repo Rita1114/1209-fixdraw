@@ -23,7 +23,8 @@ public class C2ncMgr : MonoBehaviour
     public GameObject GetTool;
     void Start()
     {
-        
+        GameMgr.BGMstop = false;
+        SoundMgr2.instance2.PlayBgm02();
         WaterBoxBt.onClick.AddListener(GetBox);
     }
 

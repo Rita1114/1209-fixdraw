@@ -62,7 +62,9 @@ public class SoundMgr : MonoBehaviour
 
     public void Bgm01()
     {
+        
         BGMaudioSource.clip = BGM01;
         BGMaudioSource.Play();
+        
     }
 }
