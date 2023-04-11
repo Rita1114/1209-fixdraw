@@ -10,8 +10,9 @@ public class C3HSMgr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //SoundMgr2.instance2.PlayBgm03();
         GameMgr.BGMstop = false;
-        SoundMgr2.instance2.PlayBgm03();
+        
     }
 
     // Update is called once per frame

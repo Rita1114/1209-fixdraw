@@ -79,14 +79,14 @@ public class C2ncMgr : MonoBehaviour
         {
             flowchart.SetBooleanVariable("拿到水彩筆",true);
             //道具添加
-            if (!MyBook.itemlist.Contains(watercolorpen))
+            if (!MyBook.itemlist.Contains(watercolorpen) && MyBook.itemlist.Contains(workbook))
             {
                 MyBook.itemlist.Remove(workbook);
                 MyBook.itemlist.Add(watercolorpen);
                 InventoryMgr.RefreshItem();
                 GetTool.SetActive(true);
             }
-            
+            GameMgr.拿到作業簿 = false;
             
         }//透過管理員紀錄設定，避免變數消失重複事件
 

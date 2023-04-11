@@ -75,17 +75,18 @@ public class C2ACMgr : MonoBehaviour
         //BGM
         if (flowchart.GetBooleanVariable("電話") == true)
         {
+            
             GameMgr.BGMstop = true;
+            SoundMgr2.instance2.PlayBgm03();
         }
         if (flowchart.GetBooleanVariable("鈴聲") == true)
         {
-            SoundMgr.instance.PlayRingRing();
+            //SoundMgr.instance.PlayRingRing();
         }
 
 
         if (flowchart.GetBooleanVariable("進第三章") == true)
         {
-            SoundMgr2.instance2.PlayBgm03();
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 SceneManager.LoadScene("C2AsyncLoader");
@@ -146,7 +147,8 @@ public class C2ACMgr : MonoBehaviour
         }
         if (GameMgr.C2Note)
         {
-            Destroy(NoteC2);
+            NoteC2.SetActive(false);
+            //Destroy(NoteC2);
         }
     }
 }

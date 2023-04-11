@@ -913,7 +913,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 61.285717
     y: 75.71428
-    width: 108.221
+    width: 110.7091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -939,11 +939,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 371.6157, y: 47.41114}
+  scrollPos: {x: 500.7367, y: 4.4441624}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7000003
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -952,7 +952,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 142580133}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 142580139}
   variables:
   - {fileID: 142580124}
   - {fileID: 142580122}
@@ -1031,7 +1032,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66.53949
     y: 162.11856
-    width: 114.69
+    width: 116.68048
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6139,6 +6140,7 @@ MonoBehaviour:
   animationController: {fileID: 1602433128}
   player: {fileID: 4460248}
   Bulletinboard: {fileID: 933838904}
+  Light: {fileID: 577775778}
   c2CMgr: {fileID: 1602433126}
   NoteC2: {fileID: 1914330791}
 --- !u!4 &1602433127

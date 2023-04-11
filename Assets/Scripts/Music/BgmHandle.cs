@@ -32,12 +32,8 @@ public class BgmHandle : MonoBehaviour
             BGM.SetActive(true);
         }
         //從DontDestroyOnLoad移除
-        /*
-        if (GameMgr.第二章BGM結束)
-        {
-            Destroy(This);
-        }
-        */
+        
+        
 
 
     }

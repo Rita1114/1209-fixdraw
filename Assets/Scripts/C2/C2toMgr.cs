@@ -63,13 +63,18 @@ public class C2toMgr : MonoBehaviour
             flowchart.SetBooleanVariable("拿到作業",true);
             
             //道具添加
-            if (!MyBook.itemlist.Contains(workbook)&& !MyBook.itemlist.Contains(watercolorpen))
+            if (!MyBook.itemlist.Contains(workbook) && !MyBook.itemlist.Contains(watercolorpen))
             {
                 MyBook.itemlist.Add(workbook);
                 InventoryMgr.RefreshItem();
                 GetTool.SetActive(true);
             }
-        }//透過管理員紀錄設定，避免變數消失
+        }
+        else
+        {
+            flowchart.SetBooleanVariable("拿到作業", false);
+        }
+        //透過管理員紀錄設定，避免變數消失
 
         if (GameMgr.找到水彩紙 && GameMgr.拿到水彩筆 && GameMgr.拿到水彩顏料)
         {

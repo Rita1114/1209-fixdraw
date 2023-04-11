@@ -9,7 +9,7 @@ public class C2cMgr : MonoBehaviour
 {
     public Flowchart flowchart;
     public PlayableDirector animationController;
-    public  GameObject player,Bulletinboard;
+    public  GameObject player,Bulletinboard,Light;
     public C2cMgr c2CMgr;
     public GameObject NoteC2;
 
@@ -52,6 +52,7 @@ public class C2cMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("布告欄") == true&&flowchart.GetBooleanVariable("找布告欄過")==false)
         {
             Bulletinboard.SetActive(true);
+            Light.SetActive(false);
         }
 
         if (GameMgr.找到水彩紙==true)

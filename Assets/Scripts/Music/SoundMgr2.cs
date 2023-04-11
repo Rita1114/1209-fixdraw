@@ -24,7 +24,6 @@ public class SoundMgr2 : MonoBehaviour
         instance2 = this;
     }
 
-    // Update is called once per frame
     void Update()
     {
         

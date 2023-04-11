@@ -5398,7 +5398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 036556e805b6c0844acd4fba32ba899b, type: 2}
   WalkSource: {fileID: 0}
-  audioSource: {fileID: 707247184}
+  audioSource: {fileID: 0}
 --- !u!4 &972155231
 Transform:
   m_ObjectHideFlags: 0
@@ -8313,7 +8313,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3806429769957882511}
+      - m_Target: {fileID: 1626473098}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
