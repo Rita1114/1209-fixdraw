@@ -32,7 +32,8 @@ public class C2ncMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(flowchart.GetBooleanVariable("可以走")==false)
+        
+            if (flowchart.GetBooleanVariable("可以走")==false)
         {
             player.GetComponent<playerCtr1>().enabled=false;
         }
@@ -71,7 +72,7 @@ public class C2ncMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("拿到水彩筆")==true)
         {
             GameMgr.拿到水彩筆 = true;
-            
+
         }//對話完畢給管理員知道
 
         

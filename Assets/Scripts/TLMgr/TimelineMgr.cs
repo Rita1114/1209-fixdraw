@@ -152,7 +152,7 @@ public class TimelineMgr : MonoBehaviour
             C3填色遊戲.SetActive(true);
             player.GetComponent<playerCtr1>().enabled=false;
         }
-        if (GameMgr.C3填色遊戲中=true)
+        if (GameMgr.C3填色遊戲中==true)
         { 
            flowchart.SetBooleanVariable("填色遊戲中",true);
         } 

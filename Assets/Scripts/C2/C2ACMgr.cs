@@ -73,15 +73,16 @@ public class C2ACMgr : MonoBehaviour
             
         }
         //BGM
-        if (flowchart.GetBooleanVariable("電話") == true)
+        if (flowchart.GetBooleanVariable("BGM03") == true)
         {
             
             GameMgr.BGMstop = true;
-            SoundMgr2.instance2.PlayBgm03();
+            //SoundMgr2.instance2.PlayBgm03();
         }
+
         if (flowchart.GetBooleanVariable("鈴聲") == true)
         {
-            //SoundMgr.instance.PlayRingRing();
+            SoundMgr.instance.PlayRingRing();
         }
 
 
@@ -98,7 +99,9 @@ public class C2ACMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("找置物櫃") == true)
         {
             GameMgr.找過置物櫃 = true;
-            
+            //GameMgr.BGMstop = true;
+            //SoundMgr2.instance2.PlayBgm03();
+
         }
         if (flowchart.GetBooleanVariable("進美術教室過") == true)
         {

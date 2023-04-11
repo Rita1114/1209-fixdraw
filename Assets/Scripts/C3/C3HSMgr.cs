@@ -10,9 +10,8 @@ public class C3HSMgr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //SoundMgr2.instance2.PlayBgm03();
+        SoundMgr2.instance2.PlayBgm03();
         GameMgr.BGMstop = false;
-        
     }
 
     // Update is called once per frame
@@ -32,6 +31,13 @@ public class C3HSMgr : MonoBehaviour
         { 
             flowchart.SetBooleanVariable("電話響過",true);
         }
-        
+
+        if (flowchart.GetBooleanVariable("start") == true)
+        {
+            
+            
+        }
+
+
     }
 }
