@@ -60,7 +60,8 @@ public class C1GMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("對話")==true)
         {
             GameMgr.伯已對話 = true;
-
+            GameMgr.IsGetpan=true;
+            
         }
         Talked();
         if (GameMgr.拿到錢買筆 == true)
@@ -76,7 +77,6 @@ public class C1GMgr : MonoBehaviour
         if(GameMgr.給錢買筆後 == true)
         {
             flowchart.SetBooleanVariable("收集筆",true);
-            GameMgr.收集完 = true;
             
             if (!MyBook.itemlist.Contains(Pen))
             {

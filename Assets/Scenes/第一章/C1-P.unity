@@ -1235,6 +1235,7 @@ GameObject:
   - component: {fileID: 1099181712}
   - component: {fileID: 1099181716}
   - component: {fileID: 1099181715}
+  - component: {fileID: 1099181714}
   - component: {fileID: 1099181713}
   m_Layer: 0
   m_Name: "\u756B\u518A"
@@ -1285,6 +1286,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.66, y: 1.08}
   m_EdgeRadius: 0
+--- !u!114 &1099181714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099181711}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c0ebca5f211084b846104eb530e20c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 1452082015}
 --- !u!114 &1099181715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1639,7 +1653,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 49.714294
     y: 229.2857
-    width: 74.47058
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1710,7 +1724,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 71.14285
     y: 176.42853
-    width: 86.70587
+    width: 85.16093
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1783,7 +1797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.71427
     y: 123.571434
-    width: 74.47058
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1853,7 +1867,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72.57143
     y: 73
-    width: 86.70587
+    width: 85.16093
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1949,7 +1963,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 205.77979
     y: 58.794006
-    width: 74.47058
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2477,7 +2491,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 197.2716
     y: 131.92511
-    width: 113.999985
+    width: 116.05993
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

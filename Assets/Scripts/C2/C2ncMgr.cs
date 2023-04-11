@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class C2ncMgr : MonoBehaviour
 {
     public Flowchart flowchart;
-    public GameObject image,player,中卓,紙牆;
+    public GameObject image,player,中卓;
     public PlayableDirector animationController;
 
     public Button WaterBoxBt;
@@ -23,6 +23,7 @@ public class C2ncMgr : MonoBehaviour
     public GameObject GetTool;
     void Start()
     {
+        
         WaterBoxBt.onClick.AddListener(GetBox);
     }
 
@@ -53,7 +54,6 @@ public class C2ncMgr : MonoBehaviour
         if (GameMgr.中卓離開 == true)
         {
             中卓.SetActive(false);
-            flowchart.SetBooleanVariable("轉過", true);
         }
 
         if (GameMgr.中卓走美教動畫已經播過==true)
@@ -88,14 +88,9 @@ public class C2ncMgr : MonoBehaviour
         }//透過管理員紀錄設定，避免變數消失重複事件
 
         //不知道寫的對不????????????????????????????
-        if (flowchart.GetBooleanVariable("紙牆") == true)
-        {
-            紙牆.SetActive(true);
-        }
         if (flowchart.GetBooleanVariable("拿到水彩顏料") == true)
         {
             GameMgr.拿到水彩顏料 = true;
-            紙牆.SetActive(false);
         }
         
         if (GameMgr.拿到水彩顏料 == true)

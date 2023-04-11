@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 124.031006, y: -8.059237}
+  scrollPos: {x: -403.8172, y: -6.793414}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 454.3585
@@ -1052,10 +1052,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 452342219}
-  selectedCommands:
-  - {fileID: 452342290}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 452342236}
   - {fileID: 452342312}
@@ -7019,61 +7017,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191985765}
   m_CullTransparentMesh: 1
---- !u!1 &1208384942 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8178128322904672970, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
-  m_PrefabInstance: {fileID: 8178128323116767926}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1208384944 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8178128322904672828, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
-  m_PrefabInstance: {fileID: 8178128323116767926}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208384942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1208384953 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8178128322904672831, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
-  m_PrefabInstance: {fileID: 8178128323116767926}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208384942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1208384954 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8178128322904672821, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
-  m_PrefabInstance: {fileID: 8178128323116767926}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208384942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1208384956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208384942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78c1a9f24ac376a47838385391f83acc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1208384953}
-  suppressBlockAutoSelect: 0
-  tagFilter: []
-  FireOn: 1
-  colliderVar: {fileID: 0}
 --- !u!114 &1295674262 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6415957586002135719, guid: ca5421a71229f2d4faa863484d7e5dde, type: 3}
@@ -8829,7 +8772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1208384954}
+  selectedFlowchart: {fileID: 452342177}
 --- !u!4 &2085974039
 Transform:
   m_ObjectHideFlags: 1
@@ -9187,30 +9130,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u5834\u666F"
       objectReference: {fileID: 0}
-    - target: {fileID: 8178128322904672821, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
-      propertyPath: selectedCommands.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8178128322904672821, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
-      propertyPath: selectedCommands.Array.data[0]
-      value: 
-      objectReference: {fileID: 1208384944}
     - target: {fileID: 8178128322904672828, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1295674262}
-    - target: {fileID: 8178128322904672828, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
-      propertyPath: storyText
-      value: "\u300C\u6211\u597D\u60F3\u756B\u51FA\u4F86\u554A\uFF01\uFF01\uFF01\u300D"
-      objectReference: {fileID: 0}
     - target: {fileID: 8178128322904672830, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
       propertyPath: character
       value: 
       objectReference: {fileID: 1295674262}
-    - target: {fileID: 8178128322904672831, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
-      propertyPath: eventHandler
-      value: 
-      objectReference: {fileID: 1208384956}
     - target: {fileID: 8178128323231069696, guid: d1f02bfc186a8a845a6af808fd4539de, type: 3}
       propertyPath: character
       value: 
@@ -9673,10 +9600,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1351274324}
     m_Modifications:
-    - target: {fileID: 7725354346877488686, guid: 1879299e776c0f04a965299014d34145, type: 3}
-      propertyPath: m_Text
-      value: ' '
-      objectReference: {fileID: 0}
     - target: {fileID: 8598240605703984771, guid: 1879299e776c0f04a965299014d34145, type: 3}
       propertyPath: m_Name
       value: none

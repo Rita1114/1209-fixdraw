@@ -390,7 +390,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 51.15263
     y: 146.79254
-    width: 74.47058
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -461,7 +461,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.73972
     y: 71
-    width: 74.47058
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1258,7 +1258,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.15456
     y: 201.41092
-    width: 196.8235
+    width: 190.6437
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1819,7 +1819,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.4901958
     y: 260.54126
-    width: 172.3529
+    width: 167.2031
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2901,7 +2901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.99146
     y: 138.46083
-    width: 62.23529
+    width: 61.72031
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3168,6 +3168,11 @@ PrefabInstance:
 --- !u!224 &571068460 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3820832982998347802, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+  m_PrefabInstance: {fileID: 571068459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &571068461 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3820832983871591605, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
   m_PrefabInstance: {fileID: 571068459}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &628498056
@@ -3856,7 +3861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &982271148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4013,9 +4018,11 @@ MonoBehaviour:
   hand: {fileID: 982271147}
   Coinimage: {fileID: 1168901161}
   bookimage: {fileID: 1593581652}
+  NoteC1: {fileID: 571068461}
   Drawbook: {fileID: 11400000, guid: efdb30d2d993ce2448279adf519aca02, type: 2}
   Coin: {fileID: 11400000, guid: fec489737493b384aa8883c52c1152d1, type: 2}
   Candy: {fileID: 11400000, guid: 2171ee3e60a3a1243a77951ba3e8fd99, type: 2}
+  Pen: {fileID: 11400000, guid: 0002af79eac26a34fb74ca4451ae4e17, type: 2}
   MyBook: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
 --- !u!1 &1146561017
 GameObject:
@@ -4603,6 +4610,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u9322"
       objectReference: {fileID: 0}
+    - target: {fileID: 3806429769662101307, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806429769662101308, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0067421
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806429769662101308, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0067421
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806429769662101308, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0067421
+      objectReference: {fileID: 0}
     - target: {fileID: 3806429769662101309, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4822,6 +4845,22 @@ PrefabInstance:
     - target: {fileID: 3806429769662101307, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
       propertyPath: m_Name
       value: "\u672C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806429769662101307, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806429769662101308, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2383541
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806429769662101308, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2383541
+      objectReference: {fileID: 0}
+    - target: {fileID: 3806429769662101308, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2383541
       objectReference: {fileID: 0}
     - target: {fileID: 3806429769662101309, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
       propertyPath: m_Sprite

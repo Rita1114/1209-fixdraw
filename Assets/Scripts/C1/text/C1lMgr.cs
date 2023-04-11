@@ -66,6 +66,10 @@ public class C1lMgr : MonoBehaviour
         {
             GameMgr.拿到糖=true;
         }
+        else
+        {
+            GameMgr.拿到糖 = false ;
+        }
         //移除所有道具
         if (flowchart.GetBooleanVariable("填色遊戲") == true)
         {
@@ -76,11 +80,17 @@ public class C1lMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("收集完") == true)
         {
             GameMgr.收集完 = true;
-
+            GameMgr.C1Note = true;
         }
-        if (flowchart.GetBooleanVariable("進第二章") == true)
+        
+        if (flowchart.GetBooleanVariable("BGM") == true)
         {
             GameMgr.第一章BGM結束 = true;
+        }
+        else
+        {
+            GameMgr.第一章BGM結束 = false;
+            Debug.Log("SSSSSSS");
         }
         GetCandy();
        
@@ -91,18 +101,20 @@ public class C1lMgr : MonoBehaviour
         if (GameMgr.拿到糖 == true)
         {
             flowchart.SetBooleanVariable("拿到糖",true);
-            if (!MyBook.itemlist.Contains(Candy) && !MyBook.itemlist.Contains(Coin))
+            if (!MyBook.itemlist.Contains(Candy)&& !MyBook.itemlist.Contains(Coin)&& !MyBook.itemlist.Contains(Pen))
             {
                 MyBook.itemlist.Add(Candy);
                 InventoryMgr.RefreshItem();
                 candyimage.SetActive(true);
             }
         }
-        if (GameMgr.拿到糖== true)
+        if (GameMgr.收集完 == true)
         {
             flowchart.SetBooleanVariable("收集完",true);
-            
-            
+        }
+        if (GameMgr.C1Note == true)
+        {
+            Destroy(NoteC1);
         }
     }
 

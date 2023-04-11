@@ -8,10 +8,12 @@ public class C1CMgr : MonoBehaviour
     public Flowchart flowchart;
 
     public GameObject hand,Coinimage,bookimage;
+    public GameObject NoteC1;
 
     public Item Drawbook;
     public Item Coin;
     public Item Candy;
+    public Item Pen;
     public Inventory MyBook;
     // Start is called before the first frame update
     void Start()
@@ -76,13 +78,17 @@ public class C1CMgr : MonoBehaviour
         if (GameMgr.拿到錢買筆 == true)
         {
             flowchart.SetBooleanVariable("拿到錢",true);
-            if (!MyBook.itemlist.Contains(Coin))
+            if (!MyBook.itemlist.Contains(Coin)&&!MyBook.itemlist.Contains(Pen))
             {
                 MyBook.itemlist.Add(Coin);
                 InventoryMgr.RefreshItem();
                 GameMgr.IsFirstTimeLinePlayed = true;
                 Coinimage.SetActive(true);
             }
+        }
+        if (GameMgr.C1Note == true)
+        {
+            Destroy(NoteC1);
         }
     }
 }

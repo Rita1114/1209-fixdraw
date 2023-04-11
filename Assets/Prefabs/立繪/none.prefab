@@ -624,7 +624,7 @@ MonoBehaviour:
   fadeDuration: 0.25
   continueButton: {fileID: 8598240606537099899}
   dialogCanvas: {fileID: 8598240607122902667}
-  nameText: {fileID: 7725354346877488686}
+  nameText: {fileID: 0}
   nameTextGO: {fileID: 0}
   storyText: {fileID: 8598240606261764597}
   storyTextGO: {fileID: 0}
@@ -821,7 +821,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: 31.17}
+  m_AnchoredPosition: {x: 210, y: -47.5}
   m_SizeDelta: {x: 1305, y: 190}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &7030500016064089631

@@ -6,8 +6,6 @@ using Fungus;
 public class C3HLMgr : MonoBehaviour
 {
     public Flowchart flowchart;
-
-    public GameObject image;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,15 +18,6 @@ public class C3HLMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("填色遊戲完成")==true)
         {
             GameMgr.事件完成 = true;
-            image.SetActive(true);
-        }
-        if (flowchart.GetBooleanVariable("圖出")==true)
-        {
-            image.SetActive(true);
-        }
-        else
-        {
-            image.SetActive(false);
         }
 
         if (GameMgr.事件完成 == true)
