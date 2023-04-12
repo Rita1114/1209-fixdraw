@@ -22,7 +22,7 @@ public class C1lMgr : MonoBehaviour
     public GameObject NoteC1;
 
 
-    public Flowchart flowchart;
+    public Flowchart flowchart,測試用F;
 
     public Item Candy;
     public Item Coin;
