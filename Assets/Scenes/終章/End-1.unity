@@ -1373,7 +1373,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 45.048077
     y: 76.85095
-    width: 80.76921
+    width: 80.87479
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1424,7 +1424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 51.70589
     y: 149.99998
-    width: 69.999985
+    width: 69.55403
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1454,18 +1454,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 274.1711, y: 11.535809}
+  scrollPos: {x: 179.86465, y: -11.098999}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.5200004
+  zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 405686316}
   selectedCommands: []
   variables:
   - {fileID: 405686291}
@@ -3101,3 +3102,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7726041987140646021
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7726041987159737334, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: Bgmend
+      value: 
+      objectReference: {fileID: 8300000, guid: a744fe6104e89c844a5cca07799497f6, type: 3}
+    - target: {fileID: 7726041987904418355, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_Name
+      value: BGMAudioMgr
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}

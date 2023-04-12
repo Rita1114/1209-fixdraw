@@ -1888,7 +1888,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 760384293}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1329091192}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &760384293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3651,7 +3663,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 180.98775
     y: 213.24213
-    width: 73.414635
+    width: 74.2982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3983,7 +3995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79.91814
     y: 176.85219
-    width: 73.414635
+    width: 74.2982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4236,7 +4248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 75.907074
     y: 121.94507
-    width: 79.26829
+    width: 79.82052
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5151,7 +5163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 55.30813
     y: 69.90737
-    width: 73.414635
+    width: 74.2982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7809,6 +7821,65 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8598240607122902658, guid: 1879299e776c0f04a965299014d34145, type: 3}
   m_PrefabInstance: {fileID: 2028951450}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1532757490
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7726041987904418355, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_Name
+      value: BGMAudioMgr
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7726041987904418364, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: fdf46e9f7db315443b9fc46f22930c86, type: 3}
 --- !u!1 &1564185303
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,6 +15,7 @@ public class SoundMgr : MonoBehaviour
     public AudioClip ClossBook;
     public AudioClip TurnPages;
     public AudioClip RingRing;
+    public AudioClip RingEnd;
 
     public AudioMixer audioMixer;
     //public AudioMixer SoundEffectMixer;
@@ -59,7 +60,11 @@ public class SoundMgr : MonoBehaviour
         audioSource.clip = RingRing;
         audioSource.Play();
     }
-
+    public void PlayRingEnd()
+    {
+        audioSource.clip = RingEnd;
+        audioSource.Play();
+    }
     public void Bgm01()
     {
         

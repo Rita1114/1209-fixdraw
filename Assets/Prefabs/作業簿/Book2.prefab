@@ -829,7 +829,8 @@ MonoBehaviour:
   OpenBook: {fileID: 8300000, guid: 9ecff9ad0f8d77646b7152fa8bfbd852, type: 3}
   ClossBook: {fileID: 8300000, guid: 9ecff9ad0f8d77646b7152fa8bfbd852, type: 3}
   TurnPages: {fileID: 8300000, guid: 9ecff9ad0f8d77646b7152fa8bfbd852, type: 3}
-  RingRing: {fileID: 0}
+  RingRing: {fileID: 8300000, guid: cf39399ff11d2dc4fba5eb1f1b7f1912, type: 3}
+  RingEnd: {fileID: 8300000, guid: a3d5d807df33fd34ca41c349b881f1ad, type: 3}
   audioMixer: {fileID: 24100000, guid: 036556e805b6c0844acd4fba32ba899b, type: 2}
 --- !u!82 &3820832982610931899
 AudioSource:

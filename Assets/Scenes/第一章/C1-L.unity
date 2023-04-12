@@ -10232,6 +10232,7 @@ MonoBehaviour:
   Bgm01: {fileID: 8300000, guid: 1473057f0ec79184ea03204d42ae1041, type: 3}
   Bgm02: {fileID: 8300000, guid: 7979c9445fdf131479c7009db24fdbd3, type: 3}
   Bgm03: {fileID: 8300000, guid: a0bbddf5fc6d368429ff58c319da8748, type: 3}
+  Bgmend: {fileID: 0}
 --- !u!1 &1104344345
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ public class SoundMgr2 : MonoBehaviour
     public AudioClip Bgm01;
     public AudioClip Bgm02;
     public AudioClip Bgm03;
-
+    public AudioClip Bgmend;
 
     void Start()
     {
@@ -42,6 +42,11 @@ public class SoundMgr2 : MonoBehaviour
     public void PlayBgm03()
     {
         audioSource.clip = Bgm03;
+        audioSource.Play();
+    }
+    public void PlayBgmend()
+    {
+        audioSource.clip = Bgmend;
         audioSource.Play();
     }
 }

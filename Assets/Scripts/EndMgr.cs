@@ -13,12 +13,14 @@ public class EndMgr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameMgr.BGMstop = false;
+        //SoundMgr2.instance2.PlayBgmend();
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         CGplay();
     }
 

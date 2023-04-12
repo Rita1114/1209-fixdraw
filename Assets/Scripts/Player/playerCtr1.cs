@@ -66,5 +66,6 @@ public class playerCtr1 : MonoBehaviour
         }
     }
 
+    
 
 }
