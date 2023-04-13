@@ -14,7 +14,7 @@ public class C1TimelineMgr : MonoBehaviour
     public Flowchart flowchart;
     private float duration=5;
     public  GameObject player;
-    public GameObject drawgame,drawgameMgr,開頭F;
+    public GameObject drawgame,drawgameMgr;
     public static bool 拿到筆,拿到錢,填色遊戲成功;
     
 
@@ -45,9 +45,7 @@ public class C1TimelineMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("Aniplay"))
            {
              GetComponent<PlayableDirector>().enabled = false;
-             開頭F.SetActive(false);
-             GetComponent<Flowchart>().enabled = false;
-             
+
            }
     }
 
