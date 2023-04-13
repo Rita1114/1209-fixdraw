@@ -63,41 +63,53 @@ public class C1lMgr : MonoBehaviour
         //flowchart.SetBooleanVariable("Aniplay",true);
 
         //Debug.Log(aaa);
-        if (flowchart.GetBooleanVariable("拿到糖")==true)
+        if ( 測試用F.GetBooleanVariable("拿到糖")==true)
         {
             GameMgr.拿到糖=true;
         }
-        else
-        {
-            GameMgr.拿到糖 = false ;
-        }
+        
         //移除所有道具
-        if (flowchart.GetBooleanVariable("填色遊戲") == true)
+        if ( 測試用F.GetBooleanVariable("填色遊戲") == true)
         {
             MyBook.itemlist.Remove(Drawbook);
             MyBook.itemlist.Remove(Pen);
             InventoryMgr.RefreshItem();
         }
-        if (flowchart.GetBooleanVariable("收集完") == true)
+        if ( 測試用F.GetBooleanVariable("收集完") == true)
         {
             GameMgr.收集完 = true;
             GameMgr.C1Note = true;
         }
         
-        if (flowchart.GetBooleanVariable("BGM") == true)
+        if ( 測試用F.GetBooleanVariable("BGM") == true)
         {
             GameMgr.BGMstop = true;
             SoundMgr2.instance2.PlayBgm02();
         }
         GetCandy();
-       
+        
+        if (GameMgr.拿到錢買筆)
+        {
+            測試用F.SetBooleanVariable("拿到錢",true);
+        }
+
+        if (GameMgr.拿回冊)
+        {
+            測試用F.SetBooleanVariable("有冊子",true); 
+        }
+
+        if (GameMgr.有筆)
+        {
+            測試用F.SetBooleanVariable("有筆",true);
+        }
+
     }
 
     public  void GetCandy()
     {
         if (GameMgr.拿到糖 == true)
         {
-            flowchart.SetBooleanVariable("拿到糖",true);
+            測試用F.SetBooleanVariable("拿到糖",true);
             if (!MyBook.itemlist.Contains(Candy)&& !MyBook.itemlist.Contains(Coin)&& !MyBook.itemlist.Contains(Pen))
             {
                 MyBook.itemlist.Add(Candy);
@@ -107,7 +119,7 @@ public class C1lMgr : MonoBehaviour
         }
         if (GameMgr.收集完 == true)
         {
-            flowchart.SetBooleanVariable("收集完",true);
+            測試用F.SetBooleanVariable("收集完",true);
         }
         if (GameMgr.C1Note == true)
         {
