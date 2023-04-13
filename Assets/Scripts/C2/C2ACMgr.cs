@@ -153,5 +153,10 @@ public class C2ACMgr : MonoBehaviour
             NoteC2.SetActive(false);
             //Destroy(NoteC2);
         }
+
+        if (GameMgr.找過置物櫃)
+        {
+            觸發點.SetBooleanVariable("找置物櫃",true);
+        }
     }
 }

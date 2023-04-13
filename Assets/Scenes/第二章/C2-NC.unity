@@ -325,6 +325,11 @@ GameObject:
   - component: {fileID: 50679272}
   - component: {fileID: 50679274}
   - component: {fileID: 50679275}
+  - component: {fileID: 50679280}
+  - component: {fileID: 50679279}
+  - component: {fileID: 50679278}
+  - component: {fileID: 50679277}
+  - component: {fileID: 50679276}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -483,7 +488,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81.398476
     y: 71.28373
-    width: 95.90332
+    width: 94.1379
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -514,11 +519,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 792.9375, y: -94.27366}
+  scrollPos: {x: 266.32373, y: -26.63873}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 381.8
-  zoom: 0.73000026
+  zoom: 0.5800004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -804,9 +809,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -67.44302
+    x: -70.8913
     y: 143.84142
-    width: 102.106476
+    width: 99.655136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -821,6 +826,7 @@ MonoBehaviour:
   - {fileID: 50679248}
   - {fileID: 50679246}
   - {fileID: 50679256}
+  - {fileID: 50679280}
   suppressAllAutoSelections: 0
 --- !u!114 &50679246
 MonoBehaviour:
@@ -1479,7 +1485,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -47.77091
     y: 233.63176
-    width: 87.21891
+    width: 85.862045
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1491,6 +1497,7 @@ MonoBehaviour:
   - {fileID: 50679252}
   - {fileID: 50679253}
   - {fileID: 50679262}
+  - {fileID: 50679279}
   suppressAllAutoSelections: 0
 --- !u!114 &50679256
 MonoBehaviour:
@@ -1553,7 +1560,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 116.163414
     y: 170.0709
-    width: 110.790886
+    width: 110.68961
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2187,8 +2194,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 9.539726
-    y: 295.51178
-    width: 74.81261
+    y: 297.23593
+    width: 74.82757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2198,6 +2205,7 @@ MonoBehaviour:
   eventHandler: {fileID: 50679268}
   commandList:
   - {fileID: 50679267}
+  - {fileID: 50679278}
   suppressAllAutoSelections: 0
 --- !u!114 &50679267
 MonoBehaviour:
@@ -2285,7 +2293,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -7.3973846
     y: 377.04285
-    width: 74.81261
+    width: 74.82757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2295,6 +2303,7 @@ MonoBehaviour:
   eventHandler: {fileID: 50679271}
   commandList:
   - {fileID: 50679269}
+  - {fileID: 50679277}
   suppressAllAutoSelections: 0
 --- !u!114 &50679271
 MonoBehaviour:
@@ -2355,7 +2364,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.564606
     y: 439.068
-    width: 74.81261
+    width: 74.82757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2365,6 +2374,7 @@ MonoBehaviour:
   eventHandler: {fileID: 50679274}
   commandList:
   - {fileID: 50679272}
+  - {fileID: 50679276}
   suppressAllAutoSelections: 0
 --- !u!114 &50679274
 MonoBehaviour:
@@ -2397,6 +2407,96 @@ MonoBehaviour:
   parentBlock: {fileID: 50679235}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &50679276
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 0
+  targetClickable2D: {fileID: 533774225}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &50679277
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 37
+  indentLevel: 0
+  targetClickable2D: {fileID: 1352129075}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &50679278
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  targetClickable2D: {fileID: 573022248}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &50679279
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 1
+  targetClickable2D: {fileID: 1876769385}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &50679280
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50679228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 1
+  targetClickable2D: {fileID: 1876769385}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &56970507
 GameObject:
   m_ObjectHideFlags: 0
@@ -6662,6 +6762,7 @@ MonoBehaviour:
   Bgm01: {fileID: 8300000, guid: 1473057f0ec79184ea03204d42ae1041, type: 3}
   Bgm02: {fileID: 8300000, guid: 7979c9445fdf131479c7009db24fdbd3, type: 3}
   Bgm03: {fileID: 8300000, guid: a0bbddf5fc6d368429ff58c319da8748, type: 3}
+  Bgmend: {fileID: 0}
 --- !u!1 &1428648401
 GameObject:
   m_ObjectHideFlags: 1

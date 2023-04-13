@@ -15,7 +15,10 @@ public class Portal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (GameMgr.電話響過==true)
+        {
+            Load();
+        }
     }
     public void Load()
     {
