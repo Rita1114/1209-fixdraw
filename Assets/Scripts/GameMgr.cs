@@ -30,8 +30,11 @@ public static class GameMgr
     public static bool C1Note,C2Note,C3Note,C3Note2=false;
     //BGM
     public static bool IsBgmReady = false;
+    public static bool IsBgmReady02 = false;
+    public static bool IsBgmReady03 = false;
+    public static bool IsBgmReady04 = false;
     public static bool BGMstop=false;
-    public static bool 第二章BGM結束,第三章BGM結束=false;
+    public static bool 第一章BGM結束,第二章BGM結束,第三章BGM結束=false;
     public static bool 第一章, 第二章, 第三章 = false;
     //C2變數
     public static bool 中卓走美教動畫已經播過,和小老師對話,拿到水彩筆,拿到水彩顏料,中卓離開,掀開畫布,補完畫 = false; //C2-NC

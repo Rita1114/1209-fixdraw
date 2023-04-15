@@ -4189,7 +4189,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3577110507076102164, guid: 036556e805b6c0844acd4fba32ba899b, type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a0bbddf5fc6d368429ff58c319da8748, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5147,6 +5147,7 @@ MonoBehaviour:
   Bgm01: {fileID: 8300000, guid: 1473057f0ec79184ea03204d42ae1041, type: 3}
   Bgm02: {fileID: 8300000, guid: 7979c9445fdf131479c7009db24fdbd3, type: 3}
   Bgm03: {fileID: 8300000, guid: a0bbddf5fc6d368429ff58c319da8748, type: 3}
+  Bgmend: {fileID: 0}
 --- !u!1 &1190512564
 GameObject:
   m_ObjectHideFlags: 0
@@ -5157,7 +5158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1190512567}
   - component: {fileID: 1190512566}
-  - component: {fileID: 1190512565}
+  - component: {fileID: 1190512568}
   m_Layer: 0
   m_Name: BGMAudioMgr
   m_TagString: Untagged
@@ -5165,21 +5166,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1190512565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190512564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a01ae014d3cd1ef43a389459f71f9e42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BGM: {fileID: 527997995}
-  This: {fileID: 1190512564}
-  BGMSoure: {fileID: 527997996}
 --- !u!114 &1190512566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5212,6 +5198,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1190512568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190512564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044f3ba21f1fa51488f7067aee79b7c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  This: {fileID: 1190512564}
 --- !u!1 &1303444550
 GameObject:
   m_ObjectHideFlags: 0

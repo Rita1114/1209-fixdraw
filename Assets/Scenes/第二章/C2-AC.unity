@@ -2151,7 +2151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.36074
     y: 150.69623
-    width: 106
+    width: 105.245285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11597,7 +11597,7 @@ PrefabInstance:
     - target: {fileID: 3820832982610931896, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: RingRing
       value: 
-      objectReference: {fileID: 8300000, guid: 1f62b8421f7668349bb9e118d95809b9, type: 3}
+      objectReference: {fileID: 8300000, guid: cf39399ff11d2dc4fba5eb1f1b7f1912, type: 3}
     - target: {fileID: 3820832982998347802, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_Pivot.x
       value: 0

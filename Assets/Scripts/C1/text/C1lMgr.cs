@@ -83,8 +83,7 @@ public class C1lMgr : MonoBehaviour
         
         if ( flowchart.GetBooleanVariable("BGM") == true)
         {
-            GameMgr.BGMstop = true;
-            SoundMgr2.instance2.PlayBgm02();
+            GameMgr.第一章BGM結束 = true;
         }
         GetCandy();
         

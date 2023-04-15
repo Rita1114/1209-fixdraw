@@ -75,9 +75,7 @@ public class C2ACMgr : MonoBehaviour
         //BGM
         if (flowchart.GetBooleanVariable("BGM03") == true)
         {
-            
-            GameMgr.BGMstop = true;
-            //SoundMgr2.instance2.PlayBgm03();
+            GameMgr.第二章BGM結束 = true;
         }
 
         if (flowchart.GetBooleanVariable("鈴聲") == true)
