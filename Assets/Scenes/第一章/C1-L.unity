@@ -907,8 +907,12 @@ PrefabInstance:
       value: "\u5F9E\u67D0\u8655\u50B3\u4F86\u7684\u8072\u97F3"
       objectReference: {fileID: 0}
     - target: {fileID: 8598240607122902661, guid: 1879299e776c0f04a965299014d34145, type: 3}
+      propertyPath: volume
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598240607122902661, guid: 1879299e776c0f04a965299014d34145, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8598240607122902663, guid: 1879299e776c0f04a965299014d34145, type: 3}
       propertyPath: nameText
@@ -8778,8 +8782,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4839791112810821487, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
+      propertyPath: volume
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839791112810821487, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8512370039472146281, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
       propertyPath: m_IsActive
@@ -10076,8 +10084,12 @@ PrefabInstance:
       value: "little\u5353SayDialog"
       objectReference: {fileID: 0}
     - target: {fileID: 4839791112810821487, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
+      propertyPath: volume
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839791112810821487, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8512370039472146281, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
       propertyPath: m_IsActive

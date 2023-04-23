@@ -74,7 +74,8 @@ public class C1lMgr : MonoBehaviour
             MyBook.itemlist.Remove(Drawbook);
             MyBook.itemlist.Remove(Pen);
             InventoryMgr.RefreshItem();
-            flowchart.SetBooleanVariable("拿到糖",false);
+            candyimage.SetActive(false);
+            
         }
         if ( flowchart.GetBooleanVariable("收集完") == true)
         {
