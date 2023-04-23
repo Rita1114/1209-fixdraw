@@ -17,10 +17,7 @@ public class ACPortal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameMgr.找過置物櫃 == true)
-        {
-            flowchart.SetBooleanVariable("找置物櫃",true);
-        }
+       
     }
     public void Load()
     {

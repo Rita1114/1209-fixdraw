@@ -48,9 +48,31 @@ public class C2toMgr : MonoBehaviour
         {
             GameMgr.第三次對話 = true;
         }//對話完畢給管理員知道
+        
+        if (flowchart.GetBooleanVariable("第三次說完")==true)
+        {
+            GameMgr.第三次說完 = true;
+            
+            if (GameMgr.第三次說完)
+            {
+                if (!MyBook.itemlist.Contains(workbook) && !MyBook.itemlist.Contains(watercolorpen))
+                {
+                    MyBook.itemlist.Add(workbook);
+                    InventoryMgr.RefreshItem();
+                    GetTool.SetActive(true);
+                }
+                //道具添加
+            }
+            
+           
+        }
+                
+
         if (GameMgr.第三次對話==true)
         {
             flowchart.SetBooleanVariable("拿到作業",true);
+            
+          
         }//透過管理員紀錄設定，避免變數消失
         
         
@@ -62,13 +84,7 @@ public class C2toMgr : MonoBehaviour
         {
             flowchart.SetBooleanVariable("拿到作業",true);
             
-            //道具添加
-            if (!MyBook.itemlist.Contains(workbook) && !MyBook.itemlist.Contains(watercolorpen))
-            {
-                MyBook.itemlist.Add(workbook);
-                InventoryMgr.RefreshItem();
-                GetTool.SetActive(true);
-            }
+          
         }
         else
         {

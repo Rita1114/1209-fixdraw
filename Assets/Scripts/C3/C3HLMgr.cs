@@ -6,6 +6,8 @@ using Fungus;
 public class C3HLMgr : MonoBehaviour
 {
     public Flowchart flowchart;
+
+    public  GameObject 婆婆,辭職信;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +27,16 @@ public class C3HLMgr : MonoBehaviour
             flowchart.SetBooleanVariable("事件完成",true);
             GameMgr.電話 = true;
         }
+
+        if (flowchart.GetBooleanVariable("辭職信") == true)
+        {
+            if(Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                辭職信.SetActive(true);
+            }
+        }
+        
     }
+
+   
 }
