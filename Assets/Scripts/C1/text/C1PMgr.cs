@@ -10,7 +10,7 @@ public class C1PMgr : MonoBehaviour
     public Flowchart flowchart;
     public PlayableDirector playableDirector;
     public static bool 冊被搶=false;
-    public GameObject book;
+    public GameObject book,hand;
     
     // Start is called before the first frame update
     void Start()
@@ -29,6 +29,12 @@ public class C1PMgr : MonoBehaviour
             GameMgr.塗鴉手動畫出現1 = true;
         }
         CheckPevent();
+        if(flowchart.GetBooleanVariable("冊被搶過")==true)
+        {
+            hand.SetActive(false);
+            playableDirector.enabled = false;
+            GameMgr.冊被搶過 = true; 
+        }
 
 
     }
@@ -38,6 +44,12 @@ public class C1PMgr : MonoBehaviour
         if (GameMgr.冊被搶==true)
         {
             flowchart.SetBooleanVariable("冊被搶",true);
+          
+        }
+        if (GameMgr.冊被搶過==true)
+        {
+            flowchart.SetBooleanVariable("冊被搶過",true);
+          
         }
     }
 }

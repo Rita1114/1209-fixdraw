@@ -44,6 +44,7 @@ public class C1CMgr : MonoBehaviour
         {
             hand.SetActive(true);
         }
+        
         if (flowchart.GetBooleanVariable("拿回冊")==true)
         {
             GameMgr.拿回冊 = true;
