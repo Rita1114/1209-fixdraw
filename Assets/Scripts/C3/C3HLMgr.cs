@@ -17,6 +17,7 @@ public class C3HLMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        play();
         if (flowchart.GetBooleanVariable("填色遊戲完成")==true)
         {
             GameMgr.事件完成 = true;
@@ -29,7 +30,7 @@ public class C3HLMgr : MonoBehaviour
             Destroy(婆婆);
         }
 
-        play();
+       
 
 
 
@@ -39,6 +40,10 @@ public class C3HLMgr : MonoBehaviour
         if(flowchart.GetBooleanVariable("辭職信") == true)
         {
             辭職信.SetActive(true);
+        }
+        else
+        {
+            辭職信.SetActive(false);
         }
     }
 
