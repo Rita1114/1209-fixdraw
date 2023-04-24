@@ -485,7 +485,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81.398476
     y: 71.28373
-    width: 94.1379
+    width: 93.721504
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -809,7 +809,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -70.8913
     y: 145.56555
-    width: 99.655136
+    width: 99.96744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1483,7 +1483,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -46.046772
     y: 235.3559
-    width: 85.862045
+    width: 87.47558
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1558,7 +1558,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 116.163414
     y: 170.0709
-    width: 110.68961
+    width: 107.77485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2193,7 +2193,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 9.539726
     y: 298.96008
-    width: 74.82757
+    width: 74.98372
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2290,7 +2290,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -7.3973846
     y: 377.04285
-    width: 74.82757
+    width: 74.98372
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2360,7 +2360,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.564606
     y: 439.068
-    width: 74.82757
+    width: 74.98372
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3329,6 +3329,7 @@ MonoBehaviour:
   watercolorbox: {fileID: 11400000, guid: ace97f3b7f02bee449e1d47c20934a13, type: 2}
   watercolorpen: {fileID: 11400000, guid: e3a30c8acf1769e46b2c345177d0ecff, type: 2}
   artroomkey: {fileID: 11400000, guid: e57138fec071f6c44adbeca9d7ed9249, type: 2}
+  Candy: {fileID: 11400000, guid: 2171ee3e60a3a1243a77951ba3e8fd99, type: 2}
   NoteC2: {fileID: 1549657633}
   GetTool: {fileID: 1834018441}
 --- !u!4 &209629764
@@ -3377,7 +3378,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3806429768714395835, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
       propertyPath: m_Name
-      value: "\u5C0D\u4F4D (1)"
+      value: "\u6C34\u5F69\u7B46"
       objectReference: {fileID: 0}
     - target: {fileID: 3806429768714395835, guid: 3f5ef3201baa2b94da8da64b401c2042, type: 3}
       propertyPath: m_IsActive

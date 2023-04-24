@@ -67,14 +67,20 @@ public class C1lMgr : MonoBehaviour
         {
             GameMgr.拿到糖=true;
         }
+        else
+        {
+            GameMgr.拿到糖 = false;
+        }
         
         //移除所有道具
         if ( flowchart.GetBooleanVariable("填色遊戲") == true)
         {
+            GameMgr.拿到糖 = false;
             MyBook.itemlist.Remove(Drawbook);
             MyBook.itemlist.Remove(Pen);
             InventoryMgr.RefreshItem();
-            candyimage.SetActive(false);
+            //candyimage.SetActive(false);
+            //MyBook.itemlist.Remove(Candy);
             
         }
         if ( flowchart.GetBooleanVariable("收集完") == true)
@@ -117,6 +123,10 @@ public class C1lMgr : MonoBehaviour
                 InventoryMgr.RefreshItem();
                 candyimage.SetActive(true);
             }
+        }
+        else
+        {
+            flowchart.SetBooleanVariable("拿到糖", false);
         }
         if (GameMgr.收集完 == true)
         {

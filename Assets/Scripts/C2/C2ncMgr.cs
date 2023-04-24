@@ -19,11 +19,13 @@ public class C2ncMgr : MonoBehaviour
     public Item watercolorbox;
     public Item watercolorpen;
     public Item artroomkey;
+    public Item Candy;
 
     public GameObject NoteC2;
     public GameObject GetTool;
     void Start()
     {
+        MyBook.itemlist.Remove(Candy);
         SoundMgr2.instance2.PlayBgm02();
         WaterBoxBt.onClick.AddListener(GetBox);
     }
