@@ -557,7 +557,7 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 10.807556, y: 0.22387767}
+    - - {x: 10.692001, y: 1.4564607}
       - {x: 15.423475, y: 2.7953022}
       - {x: 17.401337, y: 1.6692169}
       - {x: 17.4945, y: 0.8858943}
@@ -567,7 +567,7 @@ PolygonCollider2D:
       - {x: 21.410995, y: -6.3089495}
       - {x: 26.917988, y: -2.6890414}
       - {x: 15.352447, y: 3.869516}
-      - {x: 10.698935, y: 1.0762105}
+      - {x: 10.621898, y: 2.3087938}
       - {x: 6.2186584, y: 3.4778197}
       - {x: -0.38985443, y: -0.92328215}
       - {x: 7.862405, y: -5.5603304}
@@ -1228,11 +1228,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3282843473185516319, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.72
+      value: 7.12
       objectReference: {fileID: 0}
     - target: {fileID: 3282843473185516319, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.64
+      value: -5.37
       objectReference: {fileID: 0}
     - target: {fileID: 3282843473185516319, guid: 20ac9d71a38df0f4994a11b5b8b31ac5, type: 3}
       propertyPath: m_LocalPosition.z
