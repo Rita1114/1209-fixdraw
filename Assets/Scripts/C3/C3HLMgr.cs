@@ -26,16 +26,20 @@ public class C3HLMgr : MonoBehaviour
         {
             flowchart.SetBooleanVariable("事件完成",true);
             GameMgr.電話 = true;
+            Destroy(婆婆);
         }
 
-        if (flowchart.GetBooleanVariable("辭職信") == true)
+        play();
+
+
+
+    }
+    public void play()
+    {
+        if(flowchart.GetBooleanVariable("辭職信") == true)
         {
-            if(Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                辭職信.SetActive(true);
-            }
+            辭職信.SetActive(true);
         }
-        
     }
 
    
