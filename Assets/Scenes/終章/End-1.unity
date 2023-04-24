@@ -1373,7 +1373,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 45.048077
     y: 76.85095
-    width: 80.87479
+    width: 80
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1424,7 +1424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 51.70589
     y: 149.99998
-    width: 69.55403
+    width: 69.090904
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2324,7 +2324,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 98a16cbc6ff70bd4ba163498013ce194, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 431c2f344ce524a4b9a358cdd87b7ad7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
