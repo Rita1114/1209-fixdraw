@@ -128,7 +128,7 @@ public class MouseClickPaper2 : MonoBehaviour
         //���}�@����C��
         if (other.name.ToLower().Contains("wordpaper") && isclick)
         {
-            WordpaperGame.SetActive(true);
+            //WordpaperGame.SetActive(true);
         }
         //�C���C�⥬�L�u��
         #region
