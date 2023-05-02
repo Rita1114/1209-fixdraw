@@ -57,9 +57,9 @@ public class S1 : MonoBehaviour
     {
         SoundMgr.instance.CirclesoundEffect();
         SceneManager.LoadScene("S2");
-        // GameMgr.�Ĥ@��BGM���� = false;
-        //GameMgr.�ĤG��BGM���� = false;
-        //GameMgr.�ĤT��BGM���� = false;
+        GameMgr.第一章BGM結束 = false;
+        GameMgr.第二章BGM結束= false;
+        GameMgr.第三章BGM結束 = false;
     }
     public void ChooseChapter()
     {
