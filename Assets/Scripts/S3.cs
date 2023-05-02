@@ -101,6 +101,9 @@ public class S3 : MonoBehaviour
     {
         SoundMgr.instance.CirclesoundEffect();
         SceneManager.LoadScene("S1");
+        GameMgr.第一章BGM結束 = true;
+        GameMgr.第二章BGM結束 = true;
+        GameMgr.第三章BGM結束 = true;
     }
     //Marks
     void ClickRedMark()
