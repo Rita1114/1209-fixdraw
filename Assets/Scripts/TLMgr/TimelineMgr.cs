@@ -57,6 +57,19 @@ public class TimelineMgr : MonoBehaviour
     
      void Update()
     {
+        if (Input.GetKeyDown(KeyCode.F7))
+        {
+            SceneManager.LoadScene("C1-L");
+        }
+        if (Input.GetKeyDown(KeyCode.F8))
+        {
+            SceneManager.LoadScene("C2-NC");
+        }
+        if (Input.GetKeyDown(KeyCode.F9))
+        {
+            SceneManager.LoadScene("C3-HS");
+        }
+        
         if (Input.GetKeyDown(KeyCode.Mouse0))
       {
           Invoke(nameof(look),duration);

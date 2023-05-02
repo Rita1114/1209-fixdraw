@@ -43,7 +43,9 @@ public class S1 : MonoBehaviour
     void Update()
     {
         //BGMvalue= BGMSlider2.value;
-        //BGMSlider2.value =
+        //BGMSlider2.value;
+        
+        
     }
     public void Backmenu()
     {
@@ -55,9 +57,9 @@ public class S1 : MonoBehaviour
     {
         SoundMgr.instance.CirclesoundEffect();
         SceneManager.LoadScene("S2");
-        GameMgr.²Ä¤@³¹BGMµ²§ô = false;
-        GameMgr.²Ä¤G³¹BGMµ²§ô = false;
-        GameMgr.²Ä¤T³¹BGMµ²§ô = false;
+        // GameMgr.ï¿½Ä¤@ï¿½ï¿½BGMï¿½ï¿½ï¿½ï¿½ = false;
+        //GameMgr.ï¿½Ä¤Gï¿½ï¿½BGMï¿½ï¿½ï¿½ï¿½ = false;
+        //GameMgr.ï¿½Ä¤Tï¿½ï¿½BGMï¿½ï¿½ï¿½ï¿½ = false;
     }
     public void ChooseChapter()
     {

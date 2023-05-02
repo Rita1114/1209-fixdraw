@@ -4,6 +4,7 @@ using UnityEngine;
 using Fungus;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
+using UnityEngine.SceneManagement;
 
 
 public static class GameMgr 
@@ -48,4 +49,6 @@ public static class GameMgr
     public static bool 婆婆出去後,C3填色遊戲中,C3填色遊戲完成,事件完成,辭職信,電話,電話響過=false;
 
 
+   
+    
 }
