@@ -23,7 +23,7 @@ public class C2ncMgr : MonoBehaviour
 
     public GameObject NoteC2;
     public GameObject GetTool;
-    public GameObject PaperW;
+    public GameObject PaperW,mouse;
     void Start()
     {
         MyBook.itemlist.Remove(Candy);
@@ -130,6 +130,15 @@ public class C2ncMgr : MonoBehaviour
         if(flowchart.GetBooleanVariable("紙牆") == true)
         {
             PaperW.SetActive(true);
+            mouse.SetActive(true);
+        }
+        else
+        {
+            mouse.SetActive(false); 
+        }
+        if(flowchart.GetBooleanVariable("拿到水彩顏料") == true)
+        {
+            flowchart.SetBooleanVariable("紙牆", false);
         }
     }
 
@@ -141,4 +150,5 @@ public class C2ncMgr : MonoBehaviour
     {
         SceneManager.LoadScene("C2-C");
     }
+   
 }
