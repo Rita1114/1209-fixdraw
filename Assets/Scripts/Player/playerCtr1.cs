@@ -48,27 +48,13 @@ public class playerCtr1 : MonoBehaviour
             targetPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPoint.z = 0;
         }
-        
-     
-
 
         //rb.velocity = new Vector2(targetPoint.x, targetPoint.y);
 
         Vector2 direction = new Vector2(targetPoint.x, targetPoint.y);
         Vector2 Walkdirection = new Vector2(transform.position.x-targetPoint.x, transform.position.y-targetPoint.y).Abs();
-
-     
-     Vector2 from = new Vector2(transform.position.x, transform.position.y);
-     Vector2 to = new Vector2(targetPoint.x, targetPoint.y);
-     Vector2 dir = (from - to).normalized;
-     float angle = Vector2.SignedAngle(Vector2.up,dir);
-     Debug.Log($"{from}-{to} = {dir} => {((angle<0.0)?(angle+360):angle)}");
-
-
         FindObjectOfType<MoveAnimation>().WalkDirection(Walkdirection);
         FindObjectOfType<MoveAnimation>().SetDirection(direction);
-        FindObjectOfType<MoveAnimation>().SetAngle(angle);
-        
     }
 
     void Update()

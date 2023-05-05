@@ -7,9 +7,7 @@ public class MoveAnimation : MonoBehaviour
 {
     private Animator anim;
     private string[] idleDirections = { "idle-leftup", "idle-leftdown", "idle-rightdown", "idle-rightup" };
-   // private string[] WalkDirections = { "walk-leftup", "walk-leftdown", "walk-rightdown", "walk-rightup" };
-    
-   private string[] WalkDirections = { "walk-leftdown","walk-leftup", "walk-rightup","walk-rightdown"};
+    private string[] WalkDirections = { "walk-leftup", "walk-leftdown", "walk-rightdown", "walk-rightup" };
 
     int lastDirection;
 
@@ -39,35 +37,8 @@ public class MoveAnimation : MonoBehaviour
             lastDirection = DirectionToIndex(_direction);
         }
 
-       // anim.Play(directionArray[lastDirection]);
+        anim.Play(directionArray[lastDirection]);
         
-    }
-
-    public void SetAngle(float angle)
-    {
-        float stepCount = angle / 90;
-        int index= Mathf.FloorToInt(stepCount);
-        string[]    directionArray = WalkDirections;
-
-        if (angle <= 0 && angle > -90)
-        {
-            index = 0;
-        }else if (angle<=-90 && angle >-180)
-        {
-            index = 1;
-
-        }else if (angle <=180&& angle>90)
-        {
-            index = 2;
-        }
-        else
-        {
-            index = 3;
-        }
-       
-        Debug.Log($"{angle} {index}");
-
-        anim.Play(directionArray[index]);
     }
 
     private int DirectionToIndex(Vector2 _direction)
@@ -77,7 +48,6 @@ public class MoveAnimation : MonoBehaviour
         float offset = step / 4;
 
         float angle = Vector2.SignedAngle(Vector2.up, noDir);
-       // Debug.Log("angle:"+angle);
 
         angle += offset;
         if (angle < 0)
