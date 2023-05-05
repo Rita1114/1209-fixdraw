@@ -29,7 +29,6 @@ public class MoveAnimation : MonoBehaviour
     public void SetDirection(Vector2 _direction)
     {
         string[] directionArray = null;
-        
         if (anim.GetBool("canwalk") == false)
         {
             directionArray = idleDirections;
@@ -83,7 +82,6 @@ public class MoveAnimation : MonoBehaviour
        // Debug.Log("angle:"+angle);
 
         angle += offset;
-        
         if (angle < 0)
         {
             angle += 360;

@@ -3358,7 +3358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &168090883
 Transform:
   m_ObjectHideFlags: 0
@@ -3677,7 +3677,6 @@ MonoBehaviour:
   NoteC2: {fileID: 1549657633}
   GetTool: {fileID: 1834018441}
   PaperW: {fileID: 1626473098}
-  mouse: {fileID: 168090882}
 --- !u!4 &209629764
 Transform:
   m_ObjectHideFlags: 0
