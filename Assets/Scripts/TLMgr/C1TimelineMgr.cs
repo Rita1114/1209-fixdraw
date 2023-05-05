@@ -13,7 +13,7 @@ public class C1TimelineMgr : MonoBehaviour
     public string[] timelinename;
     public Flowchart flowchart;
     private float duration=5;
-    public  GameObject player;
+    public  GameObject player,click;
     public GameObject drawgame,drawgameMgr;
     public static bool 拿到筆,拿到錢,填色遊戲成功;
     
@@ -108,6 +108,7 @@ public class C1TimelineMgr : MonoBehaviour
            mouseClickPaper.GetComponent<MouseClickPaper>().isopen=true;
            drawgame.SetActive(true);
            drawgameMgr.GetComponent<FillcolorGame>().enabled=true;
+           click.SetActive(true);
           }
          
           if(flowchart.GetBooleanVariable("爸出現1")==true)
