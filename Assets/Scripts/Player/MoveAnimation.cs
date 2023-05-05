@@ -6,7 +6,7 @@ using UnityEngine;
 public class MoveAnimation : MonoBehaviour
 {
     private Animator anim;
-    private string[] idleDirections = { "idle-leftup", "idle-leftdown", "idle-rightdown", "idle-rightup" };
+    private string[] idleDirections = { "idle-leftdown", "idle-leftup", "idle-rightup", "idle-rightdown" };
    // private string[] WalkDirections = { "walk-leftup", "walk-leftdown", "walk-rightdown", "walk-rightup" };
     
    private string[] WalkDirections = { "walk-leftdown","walk-leftup", "walk-rightup","walk-rightdown"};
@@ -29,6 +29,7 @@ public class MoveAnimation : MonoBehaviour
     public void SetDirection(Vector2 _direction)
     {
         string[] directionArray = null;
+        
         if (anim.GetBool("canwalk") == false)
         {
             directionArray = idleDirections;
@@ -47,20 +48,22 @@ public class MoveAnimation : MonoBehaviour
     {
         float stepCount = angle / 90;
         int index= Mathf.FloorToInt(stepCount);
+        
         string[]    directionArray = WalkDirections;
-
+        
+       //第一象限
         if (angle <= 0 && angle > -90)
         {
             index = 0;
-        }else if (angle<=-90 && angle >-180)
+        }else if (angle<=-90 && angle >-180) //二
         {
             index = 1;
 
-        }else if (angle <=180&& angle>90)
+        }else if (angle <=180&& angle>90)   //三
         {
             index = 2;
         }
-        else
+        else   //四
         {
             index = 3;
         }
@@ -80,6 +83,7 @@ public class MoveAnimation : MonoBehaviour
        // Debug.Log("angle:"+angle);
 
         angle += offset;
+        
         if (angle < 0)
         {
             angle += 360;

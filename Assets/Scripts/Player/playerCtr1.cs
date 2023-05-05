@@ -60,7 +60,7 @@ public class playerCtr1 : MonoBehaviour
      
      Vector2 from = new Vector2(transform.position.x, transform.position.y);
      Vector2 to = new Vector2(targetPoint.x, targetPoint.y);
-     Vector2 dir = (from - to).normalized;
+     Vector2 dir = (from - to).normalized;//單位向量
      float angle = Vector2.SignedAngle(Vector2.up,dir);
      Debug.Log($"{from}-{to} = {dir} => {((angle<0.0)?(angle+360):angle)}");
 
