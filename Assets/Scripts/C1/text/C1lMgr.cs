@@ -79,19 +79,19 @@ public class C1lMgr : MonoBehaviour
             MyBook.itemlist.Remove(Drawbook);
             MyBook.itemlist.Remove(Pen);
             InventoryMgr.RefreshItem();
-            //candyimage.SetActive(false);
-            //MyBook.itemlist.Remove(Candy);
             
+            Debug.Log("刪掉!!!!!!!");
+
         }
         if ( flowchart.GetBooleanVariable("收集完") == true)
         {
             GameMgr.收集完 = true;
-            GameMgr.C1Note = true;
         }
         
         if ( flowchart.GetBooleanVariable("BGM") == true)
         {
             GameMgr.第一章BGM結束 = true;
+            //GameMgr.C1Note = true;
         }
         GetCandy();
         
@@ -109,6 +109,7 @@ public class C1lMgr : MonoBehaviour
         {
             flowchart.SetBooleanVariable("有筆",true);
         }
+       
 
     }
 
@@ -132,10 +133,7 @@ public class C1lMgr : MonoBehaviour
         {
             flowchart.SetBooleanVariable("收集完",true);
         }
-        if (GameMgr.C1Note == true)
-        {
-            Destroy(NoteC1);
-        }
+        
     }
 
 }
