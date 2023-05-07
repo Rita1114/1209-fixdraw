@@ -12859,6 +12859,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3820832982998347800, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: Pen
+      value: 
+      objectReference: {fileID: 11400000, guid: 0002af79eac26a34fb74ca4451ae4e17, type: 2}
+    - target: {fileID: 3820832982998347800, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: MyBook
+      value: 
+      objectReference: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
+    - target: {fileID: 3820832982998347800, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: Drawbook
+      value: 
+      objectReference: {fileID: 11400000, guid: efdb30d2d993ce2448279adf519aca02, type: 2}
     - target: {fileID: 3820832982998347802, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_Pivot.x
       value: 0

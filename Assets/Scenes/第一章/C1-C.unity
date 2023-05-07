@@ -3059,6 +3059,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3820832982998347800, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: Pen
+      value: 
+      objectReference: {fileID: 11400000, guid: 0002af79eac26a34fb74ca4451ae4e17, type: 2}
+    - target: {fileID: 3820832982998347800, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: MyBook
+      value: 
+      objectReference: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
+    - target: {fileID: 3820832982998347800, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: Drawbook
+      value: 
+      objectReference: {fileID: 11400000, guid: efdb30d2d993ce2448279adf519aca02, type: 2}
     - target: {fileID: 3820832982998347802, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3167,11 +3179,6 @@ PrefabInstance:
 --- !u!224 &571068460 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3820832982998347802, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
-  m_PrefabInstance: {fileID: 571068459}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &571068461 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3820832983871591605, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
   m_PrefabInstance: {fileID: 571068459}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &628498056
@@ -4017,7 +4024,6 @@ MonoBehaviour:
   hand: {fileID: 982271147}
   Coinimage: {fileID: 1168901161}
   bookimage: {fileID: 1593581652}
-  NoteC1: {fileID: 571068461}
   Drawbook: {fileID: 11400000, guid: efdb30d2d993ce2448279adf519aca02, type: 2}
   Coin: {fileID: 11400000, guid: fec489737493b384aa8883c52c1152d1, type: 2}
   Candy: {fileID: 11400000, guid: 2171ee3e60a3a1243a77951ba3e8fd99, type: 2}

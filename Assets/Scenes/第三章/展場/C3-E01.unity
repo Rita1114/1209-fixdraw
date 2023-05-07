@@ -1305,7 +1305,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1349460129}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 13.13
+    OrthographicSize: 13.89
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -2134,7 +2134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &853503127
 Transform:
   m_ObjectHideFlags: 0
@@ -4033,7 +4033,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 13.13
+  orthographic size: 13.89
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

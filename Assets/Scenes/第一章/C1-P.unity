@@ -700,6 +700,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3820832982998347800, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: Pen
+      value: 
+      objectReference: {fileID: 11400000, guid: 0002af79eac26a34fb74ca4451ae4e17, type: 2}
+    - target: {fileID: 3820832982998347800, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: MyBook
+      value: 
+      objectReference: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
+    - target: {fileID: 3820832982998347800, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+      propertyPath: Drawbook
+      value: 
+      objectReference: {fileID: 11400000, guid: efdb30d2d993ce2448279adf519aca02, type: 2}
     - target: {fileID: 3820832982998347802, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1643,7 +1655,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 49.714294
     y: 229.2857
-    width: 74.47058
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1714,7 +1726,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 71.14285
     y: 176.42853
-    width: 86.70587
+    width: 85.16093
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1787,7 +1799,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.71427
     y: 123.571434
-    width: 74.47058
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1857,7 +1869,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72.57143
     y: 73
-    width: 86.70587
+    width: 85.16093
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1955,7 +1967,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 205.77979
     y: 58.794006
-    width: 74.47058
+    width: 73.44062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2483,7 +2495,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 197.2716
     y: 131.92511
-    width: 113.999985
+    width: 116.05993
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

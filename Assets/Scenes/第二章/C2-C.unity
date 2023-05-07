@@ -3499,7 +3499,7 @@ GameObject:
   - component: {fileID: 788090546}
   - component: {fileID: 788090545}
   m_Layer: 0
-  m_Name: Main Camera (1)
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6375,7 +6375,6 @@ MonoBehaviour:
   Bulletinboard: {fileID: 933838904}
   Light: {fileID: 577775778}
   c2CMgr: {fileID: 1602433126}
-  NoteC2: {fileID: 1914330791}
 --- !u!4 &1602433127
 Transform:
   m_ObjectHideFlags: 0
@@ -6987,11 +6986,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
---- !u!1 &1914330791 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3820832982607836055, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
-  m_PrefabInstance: {fileID: 1914330790}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1921054508
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,8 +15,6 @@ public class C2ACMgr : MonoBehaviour
     public Item watercolorpen;
     public Item watercolorpaper;
 
-
-    public GameObject NoteC2;
     // Start is called before the first frame update
     void Start()
     {
@@ -141,16 +139,6 @@ public class C2ACMgr : MonoBehaviour
             flowchart.SetBooleanVariable("有水彩紙",true);
         }
 
-        //備忘錄
-        if (GameMgr.找到水彩紙 && GameMgr.拿到水彩筆 && GameMgr.拿到水彩顏料)
-        {
-            GameMgr.C2Note = true;
-        }
-        if (GameMgr.C2Note)
-        {
-            NoteC2.SetActive(false);
-            //Destroy(NoteC2);
-        }
 
         if (GameMgr.找過置物櫃)
         {

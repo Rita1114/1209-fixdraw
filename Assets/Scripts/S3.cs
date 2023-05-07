@@ -22,9 +22,9 @@ public class S3 : MonoBehaviour
     public GameObject OldHouseThing;//老家裡的內容物品
     //更改備忘錄內容
     public GameObject NoteC1;
-
-
-
+    public GameObject NoteC2;
+    public GameObject NoteC3;
+    public GameObject NoteC302;
     //Marks
     public Button RedMarkbutton;//紅色標籤
     public Button GreenMarkbutton;//綠
@@ -33,8 +33,14 @@ public class S3 : MonoBehaviour
 
     public GameObject rightRedMark;//又紅色標籤
     public GameObject leftsRedMark;//左紅色標籤
-    //
-    
+    //C1
+    public Inventory MyBook;
+    public Item Drawbook;
+    public Item Pen;
+    //C2
+    public Item watercolorpen;
+    public Item watercolorbox;
+    public Item watercolorpaper;
     void Start()
     {
         
@@ -52,12 +58,23 @@ public class S3 : MonoBehaviour
    
     void Update()
     {
-        //BgmValue.value =S1.BGMSlider2.value;
-        if (GameMgr.收集完==true)//收集完道具的條件
+        if (MyBook.itemlist.Contains(Pen) && MyBook.itemlist.Contains(Drawbook))
         {
             Destroy(NoteC1);
         }
-        
+        if (MyBook.itemlist.Contains(watercolorpen) && MyBook.itemlist.Contains(watercolorbox) && MyBook.itemlist.Contains(watercolorpaper))
+        {
+            Destroy(NoteC2);
+        }
+        if (GameMgr.C3Note)
+        {
+            Destroy(NoteC3);
+        }
+        if (GameMgr.C3Note2)
+        {
+            NoteC302.SetActive(true);
+        }
+
     }
     #region 我的function
     void OpenWorkBook()

@@ -8,7 +8,6 @@ public class C1CMgr : MonoBehaviour
     public Flowchart flowchart;
 
     public GameObject hand,Coinimage,bookimage;
-    public GameObject NoteC1;
 
     public Item Drawbook;
     public Item Coin;
@@ -91,10 +90,6 @@ public class C1CMgr : MonoBehaviour
                 GameMgr.IsFirstTimeLinePlayed = true;
                 Coinimage.SetActive(true);
             }
-        }
-        if (GameMgr.C1Note == true)
-        {
-            Destroy(NoteC1);
         }
     }
 }

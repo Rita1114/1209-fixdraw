@@ -21,7 +21,6 @@ public class C2ncMgr : MonoBehaviour
     public Item artroomkey;
     public Item Candy;
 
-    public GameObject NoteC2;
     public GameObject GetTool;
     public GameObject PaperW;
     void Start()
@@ -117,16 +116,7 @@ public class C2ncMgr : MonoBehaviour
                LoadC2();
             }
         }
-        //備忘錄
-        if (GameMgr.找到水彩紙 && GameMgr.拿到水彩筆 && GameMgr.拿到水彩顏料)
-        {
-            GameMgr.C2Note = true;
-        }
-        if (GameMgr.C2Note)
-        {
-            Destroy(NoteC2);
-        }
-        //
+        
         if(flowchart.GetBooleanVariable("紙牆") == true)
         {
             PaperW.SetActive(true);

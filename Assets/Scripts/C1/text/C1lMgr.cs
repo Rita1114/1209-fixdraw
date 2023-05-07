@@ -19,7 +19,6 @@ public class C1lMgr : MonoBehaviour
 
     public GameObject playerObject;
     public GameObject candyimage;
-    public GameObject NoteC1;
 
 
     public Flowchart flowchart;
@@ -79,8 +78,6 @@ public class C1lMgr : MonoBehaviour
             MyBook.itemlist.Remove(Drawbook);
             MyBook.itemlist.Remove(Pen);
             InventoryMgr.RefreshItem();
-            
-            Debug.Log("刪掉!!!!!!!");
 
         }
         if ( flowchart.GetBooleanVariable("收集完") == true)

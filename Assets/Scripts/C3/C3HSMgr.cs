@@ -34,7 +34,7 @@ public class C3HSMgr : MonoBehaviour
 
         if (flowchart.GetBooleanVariable("start") == true)
         {
-            GameMgr.BGMstop = false;
+            //GameMgr.BGMstop = false;
 
         }
 
@@ -45,6 +45,7 @@ public class C3HSMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("掛斷") == true)
         {
             SoundMgr.instance.PlayRingEnd();
+            GameMgr.C3Note2 = true;
         }
     }
 }

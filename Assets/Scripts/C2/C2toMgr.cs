@@ -16,7 +16,6 @@ public class C2toMgr : MonoBehaviour
     public Item workbook;
     public Item watercolorpen;
 
-    public GameObject NoteC2;
     void Start()
     {
         CloseGet.onClick.AddListener(CloseG);
@@ -92,14 +91,6 @@ public class C2toMgr : MonoBehaviour
         }
         //透過管理員紀錄設定，避免變數消失
 
-        if (GameMgr.找到水彩紙 && GameMgr.拿到水彩筆 && GameMgr.拿到水彩顏料)
-        {
-            GameMgr.C2Note = true;
-        }
-        if (GameMgr.C2Note)
-        {
-            Destroy(NoteC2);
-        }
 
     }
     public void CloseG()

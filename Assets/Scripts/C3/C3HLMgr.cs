@@ -21,6 +21,7 @@ public class C3HLMgr : MonoBehaviour
         if (flowchart.GetBooleanVariable("填色遊戲完成")==true)
         {
             GameMgr.事件完成 = true;
+            GameMgr.C3Note = true;
         }
 
         if (GameMgr.事件完成 == true)

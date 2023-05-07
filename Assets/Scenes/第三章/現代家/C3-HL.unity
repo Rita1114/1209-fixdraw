@@ -367,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3820832982871984151, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3820832982998347802, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_Pivot.x
@@ -463,7 +463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3820832984046082605, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -3978,7 +3978,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 175.0176
     y: 207.27197
-    width: 72.85713
+    width: 74.2982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4311,7 +4311,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81.13765
     y: 176.85219
-    width: 72.85713
+    width: 74.2982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4566,7 +4566,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 75.907074
     y: 121.94507
-    width: 79.38774
+    width: 79.820526
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4599,11 +4599,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 76.93524, y: -37.0784}
+  scrollPos: {x: 602.073, y: 55.267807}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.49000028
+  zoom: 0.82
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4611,7 +4611,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1302942718}
+  - {fileID: 1302942666}
   selectedCommands: []
   variables:
   - {fileID: 1302942653}
@@ -5481,7 +5481,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 55.30813
     y: 69.90737
-    width: 72.85713
+    width: 74.2982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7904,7 +7904,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 295.28873
     y: 174.34091
-    width: 110.40813
+    width: 109.64105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

@@ -635,7 +635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219406661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.657509, y: -8.136243, z: -10}
+  m_LocalPosition: {x: -14.657431, y: -8.149457, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -933,8 +933,8 @@ PolygonCollider2D:
     - - {x: 22.531078, y: 11.829754}
       - {x: 32.971428, y: 6.065393}
       - {x: 11.7467375, y: -7.176975}
-      - {x: 7.8080883, y: -4.971596}
-      - {x: 7.2935123, y: -5.2368984}
+      - {x: 9.058191, y: -5.7097034}
+      - {x: 7.734726, y: -5.7300205}
       - {x: 11.682607, y: -7.797408}
       - {x: 33.66283, y: 6.019427}
       - {x: 22.523993, y: 12.276313}
@@ -2176,11 +2176,6 @@ PrefabInstance:
 --- !u!224 &944015108 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3820832982998347802, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
-  m_PrefabInstance: {fileID: 944015107}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &944015109 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3820832982607836055, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
   m_PrefabInstance: {fileID: 944015107}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &996148000
@@ -3517,7 +3512,6 @@ MonoBehaviour:
   MyBook: {fileID: 11400000, guid: 2a3ec02a0711fa04eabb96599b697350, type: 2}
   workbook: {fileID: 11400000, guid: 6f1c4cfb9ed208f40975a45b0cb0a0a4, type: 2}
   watercolorpen: {fileID: 11400000, guid: e3a30c8acf1769e46b2c345177d0ecff, type: 2}
-  NoteC2: {fileID: 944015109}
 --- !u!1 &1786646742
 GameObject:
   m_ObjectHideFlags: 0
@@ -3710,7 +3704,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942105327}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0005092621, y: -0.10405731, z: 0}
+  m_LocalPosition: {x: 0.0004310608, y: -0.0908432, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
