@@ -28,7 +28,9 @@ public class MoveAnimation : MonoBehaviour
 
     public void SetDirection(Vector2 _direction)
     {
-        string[] directionArray = null;
+        
+        string[]    directionArray = WalkDirections;
+        
         if (anim.GetBool("canwalk") == false)
         {
             directionArray = idleDirections;
@@ -37,6 +39,7 @@ public class MoveAnimation : MonoBehaviour
         {
             directionArray = WalkDirections;
             lastDirection = DirectionToIndex(_direction);
+            
         }
 
        // anim.Play(directionArray[lastDirection]);
@@ -68,6 +71,17 @@ public class MoveAnimation : MonoBehaviour
         }
        
         Debug.Log($"{angle} {index}");
+        
+        if (anim.GetBool("canwalk") == false)
+        {
+            directionArray = idleDirections;
+        }
+        else
+        {
+            directionArray = WalkDirections;
+            //lastDirection = DirectionToIndex();
+            
+        }
 
         anim.Play(directionArray[index]);
     }
