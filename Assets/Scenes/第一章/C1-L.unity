@@ -575,11 +575,6 @@ MonoBehaviour:
   BGM: {fileID: 529826287}
   This: {fileID: 75767701}
   BGMSoure: {fileID: 529826290}
---- !u!1 &98716091 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3820832983871591605, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
-  m_PrefabInstance: {fileID: 3820832983777107214}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &126109773 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4839791112810821489, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
@@ -664,7 +659,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: b0430c8ccf3f2b94fa93c8394821ddc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -845,6 +840,10 @@ PrefabInstance:
     - target: {fileID: 8598240605703984771, guid: 1879299e776c0f04a965299014d34145, type: 3}
       propertyPath: m_Name
       value: none
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598240605703984771, guid: 1879299e776c0f04a965299014d34145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8598240605703984772, guid: 1879299e776c0f04a965299014d34145, type: 3}
       propertyPath: m_RootOrder
@@ -1150,7 +1149,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 10.601698
     y: -18.297874
-    width: 100.80535
+    width: 100.909096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1196,11 +1195,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 575.0604, y: 50.36711}
+  scrollPos: {x: 156.26077, y: 92.41015}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 441.3585
-  zoom: 0.8199998
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1208,7 +1207,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 328112980}
+  - {fileID: 328112973}
   selectedCommands: []
   variables:
   - {fileID: 328113028}
@@ -1266,7 +1265,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.3836
     y: 188.23694
-    width: 110.74553
+    width: 109.63637
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1301,7 +1300,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 240.10823
     y: 125.584045
-    width: 89.76071
+    width: 87.818184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1331,7 +1330,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 190.06099
     y: 4.7955027
-    width: 109.64107
+    width: 108.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1362,7 +1361,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 53.424335
     y: 206.01016
-    width: 108.536606
+    width: 109.63637
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1397,7 +1396,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25.977364
     y: 137.26302
-    width: 88.65625
+    width: 87.818184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1431,7 +1430,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 19.63164
     y: 68.407845
-    width: 107.43214
+    width: 108.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2003,7 +2002,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 211.87183
     y: 60.393852
-    width: 111.84999
+    width: 109.63637
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4302,7 +4301,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 387.73828
     y: 15.654016
-    width: 147.19284
+    width: 143.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4362,7 +4361,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 434.08878
     y: 140.25533
-    width: 74.29821
+    width: 73.27273
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4389,7 +4388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 435.92502
     y: 72.82992
-    width: 74.29821
+    width: 73.27273
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5951,7 +5950,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 622.7751
     y: 72.60729
-    width: 86.44732
+    width: 84.909096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6066,7 +6065,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 631.1712
     y: 11.617029
-    width: 86.44732
+    width: 84.909096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6260,7 +6259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 759.90106
     y: 68.54886
-    width: 74.29821
+    width: 73.27273
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6410,7 +6409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 610.0272
     y: 174.8285
-    width: 86.44732
+    width: 84.909096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7698,7 +7697,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 476.75882
     y: -51.110374
-    width: 141.67053
+    width: 143.09091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8085,7 +8084,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 145bad247efd41145bf8c3a47e0574db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9153,7 +9152,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerObject: {fileID: 252822438}
   candyimage: {fileID: 2120110160}
-  NoteC1: {fileID: 98716091}
   flowchart: {fileID: 328112974}
   Candy: {fileID: 11400000, guid: 2171ee3e60a3a1243a77951ba3e8fd99, type: 2}
   Coin: {fileID: 11400000, guid: fec489737493b384aa8883c52c1152d1, type: 2}
@@ -10086,6 +10084,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 5d97090c72eb6bf479037f2ee71e9071, type: 3}
+    - target: {fileID: 4839791112425901835, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4839791112810821484, guid: 5befb56b70b692b4eb0d2f9a4b9d7ade, type: 3}
       propertyPath: m_Name
       value: "little\u5353SayDialog"
@@ -10387,7 +10389,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: 2af21d73ee7bad04082eb6e0ef23f64c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11349,7 +11351,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 70f0ee0763378ac499e58c6346e264e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11905,7 +11907,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: 4b7d51d9a337c064ca8b95ba9df199b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
