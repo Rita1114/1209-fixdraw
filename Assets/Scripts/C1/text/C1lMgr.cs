@@ -78,7 +78,12 @@ public class C1lMgr : MonoBehaviour
             MyBook.itemlist.Remove(Drawbook);
             MyBook.itemlist.Remove(Pen);
             InventoryMgr.RefreshItem();
+            flowchart.SetBooleanVariable("作業簿打開",true);
 
+        }
+        else
+        {
+            flowchart.SetBooleanVariable("作業簿打開",false);
         }
         if ( flowchart.GetBooleanVariable("收集完") == true)
         {

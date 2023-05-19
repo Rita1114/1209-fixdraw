@@ -109,8 +109,9 @@ public class C1TimelineMgr : MonoBehaviour
            drawgame.SetActive(true);
            drawgameMgr.GetComponent<FillcolorGame>().enabled=true;
            click.SetActive(true);
+           flowchart.SetBooleanVariable("作業簿打開",true);
           }
-         
+
           if(flowchart.GetBooleanVariable("爸出現1")==true)
           {
            if(Input.GetKeyDown(KeyCode.Mouse0))
