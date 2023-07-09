@@ -152,6 +152,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 457158949}
+  - {fileID: 168090883}
   - {fileID: 1809984408}
   - {fileID: 191952294}
   m_Father: {fileID: 0}
@@ -3366,11 +3367,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168090882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4793599, y: -5.2775335, z: -0.1743053}
+  m_LocalPosition: {x: -0.0056553, y: 0.000000029802, z: 0}
   m_LocalScale: {x: 0.34898752, y: 0.34898752, z: 0.34898752}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1626473099}
+  m_Father: {fileID: 5373852}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &168090884
@@ -3674,6 +3675,7 @@ MonoBehaviour:
   watercolorpen: {fileID: 11400000, guid: e3a30c8acf1769e46b2c345177d0ecff, type: 2}
   artroomkey: {fileID: 11400000, guid: e57138fec071f6c44adbeca9d7ed9249, type: 2}
   Candy: {fileID: 11400000, guid: 2171ee3e60a3a1243a77951ba3e8fd99, type: 2}
+  NoteC2: {fileID: 1549657633}
   GetTool: {fileID: 1834018441}
   PaperW: {fileID: 1626473098}
 --- !u!4 &209629764
@@ -7253,6 +7255,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1549657633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3820832982607836055, guid: 137c22feacec7234c9415601a7baf6ba, type: 3}
+  m_PrefabInstance: {fileID: 41754500}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1561339249
 GameObject:
   m_ObjectHideFlags: 0
@@ -7549,7 +7556,6 @@ Transform:
   m_Children:
   - {fileID: 1320204376}
   - {fileID: 895455742}
-  - {fileID: 168090883}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

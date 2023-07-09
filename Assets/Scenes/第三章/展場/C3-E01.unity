@@ -4437,7 +4437,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 548aff6e3e32e7f4c8105f87665b1670, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5300,7 +5300,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 71
-    width: 62
+    width: 61.773586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5424,7 +5424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 88
     y: 180
-    width: 62
+    width: 61.773586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5494,7 +5494,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 107
     y: 120
-    width: 62
+    width: 61.773586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

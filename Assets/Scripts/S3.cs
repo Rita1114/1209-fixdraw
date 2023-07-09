@@ -3,37 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using Fungus;
 
 public class S3 : MonoBehaviour
 {
-    public Slider BgmValue;//BGMО©╫т╠О©╫
+    public Slider BgmValue;//BGM╘т╠Ь
     //
-    public Button Workbookbutton;//О©╫kО©╫UО©╫@О©╫~О©╫О©╫
-    public GameObject Workbookhide;//О©╫kО©╫UО©╫@О©╫~О©╫О©╫
-    public GameObject Workbook;//О©╫О©╫О©╫}О©╫О©╫О©╫@О©╫~О©╫О©╫
+    public Button Workbookbutton;//╔k╓U╖@╥~╔╩
+    public GameObject Workbookhide;//╔k╓U╖@╥~╔╩
+    public GameObject Workbook;//╔╢╤}╙╨╖@╥~╔╩
     public Button Closebookbutton;
 
 
-    public Button Notebutton;//О©╫ф╖я©О©╫О©╫О©╫О©╫s
-    public Button GameSettingbutton;//О©╫CО©╫О©╫О©╫]О©╫mО©╫О©╫О©╫s
-    public Button BackMenu;//О©╫^О©╫О©╫DО©╫О©╫О©╫
-    public GameObject Notecontent;//О©╫ф╖я©О©╫О©╫О©╫О©╫e
-    public GameObject GameSeetingcontent;//О©╫CО©╫О©╫О©╫]О©╫mО©╫О©╫О©╫e
-    public GameObject OldHouseThing;//О©╫я╝aО©╫л╙О©╫О©╫О©╫О©╫eО©╫О©╫О©╫~
-    //О©╫О©╫О©╫ф╖я©О©╫О©╫О©╫О©╫e
+    public Button Notebutton;//Ёф╖я©Щ╚Ж╤s
+    public Button GameSettingbutton;//╧Cю╦Ё]╦m╚Ж╤s
+    public Button BackMenu;//╕^╗Л╔D╣ФЁФ
+    public GameObject Notecontent;//Ёф╖я©Щ╓╨╝e
+    public GameObject GameSeetingcontent;//╧Cю╦Ё]╦m╓╨╝e
+    public GameObject OldHouseThing;//╕я╝a╦л╙╨╓╨╝e╙╚╚~
+    //╖С╖ОЁф╖я©Щ╓╨╝e
     public GameObject NoteC1;
     public GameObject NoteC2;
     public GameObject NoteC3;
     public GameObject NoteC302;
     //Marks
-    public Button RedMarkbutton;//О©╫О©╫О©╫О©╫О©╫О©╫О©╫
-    public Button GreenMarkbutton;//О©╫О©╫
-    public Button BlueMarkbutton;//О©╫О©╫
-    public Button PurpleMarkbutton;//О©╫О©╫
+    public Button RedMarkbutton;//╛У╕Б╪пер
+    public Button GreenMarkbutton;//╨Я
+    public Button BlueMarkbutton;//бе
+    public Button PurpleMarkbutton;//╣╣
 
-    public GameObject rightRedMark;//О©╫SО©╫О©╫О©╫О©╫О©╫О©╫О©╫
-    public GameObject leftsRedMark;//О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
+    public GameObject rightRedMark;//╓S╛У╕Б╪пер
+    public GameObject leftsRedMark;//╔╙╛У╕Б╪пер
     //C1
     public Inventory MyBook;
     public Item Drawbook;
@@ -42,7 +41,6 @@ public class S3 : MonoBehaviour
     public Item watercolorpen;
     public Item watercolorbox;
     public Item watercolorpaper;
-    public Flowchart flowchart;
     void Start()
     {
         
@@ -78,10 +76,9 @@ public class S3 : MonoBehaviour
         }
 
     }
-    #region О©╫з╙О©╫function
+    #region ╖з╙╨function
     void OpenWorkBook()
     {
-        flowchart.SetBooleanVariable("Д╫°Ф╔╜Г╟©Ф┴⌠И√▀",true);
         SoundMgr.instance.PlayOpenBook();
         Workbook.SetActive(true);
         Workbookhide.SetActive(false);
@@ -90,17 +87,14 @@ public class S3 : MonoBehaviour
         rightRedMark.SetActive(true);
         leftsRedMark.SetActive(false);
         OldHouseThing.SetActive(false);
-        
 
         
     }
     void CloseWorkBook()
     {
-        flowchart.SetBooleanVariable("Д╫°Ф╔╜Г╟©Ф┴⌠И√▀",false);
         SoundMgr.instance.PlayClossBook();
         Workbook.SetActive(false);
         Workbookhide.SetActive(true);
-        
     }
     void NoteContent()
     {
@@ -124,9 +118,9 @@ public class S3 : MonoBehaviour
     {
         SoundMgr.instance.CirclesoundEffect();
         SceneManager.LoadScene("S1");
-        GameMgr.Г╛╛Д╦─Г╚═BGMГ╣░Ф²÷ = true;
-        GameMgr.Г╛╛Д╨▄Г╚═BGMГ╣░Ф²÷ = true;
-        GameMgr.Г╛╛Д╦┴Г╚═BGMГ╣░Ф²÷ = true;
+        GameMgr.╡д╓@Ё╧BGM╣╡╖Т = true;
+        GameMgr.╡д╓GЁ╧BGM╣╡╖Т = true;
+        GameMgr.╡д╓TЁ╧BGM╣╡╖Т = true;
     }
     //Marks
     void ClickRedMark()
